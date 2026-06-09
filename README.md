@@ -1,0 +1,3 @@
+venv\Scripts\activate
+uvicorn app.main:app --reload --port 8001
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuZ3VvaWNob2kxIiwiaWF0IjoxNzgwMzkyNTMyLCJleHAiOjE3ODA0Nzg5MzJ9.cYVfc6C0MAgxatrlkm7_OnwOGbSMmoQ9GzUdltdt5jQ

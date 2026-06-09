@@ -1,0 +1,110 @@
+# 12 - Việt Nam từ năm 1858 đến năm 1945
+# Mục tiêu:
+# - Pháp xâm lược Việt Nam từ năm 1858
+# - Phong trào yêu nước chống Pháp cuối thế kỷ XIX
+# - Nguyễn Trung Trực, Nguyễn Tri Phương
+# - Nguyễn Ái Quốc - Hồ Chí Minh
+# - Việt Minh, lực lượng vũ trang cách mạng
+# - Cách mạng tháng Tám năm 1945
+# - Chính phủ Lâm thời
+# - Tuyên ngôn Độc lập
+# - Ngày 2/9/1945, nước Việt Nam Dân chủ Cộng hòa
+# Nguồn ưu tiên:
+# - Bảo tàng Lịch sử Quốc gia
+# - Trang thông tin Hồ Chí Minh
+# - Tư liệu Văn kiện Đảng
+# - Cổng thông tin Chính phủ
+
+
+# =========================
+# Lớp 1 - Phong trào chống Pháp cuối thế kỷ XIX
+# =========================
+
+# Nguyễn Trung Trực - một anh hùng dân tộc đặc biệt
+https://baotanglichsu.vn/vi/Articles/1508/51474/nguyen-trung-truc-mot-anh-hung-dan-toc-djac-biet.html
+
+# Khởi nghĩa Nguyễn Trung Trực 1861-1868
+https://baotanglichsu.vn/vi/Articles/3097/15075/khoi-nghia-nguyen-trung-truc-1861-1868-bao-gio-nuoc-nam-het-co-thi-moi-het-nguoi-nam-djanh-tay.html
+
+# Theo dấu người xưa - Hỏa hồng Nhựt Tảo oanh thiên địa
+https://baotanglichsu.vn/vi/Articles/3096/12463/theo-dau-nguoi-xua-ky-11-hoa-hong-nhut-tao-oanh-thien-djia.html
+
+# Chuyện về chiếc chiếu cổ tắm máu anh hùng Nguyễn Trung Trực
+https://baotanglichsuquocgia.vn/vi/Articles/3098/13210/chuyen-ve-chiec-chieu-co-tam-mau-anh-hung-nguyen-trung-truc.html
+
+# Thành Hà Nội từ bị tấn công, thất thủ đến chiếm đóng và phá hủy
+https://baotanglichsuquocgia.vn/vi/Articles/3097/73430/thanh-ha-noi-tu-bi-tan-cong-that-thu-djen-djen-chiem-djong-va-pha-huy-mot-thoi-ky-bi-trang-trong-lich-su-can-djai-viet-nam-1873-1897.html
+
+
+# =========================
+# Lớp 2 - Nguyễn Ái Quốc - Hồ Chí Minh trước năm 1945
+# =========================
+
+# Tiểu sử Hồ Chí Minh
+https://hochiminh.vn/cuoc-doi-su-nghiep/tieu-su-ho-chi-minh
+
+
+# =========================
+# Lớp 3 - Cách mạng tháng Tám năm 1945
+# =========================
+
+# Tổng khởi nghĩa Cách mạng tháng Tám năm 1945
+https://baotanglichsu.vn/vi/Articles/3097/18473/tong-khoi-nghia-cach-mang-thang-tam-nam-1945.html
+
+# Cách mạng tháng Tám và Quốc khánh 2/9/1945 của nước Việt Nam Dân chủ Cộng hòa
+https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/su-kien-va-nhan-chung/cach-mang-thang-8-va-quoc-khanh-291945-cua-nuoc-viet-nam-dan-chu-cong-hoa-3310
+
+# Sưu tập hiện vật về Cách mạng Tháng Tám năm 1945 tại Bảo tàng Lịch sử Quốc gia
+https://baotanglichsu.vn/vi/Articles/1002/73335/suu-tap-hien-vat-ve-cach-mang-thang-tam-nam-1945-tai-bao-tang-lich-su-quoc-gia.html
+
+# Cách mạng tháng Tám năm 1945 qua tư liệu ảnh lưu giữ tại Bảo tàng Lịch sử Quốc gia
+https://baotanglichsu.vn/vi/Articles/3097/16888/cach-mang-thang-tam-nam-1945-qua-tu-lieu-anh-luu-giu-tai-bao-tang-lich-su-quoc-gia.html
+
+# Kỷ niệm 68 năm Cách mạng tháng Tám - có Quân lệnh số 1
+https://baotanglichsu.vn/vi/Articles/3097/14854/ky-niem-68-nam-cach-mang-thang-tam-8-1945-8-2013-p2.html
+
+# Lực lượng vũ trang và quần chúng vũ trang trong khởi nghĩa tháng Tám 1945
+https://baotanglichsu.vn/vi/Articles/3097/16819/luc-luong-vu-trang-va-quan-chung-vu-trang-trong-khoi-nghia-thang-tam-1945.html
+
+# Cách mạng Tháng Tám và Quốc khánh 2/9: Giá trị thời đại và sức sống trường tồn
+https://baochinhphu.vn/cach-mang-thang-tam-va-quoc-khanh-2-9-gia-tri-thoi-dai-va-suc-song-truong-ton-102250814162924434.htm
+
+# Khởi nghĩa giành chính quyền ở Hà Nội - Sự kiện đặc biệt trong Cách mạng tháng Tám 1945
+https://baochinhphu.vn/khoi-nghia-gianh-chinh-quyen-o-ha-noi-su-kien-dac-biet-trong-cach-mang-thang-tam-1945-102277816.htm
+
+
+# =========================
+# Lớp 4 - Chính phủ Lâm thời và nước Việt Nam Dân chủ Cộng hòa
+# =========================
+
+# Tuyên cáo ngày 28/8/1945 về việc thành lập Chính phủ Lâm thời Việt Nam Dân chủ Cộng hòa
+https://xaydungchinhsach.chinhphu.vn/tuyen-cao-ngay-28-8-1945-ve-viec-thanh-lap-chinh-phu-lam-thoi-viet-nam-dan-chu-cong-hoa-119220902083059184.htm
+
+
+# =========================
+# Lớp 5 - Tuyên ngôn Độc lập và ngày 2/9/1945
+# =========================
+
+# Ngày 2-9-1945 - Mốc son chói lọi của một dân tộc anh hùng
+https://hochiminh.vn/tin-tuc/ngay-2-9-1945-moc-son-choi-loi-cua-mot-dan-toc-anh-hung-9459
+
+# Tuyên ngôn độc lập của Chủ tịch Hồ Chí Minh
+https://hochiminh.vn/tin-tuc/tuyen-ngon-doc-lap-cua-chu-tich-ho-chi-minh-loi-hieu-trieu-yeu-nuoc-bao-ve-doc-lap-dan-toc-5365
+
+# Tuyên ngôn Độc lập - áng văn lập quốc vĩ đại
+https://hochiminh.vn/tu-tuong-dao-duc-ho-chi-minh/nghien-cuu-tu-tuong-dao-duc-ho-chi-minh/tuyen-ngon-doc-lap-ang-van-lap-quoc-vi-dai-7396
+
+# Bản Tuyên ngôn của tinh thần và ý chí độc lập, tự do
+https://tulieuvankien.dangcongsan.vn/c-mac-angghen-lenin-ho-chi-minh/ho-chi-minh/nghien-cuu-hoc-tap-tu-tuong/ban-tuyen-ngon-cua-tinh-than-va-y-chi-doc-lap-tu-do-3964
+
+# Tuyên ngôn độc lập và Nhà nước pháp quyền
+https://baochinhphu.vn/tuyen-ngon-doc-lap-va-nha-nuoc-phap-quyen-102299509.htm
+
+# Tinh thần Ngày Độc lập 2/9 và bài học xây dựng chính quyền vì dân, do dân
+https://baochinhphu.vn/tinh-than-ngay-doc-lap-2-9-va-bai-hoc-xay-dung-chinh-quyen-vi-dan-do-dan-10236520.htm
+
+# Người trực tiếp bảo vệ lễ đài độc lập tại Quảng trường Ba Đình trong ngày 2/9/1945
+https://baotanglichsu.vn/vi/Articles/3098/71689/nguoi-truc-tiep-bao-ve-le-djai-djoc-lap-tai-quang-truong-ba-djinh-trong-ngay-2-9-1945.html
+
+# Di tích lịch sử 48 Hàng Ngang - nơi Chủ tịch Hồ Chí Minh viết Tuyên ngôn Độc lập
+https://thanglong.chinhphu.vn/ha-noi-gan-bien-cong-trinh-va-trung-bay-trien-lam-tai-di-tich-lich-su-48-hang-ngang-103250818130032212.htm

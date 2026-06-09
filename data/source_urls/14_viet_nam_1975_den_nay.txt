@@ -1,0 +1,83 @@
+# 14 - Việt Nam từ năm 1975 đến nay
+# Mục tiêu:
+# - Việt Nam sau năm 1975
+# - Thống nhất đất nước, khôi phục sau chiến tranh
+# - Thời kỳ bao cấp, khủng hoảng kinh tế - xã hội
+# - Đại hội VI năm 1986
+# - Công cuộc Đổi mới
+# - Chuyển biến kinh tế - xã hội sau Đổi mới
+# - Hội nhập quốc tế
+# - Giáo dục lịch sử trong chương trình phổ thông
+# Nguồn ưu tiên:
+# - Bảo tàng Lịch sử Quốc gia
+# - Tư liệu Văn kiện Đảng
+# - Cổng thông tin Chính phủ
+# - Bộ Giáo dục và Đào tạo
+
+
+# =========================
+# Lớp 1 - Đại hội VI và đường lối Đổi mới
+# =========================
+
+# Đại hội đại biểu toàn quốc lần thứ VI của Đảng
+https://tulieuvankien.dangcongsan.vn/ban-chap-hanh-trung-uong-dang/dai-hoi-dang/lan-thu-vi/dai-hoi-dai-bieu-toan-quoc-lan-thu-vi-cua-dang-19
+
+# Nghị quyết Đại hội đại biểu toàn quốc lần thứ VI của Đảng
+https://tulieuvankien.dangcongsan.vn/ban-chap-hanh-trung-uong-dang/dai-hoi-dang/lan-thu-vi/nghi-quyet-dai-hoi-dai-bieu-toan-quoc-lan-thu-vi-cua-dang-1493
+
+# Niên biểu toàn khóa - Đại hội VI
+https://tulieuvankien.dangcongsan.vn/ban-chap-hanh-trung-uong-dang/dai-hoi-dang/lan-thu-vi/nien-bieu-toan-khoa-1497
+
+# Chuyên mục Văn kiện Đại hội VI
+https://tulieuvankien.dangcongsan.vn/bo-chinh-tri-ban-bi-thu-ban-chap-hanh-trung-uong/dai-hoi-dang/lan-thu-vi
+
+# Văn kiện Đại hội Đảng thời kỳ Đổi mới - phần I
+https://tulieuvankien.dangcongsan.vn/van-kien-tu-lieu-ve-dang/book/sach-chinh-tri/van-kien-dai-hoi-dang-thoi-ky-doi-moi-phan-i-419
+
+# Đại hội đại biểu toàn quốc lần thứ VI Đảng Cộng sản Việt Nam - hiện vật/tư liệu tại BTLSQG
+https://baotanglichsu.vn/vi/Articles/1002/28495/djai-hoi-djai-bieu-toan-quoc.html
+
+
+# =========================
+# Lớp 2 - Công cuộc Đổi mới năm 1986
+# =========================
+
+# Tổng Bí thư Trường Chinh với công cuộc Đổi mới đất nước
+https://baotanglichsu.vn/vi/Articles/3098/19611/tong-bi-thu-truong-chinh-voi-cong-cuoc-djoi-moi-djat-nuoc.html
+
+# Vật dụng huyền thoại thời kỳ Đổi mới
+https://baotanglichsu.vn/vi/Articles/1508/52562/vat-dung-huyen-thoai-thoi-ky-djoi-moi.html
+
+# BTLSQG khai mạc trưng bày “Đổi mới - Hành trình của những ước mơ”
+https://baotanglichsu.vn/vi/Articles/3090/19540/btlsqg-khai-mac-trung-bay-djoi-moi-hanh-trinh-cua-nhung-uoc-mo.html
+
+# Tọa đàm “30 năm - một chặng đường đổi mới” tri thức lịch sử cho thế hệ trẻ
+https://baotanglichsu.vn/vi/Articles/3090/19162/toa-djam-30-nam-mot-chang-djuong-djoi-moi-tri-thuc-lich-su-cho-the-he-tre.html
+
+# Mỹ thuật 30 năm thời kỳ Đổi mới 1986-2016
+https://baotanglichsu.vn/vi/Articles/3091/19275/chinh-thuc-khoi-djong-du-an-trien-lam-mo-cua-my-thuat-30-nam-thoi-ky-djoi-moi-1986-2016.html
+
+# 20 năm đổi mới: Tiền đề tươi sáng cho một giai đoạn phát triển bền vững
+https://baochinhphu.vn/20-nam-doi-moi-tien-de-tuoi-sang-cho-mot-giai-doan-phat-trien-ben-vung-10211740.htm
+
+
+# =========================
+# Lớp 3 - Đối ngoại, hội nhập, phát triển thời kỳ Đổi mới
+# =========================
+
+# Đường lối đối ngoại Đại hội XIII kế thừa, phát triển và hoàn thiện đường lối đối ngoại thời kỳ Đổi mới
+https://baochinhphu.vn/duong-loi-doi-ngoai-dai-hoi-dang-xiii-ke-thua-phat-trien-va-hoan-thien-duong-loi-doi-ngoai-thoi-ky-doi-moi-102304681.htm
+
+
+# =========================
+# Lớp 4 - Giáo dục lịch sử, chương trình giáo dục phổ thông
+# =========================
+
+# Bộ GDĐT thông tin về môn Lịch sử trong chương trình giáo dục phổ thông mới
+https://moet.gov.vn/tintuc/Pages/CT-GDPT-Tong-The.aspx%3FItemID%3D7830
+
+# Chương trình giáo dục phổ thông - Bộ Giáo dục và Đào tạo
+https://moet.gov.vn/tin-tuc-cot-phai/chuong-trinh-giao-duc-pho-thong
+
+# Chương trình tổng thể Chương trình giáo dục phổ thông
+https://moet.gov.vn/tintuc/Pages/CT-GDPT-Tong-The.aspx%3FItemID%3D8421
