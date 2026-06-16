@@ -1,12 +1,12 @@
 import os
 import re
 import time
+import unicodedata
 from pathlib import Path
 from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
-
 
 # =========================================================
 # Xác định thư mục gốc project
@@ -21,6 +21,22 @@ PERIODS_DIR = PROJECT_ROOT / "data" / "periods"
 
 
 # =========================================================
+# Cấu hình fetch
+# =========================================================
+
+REQUEST_TIMEOUT = 25
+SLEEP_SECONDS = 1
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/120.0.0.0 Safari/537.36"
+    )
+}
+
+
+# =========================================================
 # Danh sách các thời kỳ lịch sử
 # Key phải trùng với tên file trong data/source_urls/
 # Ví dụ:
@@ -28,51 +44,99 @@ PERIODS_DIR = PROJECT_ROOT / "data" / "periods"
 # =========================================================
 
 PERIODS = {
-    "01_thoi_tien_su": {
-        "period_name": "Thời tiền sử"
-    },
-    "02_thoi_dung_nuoc": {
-        "period_name": "Thời dựng nước"
-    },
-    "03_bac_thuoc_va_chong_bac_thuoc": {
-        "period_name": "Bắc thuộc và chống Bắc thuộc"
-    },
-    "04_ngo_dinh_tien_le": {
-        "period_name": "Nhà Ngô, Đinh, Tiền Lê"
-    },
-    "05_nha_ly": {
-        "period_name": "Nhà Lý"
-    },
-    "06_nha_tran": {
-        "period_name": "Nhà Trần"
-    },
-    "07_nha_ho": {
-        "period_name": "Nhà Hồ"
-    },
-    "08_nha_le_so": {
-        "period_name": "Nhà Lê sơ"
-    },
+    "01_thoi_tien_su": {"period_name": "Thời tiền sử"},
+    "02_thoi_dung_nuoc": {"period_name": "Thời dựng nước"},
+    "03_bac_thuoc_va_chong_bac_thuoc": {"period_name": "Bắc thuộc và chống Bắc thuộc"},
+    "04_ngo_dinh_tien_le": {"period_name": "Nhà Ngô, Đinh, Tiền Lê"},
+    "05_nha_ly": {"period_name": "Nhà Lý"},
+    "06_nha_tran": {"period_name": "Nhà Trần"},
+    "07_nha_ho": {"period_name": "Nhà Hồ"},
+    "08_nha_le_so": {"period_name": "Nhà Lê sơ"},
     "09_nam_bac_trieu_trinh_nguyen": {
         "period_name": "Nam - Bắc triều và Trịnh - Nguyễn phân tranh"
     },
-    "10_tay_son": {
-        "period_name": "Phong trào Tây Sơn"
-    },
-    "11_nha_nguyen": {
-        "period_name": "Nhà Nguyễn"
-    },
-    "12_viet_nam_1858_1945": {
-        "period_name": "Việt Nam từ năm 1858 đến năm 1945"
-    },
-    "13_viet_nam_1945_1975": {
-        "period_name": "Việt Nam từ năm 1945 đến năm 1975"
-    },
-    "14_viet_nam_1975_den_nay": {
-        "period_name": "Việt Nam từ năm 1975 đến nay"
-    },
-    "15_nhan_vat_lich_su": {
-        "period_name": "Nhân vật lịch sử"
-    }
+    "10_tay_son": {"period_name": "Phong trào Tây Sơn"},
+    "11_nha_nguyen": {"period_name": "Nhà Nguyễn"},
+    "12_viet_nam_1858_1945": {"period_name": "Việt Nam từ năm 1858 đến năm 1945"},
+    "13_viet_nam_1945_1975": {"period_name": "Việt Nam từ năm 1945 đến năm 1975"},
+    "14_viet_nam_1975_den_nay": {"period_name": "Việt Nam từ năm 1975 đến nay"},
+    "15_nhan_vat_lich_su": {"period_name": "Nhân vật lịch sử"},
+}
+
+
+# =========================================================
+# Menu rác hay bị lấy nhầm từ baotanglichsu.vn
+# Đây chính là phần menu bên trái của trang:
+# https://baotanglichsu.vn/vi/Articles/4043/nha-nuoc-van-lang-au-lac
+# =========================================================
+
+BAOTANG_MENU_LINES = {
+    "lịch sử việt nam từ thời tiền sử đến hết triều nguyễn (1945)",
+    "các văn hóa tiền đông sơn: phùng nguyên, đồng đậu, gò mun, khoảng 4.000 - 2.500 năm cách ngày nay",
+    "các văn hóa tiền đông sơn: phùng nguyên, đồng đậu, gò mun, khoảng 4.000 - 2.500 năm cách ngày nay",
+    "văn hóa đông sơn, khoảng 2.500 - 2.000 năm cách ngày nay",
+    "văn hóa đông sơn, khoảng 2.500 - 2.000 năm cách ngày nay",
+    "văn hóa sa huỳnh, khoảng 2.500 - 2.000 năm cách ngày nay",
+    "văn hóa sa huỳnh, khoảng 2.500 - 2.000 năm cách ngày nay",
+    "văn hóa đồng nai, khoảng 2.500 - 2.000 năm cách ngày nay",
+    "văn hóa đồng nai, khoảng 2.500 - 2.000 năm cách ngày nay",
+    "cuộc đấu tranh bảo tồn và tiếp thu, phát triển nền văn hóa dân tộc, thế kỷ 1-10",
+    "cuộc đấu tranh bảo tồn và tiếp thu, phát triển nền văn hóa dân tộc, thế kỷ 1-10",
+    "cuộc đấu tranh giành độc lập dân tộc, thế kỷ 1-10",
+    "cuộc đấu tranh giành độc lập dân tộc, thế kỷ 1-10",
+    "việt nam từ thế kỷ 10 đến giữa thế kỷ 20",
+    "triều ngô - đinh - tiền lê (939 - 1009)",
+    "triều ngô - đinh - tiền lê (939 - 1009)",
+    "triều lê - mạc - lê trung hưng (1428 - 1788)",
+    "triều lê - mạc - lê trung hưng (1428 - 1788)",
+    "văn hóa óc eo - phù nam (từ thế kỷ 1 đến thế kỷ 7)",
+    "sưu tập nghệ thuật champa (từ thế kỷ 7 đến thế kỷ 16)",
+    "sưu tập hiện vật nghệ thuật đầu thế kỷ 20",
+    "sưu tập hiện vật thời lý - nguyễn (từ thế kỷ 11 đến giữa thế kỷ 20)",
+    "lịch sử việt nam từ giữa thế kỷ 19 tới nay",
+    "cuộc đấu tranh giành độc lập của dân tộc việt nam (1858-1945)",
+    "nhóm báo chí cách mạng thời kỳ 1936 – 1939",
+    "nhóm báo chí cách mạng thời kỳ 1936 - 1939",
+    "sưu tập vũ khí dùng trong cách mạng tháng tám năm 1945",
+    "cuộc kháng chiến chống thực dân pháp (1946-1954)",
+    "một số hiện vật về văn hóa - xã hội việt nam thời kỳ kháng chiến chống pháp",
+    "một số hiện vật về chiến thắng điện biên phủ, tháng 5-1954",
+    "cuộc kháng chiến chống đế quốc mỹ, giải phóng miền nam, thống nhất đất nước (1955-1975)",
+    "một số vũ khí tự tạo nhân dân bến tre dùng trong phong trào đồng khởi, năm 1960.",
+    "một số đồ dùng sinh hoạt và lao động được nhân dân việt nam làm từ xác máy bay mỹ",
+    "nhóm hiện vật về nhân dân thế giới ủng hộ việt nam chống đế quốc mỹ",
+    "việt nam trên con đường xây dựng dân giàu, nước mạnh, dân chủ, công bằng, văn minh (1976 đến nay)",
+    "sưu tập tặng phẩm của nhân dân việt nam, nhân dân thế giới tặng chủ tịch hcm và đảng cộng sản việt nam",
+}
+
+
+# =========================================================
+# Chuẩn hóa text để so sánh
+# =========================================================
+
+
+def normalize_for_compare(text: str) -> str:
+    """
+    Chuẩn hóa text để so sánh dòng:
+    - Chuẩn hóa Unicode
+    - Đưa về chữ thường
+    - Gộp khoảng trắng
+    - Chuẩn hóa dấu gạch ngang
+    """
+    if not text:
+        return ""
+
+    text = unicodedata.normalize("NFC", text)
+    text = text.replace("\xa0", " ")
+    text = text.replace("–", "-").replace("—", "-")
+    text = text.strip().lower()
+    text = re.sub(r"\s+", " ", text)
+
+    return text
+
+
+NORMALIZED_BAOTANG_MENU_LINES = {
+    normalize_for_compare(line) for line in BAOTANG_MENU_LINES
 }
 
 
@@ -80,10 +144,36 @@ PERIODS = {
 # Nhận diện tên nguồn theo domain URL
 # =========================================================
 
+
 def detect_source_name(url: str) -> str:
     domain = urlparse(url).netloc.lower()
 
+    # Chú ý: check subdomain cụ thể trước domain lớn
+    if "tulieuvankien.dangcongsan.vn" in domain:
+        return "Tư liệu Văn kiện Đảng"
+
+    if "dangcongsan.vn" in domain:
+        return "Báo điện tử Đảng Cộng sản Việt Nam"
+
+    if "sknc.qdnd.vn" in domain:
+        return "Báo Quân đội nhân dân"
+
+    if "qdnd.vn" in domain:
+        return "Báo Quân đội nhân dân"
+
+    if "baochinhphu.vn" in domain:
+        return "Cổng thông tin điện tử Chính phủ"
+
+    if "xaydungchinhsach.chinhphu.vn" in domain:
+        return "Cổng thông tin điện tử Chính phủ"
+
+    if "tphcm.chinhphu.vn" in domain:
+        return "Cổng thông tin điện tử Chính phủ"
+
     if "baotanglichsu.vn" in domain:
+        return "Bảo tàng Lịch sử Quốc gia"
+
+    if "baotanglichsuquocgia.vn" in domain:
         return "Bảo tàng Lịch sử Quốc gia"
 
     if "hochiminh.vn" in domain:
@@ -95,17 +185,11 @@ def detect_source_name(url: str) -> str:
     if "moet.gov.vn" in domain:
         return "Bộ Giáo dục và Đào tạo"
 
-    if "dangcongsan.vn" in domain:
-        return "Báo điện tử Đảng Cộng sản Việt Nam"
-
-    if "tulieuvankien.dangcongsan.vn" in domain:
-        return "Tư liệu Văn kiện Đảng"
-
-    if "qdnd.vn" in domain:
-        return "Báo Quân đội nhân dân"
-
     if "vietnam.vn" in domain:
         return "Cổng thông tin Việt Nam"
+
+    if "vanmieu.gov.vn" in domain:
+        return "Văn Miếu - Quốc Tử Giám"
 
     return domain
 
@@ -114,28 +198,21 @@ def detect_source_name(url: str) -> str:
 # Xử lý tên file
 # =========================================================
 
+
+def remove_vietnamese_accents(text: str) -> str:
+    text = unicodedata.normalize("NFD", text)
+
+    text = "".join(char for char in text if unicodedata.category(char) != "Mn")
+
+    text = text.replace("đ", "d").replace("Đ", "D")
+
+    return text
+
+
 def slugify(text: str) -> str:
+    text = remove_vietnamese_accents(text)
     text = text.lower()
     text = text.strip()
-
-    vietnamese_map = {
-        "à": "a", "á": "a", "ạ": "a", "ả": "a", "ã": "a",
-        "â": "a", "ầ": "a", "ấ": "a", "ậ": "a", "ẩ": "a", "ẫ": "a",
-        "ă": "a", "ằ": "a", "ắ": "a", "ặ": "a", "ẳ": "a", "ẵ": "a",
-        "è": "e", "é": "e", "ẹ": "e", "ẻ": "e", "ẽ": "e",
-        "ê": "e", "ề": "e", "ế": "e", "ệ": "e", "ể": "e", "ễ": "e",
-        "ì": "i", "í": "i", "ị": "i", "ỉ": "i", "ĩ": "i",
-        "ò": "o", "ó": "o", "ọ": "o", "ỏ": "o", "õ": "o",
-        "ô": "o", "ồ": "o", "ố": "o", "ộ": "o", "ổ": "o", "ỗ": "o",
-        "ơ": "o", "ờ": "o", "ớ": "o", "ợ": "o", "ở": "o", "ỡ": "o",
-        "ù": "u", "ú": "u", "ụ": "u", "ủ": "u", "ũ": "u",
-        "ư": "u", "ừ": "u", "ứ": "u", "ự": "u", "ử": "u", "ữ": "u",
-        "ỳ": "y", "ý": "y", "ỵ": "y", "ỷ": "y", "ỹ": "y",
-        "đ": "d"
-    }
-
-    for vietnamese_char, latin_char in vietnamese_map.items():
-        text = text.replace(vietnamese_char, latin_char)
 
     text = re.sub(r"[^a-z0-9\s-]", "", text)
     text = re.sub(r"\s+", "-", text)
@@ -145,13 +222,12 @@ def slugify(text: str) -> str:
     if not text:
         return "article"
 
-    return text[:120]
+    return text[:120].strip("-")
 
 
 def make_unique_file_path(folder: Path, file_name: str) -> Path:
     """
-    Hàm này chỉ dùng khi thật sự cần tránh trùng tên file.
-    Nhưng do đã có kiểm tra URL trước khi tải, bình thường sẽ ít khi sinh -2, -3.
+    Hàm này dùng để tránh trùng tên file.
     """
     file_path = folder / file_name
 
@@ -176,6 +252,7 @@ def make_unique_file_path(folder: Path, file_name: str) -> Path:
 # =========================================================
 # Kiểm tra URL đã tải chưa
 # =========================================================
+
 
 def url_already_fetched(period_key: str, url: str) -> bool:
     """
@@ -208,13 +285,16 @@ def url_already_fetched(period_key: str, url: str) -> bool:
 
 
 # =========================================================
-# Làm sạch text
+# Làm sạch text cơ bản
 # =========================================================
+
 
 def clean_text(text: str) -> str:
     if not text:
         return ""
 
+    text = unicodedata.normalize("NFC", text)
+    text = text.replace("\xa0", " ")
     text = re.sub(r"\r", "\n", text)
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n\s*\n+", "\n\n", text)
@@ -222,16 +302,75 @@ def clean_text(text: str) -> str:
     return text.strip()
 
 
-def is_bad_line(line: str) -> bool:
-    lowered = line.lower().strip()
+# =========================================================
+# Lọc dòng rác
+# =========================================================
 
-    bad_keywords = [
+
+def is_bad_line(line: str) -> bool:
+    """
+    Kiểm tra một dòng có phải dòng rác/menu/sidebar/footer hay không.
+
+    Lưu ý:
+    Không xóa mọi dòng có chữ 'sưu tập' hoặc 'nghiên cứu',
+    vì trong bài thật cũng có thể có các chữ này.
+    Chỉ xóa khi dòng đó khớp menu hoặc có dấu hiệu điều hướng.
+    """
+    if not line:
+        return True
+
+    normalized = normalize_for_compare(line)
+
+    if not normalized:
+        return True
+
+    # Bỏ dòng quá ngắn
+    if len(normalized) <= 2:
+        return True
+
+    # Bỏ chính xác các dòng menu trái của baotanglichsu.vn
+    if normalized in NORMALIZED_BAOTANG_MENU_LINES:
+        return True
+
+    # Các dòng điều hướng chính xác
+    bad_exact_lines = {
         "toggle navigation",
         "trang chủ",
         "tin tức",
         "nghiên cứu",
+        "trưng bày",
+        "sưu tập",
         "hỗ trợ",
+        "dịch vụ",
         "dịch vụ bảo tàng",
+        "hòm thư góp ý",
+        "theo dõi chúng tôi",
+        "sitemap",
+        "menu",
+        "search",
+        "tìm kiếm",
+        "liên hệ",
+        "đọc tiếp",
+        "xem thêm",
+        "bài viết liên quan",
+        "các tin khác",
+        "tin mới hơn",
+        "tin cũ hơn",
+        "facebook",
+        "youtube",
+        "zalo",
+        "email",
+        "print",
+        "back",
+    }
+
+    if normalized in bad_exact_lines:
+        return True
+
+    # Các dòng ngắn chứa từ khóa rác.
+    # Chỉ áp dụng cho dòng ngắn để tránh xóa nhầm nội dung bài viết.
+    bad_keywords_for_short_lines = [
+        "toggle navigation",
         "hòm thư góp ý",
         "theo dõi chúng tôi",
         "cơ quan chủ quản",
@@ -244,33 +383,191 @@ def is_bad_line(line: str) -> bool:
         "sitemap",
         "bản quyền",
         "copyright",
-        "facebook",
-        "youtube",
-        "zalo",
         "chia sẻ",
         "in bài viết",
-        "print",
-        "back",
-        "menu",
-        "search",
-        "tìm kiếm",
-        "liên hệ",
-        "đọc tiếp",
-        "xem thêm",
         "bài viết liên quan",
         "các tin khác",
         "tin mới hơn",
         "tin cũ hơn",
         "tag:",
-        "tags:"
+        "tags:",
     ]
 
-    return any(keyword in lowered for keyword in bad_keywords)
+    if len(normalized) < 120:
+        if any(keyword in normalized for keyword in bad_keywords_for_short_lines):
+            return True
+
+    # Các prefix menu hay gặp bên trái của baotanglichsu.vn
+    bad_prefixes = [
+        "các văn hóa tiền đông sơn",
+        "các văn hóa tiền đông sơn",
+        "văn hóa đông sơn, khoảng",
+        "văn hóa đông sơn, khoảng",
+        "văn hóa sa huỳnh",
+        "văn hóa sa huỳnh",
+        "văn hóa đồng nai",
+        "văn hóa đồng nai",
+        "sưu tập nghệ thuật champa",
+        "sưu tập hiện vật nghệ thuật",
+        "sưu tập hiện vật thời lý",
+        "nhóm báo chí cách mạng",
+        "nhóm hiện vật về nhân dân thế giới",
+        "một số hiện vật về văn hóa",
+        "một số hiện vật về chiến thắng",
+        "một số vũ khí tự tạo",
+        "một số đồ dùng sinh hoạt",
+    ]
+
+    if any(normalized.startswith(prefix) for prefix in bad_prefixes):
+        return True
+
+    return False
+
+
+def clean_article_lines(lines: list[str]) -> str:
+    """
+    Làm sạch danh sách dòng:
+    - Bỏ dòng rỗng
+    - Bỏ dòng menu rác
+    - Bỏ dòng trùng
+    - Gộp thành đoạn văn
+    """
+    cleaned_lines = []
+    seen = set()
+
+    for line in lines:
+        line = clean_text(line)
+
+        if not line:
+            continue
+
+        if is_bad_line(line):
+            continue
+
+        normalized = normalize_for_compare(line)
+
+        if normalized in seen:
+            continue
+
+        seen.add(normalized)
+        cleaned_lines.append(line)
+
+    return clean_text("\n\n".join(cleaned_lines))
+
+
+# =========================================================
+# Xóa block HTML không phải nội dung
+# =========================================================
+
+
+def remove_unwanted_html_blocks(soup: BeautifulSoup) -> None:
+    """
+    Xóa các block chắc chắn không phải nội dung bài viết.
+    """
+    for tag in soup(
+        [
+            "script",
+            "style",
+            "noscript",
+            "iframe",
+            "form",
+            "button",
+            "input",
+            "select",
+            "option",
+            "svg",
+        ]
+    ):
+        tag.decompose()
+
+    # Xóa theo tag semantic
+    for tag_name in ["header", "footer", "nav", "aside"]:
+        for tag in soup.find_all(tag_name):
+            tag.decompose()
+
+    # Xóa theo class/id phổ biến
+    remove_selectors = [
+        ".menu",
+        ".nav",
+        ".navbar",
+        ".sidebar",
+        ".side-bar",
+        ".leftbar",
+        ".left-bar",
+        ".rightbar",
+        ".right-bar",
+        ".left-menu",
+        ".right-menu",
+        ".leftmenu",
+        ".rightmenu",
+        ".breadcrumb",
+        ".breadcrumbs",
+        ".footer",
+        ".header",
+        ".social",
+        ".share",
+        ".sharing",
+        ".related",
+        ".related-news",
+        ".other-news",
+        ".comment",
+        ".comments",
+        ".advertisement",
+        ".ads",
+        ".banner",
+        ".box-search",
+        ".search",
+        ".pagination",
+        ".pager",
+        "#menu",
+        "#nav",
+        "#sidebar",
+        "#left",
+        "#right",
+        "#footer",
+        "#header",
+        "#search",
+    ]
+
+    for selector in remove_selectors:
+        try:
+            for tag in soup.select(selector):
+                tag.decompose()
+        except Exception:
+            continue
+
+    # Xóa các tag có class/id chứa từ khóa menu/sidebar/footer
+    bad_attr_keywords = [
+        "menu",
+        "sidebar",
+        "side-bar",
+        "left-menu",
+        "right-menu",
+        "breadcrumb",
+        "footer",
+        "header",
+        "share",
+        "social",
+        "related",
+        "comment",
+        "advert",
+        "banner",
+        "search",
+    ]
+
+    for tag in soup.find_all(True):
+        class_text = " ".join(tag.get("class", []))
+        id_text = tag.get("id", "")
+        attr_text = normalize_for_compare(f"{class_text} {id_text}")
+
+        if any(keyword in attr_text for keyword in bad_attr_keywords):
+            tag.decompose()
 
 
 # =========================================================
 # Trích xuất tiêu đề
 # =========================================================
+
 
 def extract_title_from_url(url: str) -> str:
     path = urlparse(url).path
@@ -291,9 +588,14 @@ def normalize_title(title: str) -> str:
         "Bảo tàng Lịch sử Quốc gia",
         "Trang thông tin về Chủ tịch Hồ Chí Minh",
         "Cổng Thông tin điện tử Chính phủ",
+        "Cổng thông tin điện tử Chính phủ",
         "Báo điện tử Đảng Cộng sản Việt Nam",
         "Báo Quân đội nhân dân",
-        "Tư liệu Văn kiện Đảng"
+        "Tư liệu Văn kiện Đảng",
+        "Thư viện Quốc gia Việt Nam",
+        "Bộ Giáo dục và Đào tạo",
+        "Cổng thông tin Việt Nam",
+        "Văn Miếu - Quốc Tử Giám",
     ]
 
     for phrase in remove_phrases:
@@ -310,6 +612,10 @@ def extract_title(soup: BeautifulSoup, url: str) -> str:
     og_title = soup.find("meta", attrs={"property": "og:title"})
     if og_title and og_title.get("content"):
         candidates.append(og_title.get("content"))
+
+    twitter_title = soup.find("meta", attrs={"name": "twitter:title"})
+    if twitter_title and twitter_title.get("content"):
+        candidates.append(twitter_title.get("content"))
 
     meta_title = soup.find("meta", attrs={"name": "title"})
     if meta_title and meta_title.get("content"):
@@ -328,7 +634,7 @@ def extract_title(soup: BeautifulSoup, url: str) -> str:
     for text in candidates:
         title = normalize_title(text)
 
-        if len(title) >= 10:
+        if len(title) >= 8 and not is_bad_line(title):
             return title
 
     return extract_title_from_url(url)
@@ -338,16 +644,19 @@ def extract_title(soup: BeautifulSoup, url: str) -> str:
 # Trích xuất nội dung bài viết
 # =========================================================
 
-def get_all_text_lines(soup: BeautifulSoup) -> list:
-    for tag in soup(["script", "style", "noscript", "iframe"]):
-        tag.decompose()
+
+def get_all_text_lines(soup: BeautifulSoup) -> list[str]:
+    """
+    Lấy toàn bộ text sau khi đã xóa block rác.
+    """
+    remove_unwanted_html_blocks(soup)
 
     full_text = soup.get_text("\n", strip=True)
 
     lines = []
 
     for line in full_text.splitlines():
-        line = line.strip()
+        line = clean_text(line)
 
         if not line:
             continue
@@ -358,11 +667,19 @@ def get_all_text_lines(soup: BeautifulSoup) -> list:
 
 
 def extract_from_article_tags(soup: BeautifulSoup) -> str:
+    """
+    Ưu tiên lấy nội dung từ các thẻ/class thường chứa bài viết.
+    """
+    remove_unwanted_html_blocks(soup)
+
     selectors = [
         "article",
+        "main",
         ".article-content",
+        ".article-body",
         ".content-detail",
         ".news-detail",
+        ".news-content",
         ".detail-content",
         ".post-content",
         ".entry-content",
@@ -371,49 +688,66 @@ def extract_from_article_tags(soup: BeautifulSoup) -> str:
         ".article-detail",
         ".detail",
         ".content",
-        "#content"
+        "#content",
+        "#main",
     ]
 
-    for selector in selectors:
-        tag = soup.select_one(selector)
+    candidates = []
 
-        if not tag:
+    for selector in selectors:
+        try:
+            tags = soup.select(selector)
+        except Exception:
             continue
 
-        text = tag.get_text("\n", strip=True)
-        lines = []
+        for tag in tags:
+            text = tag.get_text("\n", strip=True)
 
-        for line in text.splitlines():
-            line = line.strip()
+            lines = []
 
-            if not line:
-                continue
+            for line in text.splitlines():
+                line = clean_text(line)
 
-            if is_bad_line(line):
-                continue
+                if not line:
+                    continue
 
-            if len(line) >= 40:
-                lines.append(line)
+                if is_bad_line(line):
+                    continue
 
-        content = clean_text("\n\n".join(lines))
+                # Dòng bài viết thường dài hơn 30 ký tự.
+                # Nhưng vẫn giữ một số dòng tiêu đề phụ ngắn nếu cần.
+                if len(line) >= 30:
+                    lines.append(line)
 
-        if len(content) >= 150:
-            return content
+            content = clean_article_lines(lines)
 
-    return ""
+            if len(content) >= 150:
+                candidates.append(content)
+
+    if not candidates:
+        return ""
+
+    # Lấy candidate dài nhất sau lọc.
+    return max(candidates, key=len)
 
 
-def extract_after_title(lines: list, title: str) -> str:
+def extract_after_title(lines: list[str], title: str) -> str:
+    """
+    Fallback:
+    Nếu không bắt được article tag, bắt đầu lấy nội dung sau tiêu đề.
+    """
     useful_lines = []
     start_collect = False
-    title_normalized = title.lower().strip()
+
+    title_normalized = normalize_for_compare(title)
 
     for line in lines:
-        normalized = line.lower().strip()
+        normalized = normalize_for_compare(line)
 
-        if normalized == title_normalized or title_normalized in normalized:
-            start_collect = True
-            continue
+        if not start_collect:
+            if normalized == title_normalized or title_normalized in normalized:
+                start_collect = True
+                continue
 
         if start_collect:
             stop_keywords = [
@@ -422,6 +756,7 @@ def extract_after_title(lines: list, title: str) -> str:
                 "hòm thư góp ý",
                 "theo dõi chúng tôi",
                 "cơ quan chủ quản",
+                "đơn vị quản lý",
                 "địa chỉ:",
                 "tel/fax",
                 "email:",
@@ -430,7 +765,7 @@ def extract_after_title(lines: list, title: str) -> str:
                 "tin mới hơn",
                 "tin cũ hơn",
                 "tag:",
-                "tags:"
+                "tags:",
             ]
 
             if any(keyword in normalized for keyword in stop_keywords):
@@ -439,13 +774,16 @@ def extract_after_title(lines: list, title: str) -> str:
             if is_bad_line(line):
                 continue
 
-            if len(line) >= 40:
+            if len(line) >= 30:
                 useful_lines.append(line)
 
-    return clean_text("\n\n".join(useful_lines))
+    return clean_article_lines(useful_lines)
 
 
 def extract_from_meta_description(soup: BeautifulSoup) -> str:
+    """
+    Fallback rất yếu: lấy description nếu không lấy được nội dung.
+    """
     meta = soup.find("meta", attrs={"name": "description"})
 
     if meta and meta.get("content"):
@@ -459,52 +797,158 @@ def extract_from_meta_description(soup: BeautifulSoup) -> str:
     return ""
 
 
-def extract_general_content(lines: list) -> str:
+def extract_general_content(lines: list[str]) -> str:
+    """
+    Fallback cuối:
+    Lấy các dòng dài, bỏ dòng menu/rác.
+    """
     useful_lines = []
 
     for line in lines:
         if is_bad_line(line):
             continue
 
-        if len(line) >= 60:
+        if len(line) >= 50:
             useful_lines.append(line)
 
-    return clean_text("\n\n".join(useful_lines))
+    return clean_article_lines(useful_lines)
+
+
+def parse_html_safely(html: str) -> BeautifulSoup:
+    """
+    Ưu tiên lxml, nếu lỗi thì dùng html.parser.
+    """
+    try:
+        return BeautifulSoup(html, "lxml")
+    except Exception:
+        return BeautifulSoup(html, "html.parser")
+
+
+def is_baotanglichsu_url(url: str) -> bool:
+    domain = urlparse(url).netloc.lower()
+    return "baotanglichsu.vn" in domain or "baotanglichsuquocgia.vn" in domain
+
+
+def get_plain_lines_without_aggressive_remove(html: str) -> list[str]:
+    """
+    Lấy text toàn trang nhưng KHÔNG xóa mạnh các block HTML.
+    Chỉ bỏ script/style/noscript/iframe.
+    Dùng cho baotanglichsu.vn vì trang này hay đặt nội dung chung với menu.
+    """
+    soup = parse_html_safely(html)
+
+    for tag in soup(["script", "style", "noscript", "iframe"]):
+        tag.decompose()
+
+    text = soup.get_text("\n", strip=True)
+
+    lines = []
+
+    for line in text.splitlines():
+        line = clean_text(line)
+
+        if not line:
+            continue
+
+        lines.append(line)
+
+    return lines
+
+
+def extract_baotanglichsu_content(html: str, title: str) -> str:
+    """
+    Bộ lấy nội dung riêng cho baotanglichsu.vn.
+    Mục tiêu:
+    - Không xóa nhầm content
+    - Bỏ menu trái bằng is_bad_line()
+    - Giữ lại đoạn văn thật
+    """
+    lines = get_plain_lines_without_aggressive_remove(html)
+
+    cleaned_lines = []
+    seen = set()
+
+    title_normalized = normalize_for_compare(title)
+
+    for line in lines:
+        normalized = normalize_for_compare(line)
+
+        if not normalized:
+            continue
+
+        # Bỏ title nếu lặp trong body
+        if normalized == title_normalized:
+            continue
+
+        # Bỏ các dòng menu/sidebar/footer
+        if is_bad_line(line):
+            continue
+
+        # Bỏ dòng trùng
+        if normalized in seen:
+            continue
+
+        seen.add(normalized)
+
+        # Với baotanglichsu.vn, menu thường là các dòng ngắn.
+        # Nội dung thật thường là đoạn văn dài.
+        if len(line) >= 80:
+            cleaned_lines.append(line)
+
+    content = clean_article_lines(cleaned_lines)
+
+    # Trường hợp trang chỉ có 1 đoạn ngắn khoảng 250-500 ký tự vẫn giữ được
+    if len(content) >= 120:
+        return content
+
+    return ""
 
 
 def extract_article(url: str) -> dict:
-    headers = {
-        "User-Agent": "Mozilla/5.0 SuVietAcademicBot/1.0"
-    }
-
-    response = requests.get(url, headers=headers, timeout=25)
+    response = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
 
     if not response.encoding or response.encoding.lower() == "iso-8859-1":
         response.encoding = response.apparent_encoding or "utf-8"
 
-    soup = BeautifulSoup(response.text, "lxml")
+    html = response.text
 
-    title = extract_title(soup, url)
+    soup_for_title = parse_html_safely(html)
+    title = extract_title(soup_for_title, url)
 
-    content = extract_from_article_tags(soup)
+    content = ""
+
+    # Cách riêng cho baotanglichsu.vn:
+    # Không xóa HTML quá mạnh, tránh mất luôn nội dung bài viết.
+    if is_baotanglichsu_url(url):
+        content = extract_baotanglichsu_content(html, title)
+
+    # Cách chung cho các website khác
+    if len(content) < 150:
+        soup_for_article = parse_html_safely(html)
+        content = extract_from_article_tags(soup_for_article)
 
     if len(content) < 150:
-        lines = get_all_text_lines(soup)
+        soup_for_lines = parse_html_safely(html)
+        lines = get_all_text_lines(soup_for_lines)
         content = extract_after_title(lines, title)
 
     if len(content) < 150:
-        content = extract_from_meta_description(soup)
+        soup_for_meta = parse_html_safely(html)
+        content = extract_from_meta_description(soup_for_meta)
 
     if len(content) < 150:
-        lines = get_all_text_lines(soup)
+        soup_for_general = parse_html_safely(html)
+        lines = get_all_text_lines(soup_for_general)
         content = extract_general_content(lines)
+
+    content = clean_text(content)
 
     return {
         "title": clean_text(title),
         "url": url,
         "source_name": detect_source_name(url),
-        "content": clean_text(content)
+        "content": content,
     }
 
 
@@ -512,7 +956,8 @@ def extract_article(url: str) -> dict:
 # Đọc URL và lưu bài viết
 # =========================================================
 
-def load_urls(urls_file: Path) -> list:
+
+def load_urls(urls_file: Path) -> list[str]:
     if not urls_file.exists():
         print(f"Không tìm thấy file URL: {urls_file}")
         return []
@@ -527,6 +972,9 @@ def load_urls(urls_file: Path) -> list:
                 continue
 
             if url.startswith("#"):
+                continue
+
+            if not url.startswith("http://") and not url.startswith("https://"):
                 continue
 
             urls.append(url)
@@ -606,7 +1054,7 @@ def fetch_period(period_key: str, period_config: dict):
 
             save_article(article, period_key, period_name)
 
-            time.sleep(1)
+            time.sleep(SLEEP_SECONDS)
 
         except Exception as e:
             print(f"Lỗi khi tải {url}: {e}")
@@ -635,6 +1083,8 @@ def main():
 
     for period_key, period_config in PERIODS.items():
         fetch_period(period_key, period_config)
+
+    print("\nHoàn tất tải dữ liệu web.")
 
 
 if __name__ == "__main__":

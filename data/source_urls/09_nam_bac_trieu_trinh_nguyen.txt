@@ -1,97 +1,339 @@
 # 09 - Nam - Bắc triều, Lê Trung hưng, Trịnh - Nguyễn phân tranh
+
 # Mục tiêu:
-# - Nhà Mạc, Mạc Đăng Dung
+
+# - Khái quát giai đoạn Lê - Mạc - Lê Trung hưng từ thế kỷ XVI đến cuối thế kỷ XVIII
+
+# - Nhà Mạc, Mạc Đăng Dung, Dương Kinh, chính sách kinh tế, văn hóa, khoa cử thời Mạc
+
 # - Chiến tranh Nam - Bắc triều
-# - Lê Trung hưng
-# - Chúa Trịnh, chúa Nguyễn
-# - Đàng Trong, Đàng Ngoài
-# - Trịnh - Nguyễn phân tranh
-# - Đào Duy Từ, Lũy Thầy, Định Bắc Trường Thành
-# - Nguyễn Hoàng, Nguyễn Phúc Nguyên, Nguyễn Phúc Chu
-# - Mở rộng bờ cõi về phía Nam, Thuận - Quảng, Quảng Nam
-# - Quân sự, ngoại thương, khoa cử thời chúa Nguyễn
+
+# - Nhà Lê Trung hưng và mô hình vua Lê - chúa Trịnh
+
+# - Chúa Trịnh, phủ chúa Trịnh, Đàng Ngoài, Thăng Long thời Lê - Trịnh
+
+# - Chúa Nguyễn, Nguyễn Hoàng, Nguyễn Phúc Nguyên, Nguyễn Phúc Chu
+
+# - Đàng Trong, Thuận - Quảng, Quảng Nam, Phú Xuân, Hội An
+
+# - Trịnh - Nguyễn phân tranh, sông Gianh, Lũy Thầy, Đào Duy Từ
+
+# - Mở rộng bờ cõi về phía Nam, Nguyễn Hữu Cảnh, Gia Định, Nam Bộ
+
+# - Ngoại thương, giao thương Nhật - Việt, thương cảng Hội An, thương cảng Nước Mặn
+
+# - Khoa cử, quân sự, hiện vật, chủ quyền biển đảo thời chúa Nguyễn
+
+# - Ý nghĩa lịch sử: vừa là thời kỳ phân tranh kéo dài, vừa là giai đoạn mở rộng lãnh thổ và phát triển kinh tế - văn hóa ở cả Đàng Ngoài và Đàng Trong
+
 # Nguồn ưu tiên: Bảo tàng Lịch sử Quốc gia.
 
 # =========================
+
 # Lớp 1 - Tổng quan Lê - Mạc - Lê Trung hưng
+
 # =========================
 
 # Triều Lê - Mạc - Lê Trung Hưng 1428 - 1788
+
 https://baotanglichsu.vn/vi/Articles/4049/trieu-le-mac-le-trung-hung-1428-1788
 
 # Vùng đất Thăng Long - Hà Nội thời Lê - Trịnh và Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/3096/11863/vung-djat-thang-long-ha-noi-thoi-le-trinh-va-nguyen.html
 
+# Hội thảo khoa học Thăng Long thời Lê - Trịnh
+
+https://baotanglichsu.vn/vi/Articles/3096/7070/hoi-thao-khoa-hoc-thang-long-thoi-le-trinh.html
+
+# Quy mô thành Thăng Long - có nội dung về nhà Mạc và Lê - Trịnh
+
+https://baotanglichsu.vn/vi/Articles/2001/66106/quy-mo-thanh-thang-long.html
+
 # =========================
-# Lớp 2 - Nhà Mạc, Nam - Bắc triều
+
+# Lớp 2 - Nhà Mạc, Mạc Đăng Dung, Dương Kinh, văn hóa và khoa cử thời Mạc
+
 # =========================
 
 # Những điều ít biết về triều đại nhà Mạc
+
 https://baotanglichsu.vn/vi/Articles/3096/7162/nhung-djieu-it-biet-ve-trieu-djai-nha-mac.html
 
+# Mạc Đăng Dung và vương triều Mạc trong lịch sử quân chủ Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/3096/4851/mac-djang-dung-va-vuong-trieu-mac-trong-lich-su-quan-chu-viet-nam.html
+
+# Mạc Đăng Dung và vương triều Mạc - triều đại xếp ngoài lề chính sử
+
+https://baotanglichsu.vn/vi/Articles/3098/12984/mac-djang-dung-va-vuong-trieu-mac-trieu-djai-xep-ngoai-le-chinh-su.html
+
+# Kỷ niệm 497 năm thành lập vương triều Mạc
+
+https://baotanglichsu.vn/vi/Articles/3097/16518/ky-niem-497-nam-thanh-lap-vuong-trieu-mac-1527-2014.html
+
+# Hội thảo Vương triều Mạc trong tiến trình lịch sử Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/3091/74365/hoi-thao-vuong-trieu-mac-trong-tien-trinh-lich-su-viet-nam-ghi-nhan-nhung-cu-lieu-lich-su-moi.html
+
+# Những cái nhất của trạng nguyên triều Mạc
+
+https://baotanglichsu.vn/vi/Articles/3098/15382/nhung-cai-nhat-cua-trang-nguyen-trieu-mac.html
+
+# Độc chiêu "nhẫn nhục" cứu nước của Mạc Đăng Dung
+
+https://baotanglichsu.vn/vi/Articles/3098/14565/djoc-chieu-nhan-nhuc-cuu-nuoc-cua-mac-djang-dung.html
+
+# =========================
+
+# Lớp 3 - Chiến tranh Nam - Bắc triều
+
+# =========================
+
 # Lật lại chiến tranh Nam - Bắc triều
+
 https://baotanglichsu.vn/vi/Articles/2001/66617/lat-lai-chien-tranh-nam-bac-trieu.html
 
 # Kỷ lục buồn nhà Hậu Lê - có bối cảnh Lê Trung hưng, chúa Trịnh, nhà Mạc
+
 https://baotanglichsu.vn/vi/Articles/3096/12857/ky-luc-buon-nha-hau-le-9-vua-bi-giet-djau-djon.html
 
+# Những cái nhất của trạng nguyên triều Mạc - có bối cảnh Nam - Bắc triều
+
+https://baotanglichsu.vn/vi/Articles/3098/15382/nhung-cai-nhat-cua-trang-nguyen-trieu-mac.html
+
 # =========================
-# Lớp 3 - Chúa Trịnh, Đàng Ngoài, Lê Trung hưng
+
+# Lớp 4 - Lê Trung hưng, chúa Trịnh, Đàng Ngoài, Thăng Long thời Lê - Trịnh
+
 # =========================
 
 # Văn hóa Đại Việt trong thế đối thoại với Trung Hoa - vai trò của các chúa Trịnh thời Lê Trung hưng
+
 https://baotanglichsu.vn/vi/Articles/3096/6923/van-hoa-djai-viet-trong-the-djoi-thoai-voi-trung-hoa-vai-tro-cua-cac-chua-trinh-thoi-le-trung-hung.html
 
-# Ấn vàng Đại Việt Quốc Nguyễn chúa Vĩnh Trấn Chi Bảo - có bối cảnh Đàng Ngoài, Đàng Trong, chúa Trịnh, chúa Nguyễn
-https://baotanglichsu.vn/vi/Articles/3091/48976/an-vang-djai-viet-quoc-nguyen-chua-vinh-tran-chi-bao.html
+# Văn hóa Đại Việt trong thế đối thoại với Trung Hoa - bản khác
+
+https://baotanglichsu.vn/vi/Articles/2001/65345/van-hoa-djai-viet-trong-the-djoi-thoai-voi-trung-hoa-vai-tro-cua-cac-chua-trinh-thoi-le-trung-hung.html
+
+# Hội thảo khoa học Thăng Long thời Lê - Trịnh
+
+https://baotanglichsu.vn/vi/Articles/3096/7070/hoi-thao-khoa-hoc-thang-long-thoi-le-trinh.html
+
+# Vùng đất Thăng Long - Hà Nội thời Lê - Trịnh và Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/3096/11863/vung-djat-thang-long-ha-noi-thoi-le-trinh-va-nguyen.html
+
+# Về tấm bia đàn Nam Giao thời Lê ở Hà Nội
+
+https://baotanglichsu.vn/vi/Articles/1002/18994/ve-tam-bia-djan-nam-giao-thoi-le-o-ha-noi.html
+
+# Ai là chúa Trịnh vì nước, vì dân?
+
+https://baotanglichsu.vn/vi/Articles/3096/12723/ai-la-chua-trinh-vi-nuoc-vi-dan.html
+
+# Vì sao Thanh Hóa là cái nôi sản sinh vua chúa Việt - có nội dung về chúa Trịnh
+
+https://baotanglichsu.vn/vi/Articles/2001/66457/vi-sao-thanh-hoa-la-cai-noi-san-sinh-vua-chua-viet.html
 
 # =========================
-# Lớp 4 - Chúa Nguyễn, Đàng Trong, mở rộng bờ cõi
+
+# Lớp 5 - Chúa Nguyễn, Đàng Trong, Nguyễn Hoàng, Nguyễn Phúc Nguyên, Nguyễn Phúc Chu
+
 # =========================
 
 # Chúa Nguyễn Hoàng 1525-1613 - người mở mang bờ cõi
+
 https://baotanglichsu.vn/vi/Articles/3098/19375/chua-nguyen-hoang-1525-1613-nguoi-mo-mang-bo-coi.html
 
 # Nguyễn Hoàng và bước đầu tiến vào vùng Nam Trung Bộ
+
 https://baotanglichsu.vn/vi/Articles/3096/70731/nguyen-hoang-va-buoc-djau-tien-vao-vung-nam-trung-bo.html
 
+# Nhà Nguyễn - lịch sử thăng trầm của một dòng họ - kỳ 1, có nội dung về Nguyễn Hoàng và Đàng Trong
+
+https://baotanglichsu.vn/vi/Articles/2001/65046/nha-nguyen-lich-su-thang-tram-cua-mot-dong-ho-ky-1.html
+
 # Chúa Nguyễn xưng vương ở Đàng Trong
+
 https://baotanglichsu.vn/vi/Articles/3096/68789/chua-nguyen-xung-vuong-o-djang-trong.html
 
-# Xứ Quảng Nam xưa dưới thời chúa Nguyễn
-https://baotanglichsu.vn/vi/Articles/3101/73276/xu-quang-nam-xua-duoi-thoi-chua-nguyen.html
-
 # Quốc chúa Nguyễn Phúc Chu và những bài thơ vịnh cảnh vùng Thuận Quảng
+
 https://baotanglichsu.vn/vi/Articles/3101/69489/quoc-chua-nguyen-phuc-chu-va-nhung-bai-tho-vinh-canh-sacvung-thuan-quang-tren-djo-su-ky-kieu.html
 
+# Quốc chúa Nguyễn Phúc Chu và những bài thơ vịnh cảnh vùng Thuận Quảng - bản khác
+
+https://baotanglichsu.vn/vi/Articles/3101/68699/quoc-chua-nguyen-phuc-chu-va-nhung-bai-tho-vinh-canh-sac-vung-thuan-quang-tren-djo-su-ky-kieu.html
+
+# Chúa Nguyễn Phúc Chu và ý thức chủ quyền lãnh thổ
+
+https://baotanglichsu.vn/vi/Articles/1508/51343/chua-nguyen-phuc-chu-va-y-thuc-chu-quyen-lanh-tho.html
+
+# Về chiếc ấn vàng chúa Nguyễn mang đi mở cõi phương Nam
+
+https://baotanglichsu.vn/vi/Articles/3096/10254/ve-chiec-an-vang-chua-nguyen-mang-dji-mo-coi-phuong-nam.html
+
 # Bài thơ Ải lĩnh xuân vân của chúa Nguyễn Phúc Chu
+
 https://baotanglichsu.vn/vi/Articles/3096/19922/bai-tho-ai-linh-xuan-van-cua-chua-nguyen-phuc-chu-va-y-tuong-tao-djiem-djen-cho-du-khach-tren-djinh-hai-van.html
 
 # =========================
-# Lớp 5 - Trịnh - Nguyễn phân tranh, Đào Duy Từ, Lũy Thầy
+
+# Lớp 6 - Trịnh - Nguyễn phân tranh, Đào Duy Từ, Lũy Thầy, sông Gianh
+
 # =========================
 
 # Lộc Khê Đào Duy Từ - danh tướng và các giai thoại
+
 https://baotanglichsu.vn/vi/Articles/3098/15140/loc-khe-djao-duy-tu-danh-tuong-va-cac-giai-thoai.html
 
 # Giải mã việc dùng mâm đồng làm chiến thư của Đào Duy Từ
+
 https://baotanglichsu.vn/vi/Articles/3096/9145/giai-ma-viec-dung-mam-djong-lam-chien-thu-cua-djao-duy-tu.html
 
 # Khám phá Định Bắc Trường Thành
+
 https://baotanglichsu.vn/vi/Articles/3096/9159/kham-pha-djinh-bac-truong-thanh.html
 
 # Khám phá công trình quân sự độc đáo tại Quảng Bình - Lũy Thầy
+
 https://baotanglichsu.vn/vi/Articles/2001/66693/kham-pha-cong-trinh-quan-su-djoc-djao-tai-quang-binh.html
 
+# Chiếc ấn vàng truyền quốc của triều Nguyễn - có bối cảnh phân tranh cuối cùng giữa Trịnh - Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/1508/48890/chiec-an-vang-truyen-quoc-cua-trieu-nguyen.html
+
+# Thăng Long - Hà Nội thời Tây Sơn - có bối cảnh Trịnh - Nguyễn phân tranh và Đàng Trong, Đàng Ngoài
+
+https://baotanglichsu.vn/vi/Articles/2001/65172/thang-long-ha-noi-thoi-tay-son.html
+
+# Gốc tích họ Hồ của vua Quang Trung - có bối cảnh quân Trịnh, quân Nguyễn và phân tranh
+
+https://baotanglichsu.vn/vi/Articles/2001/65337/goc-tich-ho-ho-cua-vua-quang-trung.html
+
 # Những nhân vật tuổi Mão lừng danh - có Nguyễn Hữu Dật và các danh tướng chúa Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/3096/7630/bai-2-nhung-nhan-vat-tuoi-mao-lung-danh-trong-lich-su-nuoc-ta.html
 
 # =========================
-# Lớp 6 - Khoa cử, quân sự, ngoại thương, hiện vật thời Trịnh - Nguyễn
+
+# Lớp 7 - Mở rộng bờ cõi về phía Nam, Nguyễn Hữu Cảnh, Gia Định, Nam Bộ
+
+# =========================
+
+# Lễ Thành Hầu Nguyễn Hữu Cảnh với sự nghiệp mở cõi phương Nam cuối thế kỷ XVII
+
+https://baotanglichsu.vn/vi/Articles/3098/14383/le-thanh-hau-nguyen-huu-canh-voi-su-nghiep-mo-coi-phuong-nam-cuoi-the-ky-xvii.html
+
+# Dũng tướng Việt được thờ vọng ở Campuchia - có nội dung về Nguyễn Hữu Cảnh
+
+https://baotanglichsu.vn/vi/Articles/3096/6479/dung-tuong-viet-djuoc-tho-vong-o-campuchia.html
+
+# Xứ Mô Xoài - mảnh đất đầu tiên được khai phá trong tiến trình mở cõi về Nam Bộ
+
+https://baotanglichsu.vn/vi/Articles/3096/13387/xu-mo-xoai-manh-djat-djau-tien-djuoc-khai-pha-trong-tien-trinh-mo-coi-ve-nam-bo.html
+
+# Nhà Nguyễn - lịch sử thăng trầm của một dòng họ - kỳ 2, có nội dung về chúa Nguyễn và phương Nam
+
+https://baotanglichsu.vn/vi/Articles/3096/5090/nha-nguyen-lich-su-thang-tram-cua-mot-dong-ho-ky-2.html
+
+# Quyền lực mềm giúp chúa Nguyễn mở cõi thành công
+
+https://baotanglichsu.vn/vi/Articles/3096/8133/quyen-luc-mem-giup-chua-nguyen-mo-coi-thanh-cong.html
+
+# Theo dấu tiền nhân: Huyền thoại ngôi chùa cổ - có nội dung hành trình mở cõi
+
+https://baotanglichsu.vn/vi/Articles/2001/65243/theo-dau-tien-nhan-huyen-thoai-ngoi-chua-co.html
+
+# =========================
+
+# Lớp 8 - Ngoại thương, Hội An, Nhật Bản, thương cảng Đàng Trong
+
+# =========================
+
+# Vài nét về thương mại giữa Nhật Bản và Đàng Trong
+
+https://baotanglichsu.vn/vi/Articles/3129/11642/vai-net-ve-thuong-mai-giua-nhat-ban-va-djang-trong.html
+
+# Vài nét về thương mại giữa Nhật Bản và Đàng Trong - bản khác
+
+https://baotanglichsu.vn/vi/Articles/2001/67129/vai-net-ve-thuong-mai-giua-nhat-ban-va-djang-trong.html
+
+# Giao thương Nhật - Việt trong lịch sử
+
+https://baotanglichsu.vn/vi/Articles/3096/19782/giao-thuong-nhat-viet-trong-lich-su.html
+
+# Quan hệ Đàng Trong - Nhật Bản qua cuộc triển lãm tại Bảo tàng Quốc gia Kyushu
+
+https://baotanglichsu.vn/vi/Articles/3099/71874/quan-he-djang-trong-nhat-ban-qua-cuoc-trien-lam-the-great-story-of-viet-nam-tai-bao-tang-quoc-gia-kyushu.html
+
+# Hệ thống buôn bán ở Biển Đông thế kỷ XVI-XVII và vị trí của một số thương cảng Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/2001/67133/he-thong-buon-ban-o-bien-djong-the-ky-xvi-xvii-va-vi-tri-cua-mot-so-thuong-cang-viet-nam.html
+
+# Nước Mặn: Sự chuyển hóa từ thương cảng Chăm sang Việt
+
+https://baotanglichsu.vn/vi/Articles/3096/11522/thuong-cang-thinai-nuoc-man-su-chuyen-hoa-tu-thuong-cang-cham-sang-viet.html
+
+# Xứ Quảng Nam xưa dưới thời chúa Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/3101/73276/xu-quang-nam-xua-duoi-thoi-chua-nguyen.html
+
+# Thành trấn Hà Tiên - cảng thị giao thương quốc tế
+
+https://baotanglichsu.vn/vi/Articles/3096/70924/thanh-co-nam-bo-thanh-tran-ha-tien-cang-thi-giao-thuong-quoc-te.html
+
+# =========================
+
+# Lớp 9 - Khoa cử, quân sự, hiện vật và chủ quyền biển đảo thời chúa Nguyễn
+
 # =========================
 
 # Khoa cử thời các chúa Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/3096/6482/khoa-cu-thoi-cac-chua-nguyen.html
 
+# Khoa cử thời các chúa Nguyễn - bản khác
+
+https://baotanglichsu.vn/vi/Articles/2001/65185/khoa-cu-thoi-cac-chua-nguyen.html
+
 # Biểu tượng sức mạnh của vương triều nhà Nguyễn - có bối cảnh súng thần công thời chúa Trịnh, chúa Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/2001/62587/bieu-tuong-suc-manh-cua-vuong-trieu-nha-nguyen.html
+
+# Công cuộc bảo vệ biển đảo Tổ quốc thời các chúa Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/3096/16509/cong-cuoc-bao-ve-bien-djao-to-quoc-thoi-cac-chua-nguyen.html
+
+# Triều Nguyễn và việc cho lập Hải đội Hoàng Sa
+
+https://baotanglichsu.vn/vi/Articles/3091/8338/trieu-nguyen-va-viec-cho-lap-hai-djoi-hoang-sa.html
+
+# Hoàng Sa và Trường Sa dưới thời Tây Sơn, nhà Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/3096/8986/hoang-sa-va-truong-sa-duoi-thoi-tay-son-nha-nguyen.html
+
+# =========================
+
+# Lớp 10 - Nguồn phụ, giai thoại, chỉ dùng bổ trợ
+
+# Lưu ý: Các bài dưới đây có tính giai thoại hoặc liên hệ rộng, không nên xem là nguồn chính cho câu trả lời trọng tâm.
+
+# =========================
+
+# Án xưa: Mạc Đăng Dung và vương triều nhà Mạc
+
+https://baotanglichsu.vn/vi/Articles/3096/6864/an-xua-mac-djang-dung-va-vuong-trieu-nha-mac.html
+
+# Lộc Khê Đào Duy Từ - danh tướng và các giai thoại
+
+https://baotanglichsu.vn/vi/Articles/3098/15140/loc-khe-djao-duy-tu-danh-tuong-va-cac-giai-thoai.html
+
+# Quyền lực mềm giúp chúa Nguyễn mở cõi thành công
+
+https://baotanglichsu.vn/vi/Articles/3096/8133/quyen-luc-mem-giup-chua-nguyen-mo-coi-thanh-cong.html
+
+# Kỷ lục buồn nhà Hậu Lê - có yếu tố vụ việc cung đình
+
+https://baotanglichsu.vn/vi/Articles/3096/12857/ky-luc-buon-nha-hau-le-9-vua-bi-giet-djau-djon.html

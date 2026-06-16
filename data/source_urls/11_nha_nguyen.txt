@@ -1,91 +1,345 @@
 # 11 - Nhà Nguyễn
+
 # Mục tiêu:
-# - Khái quát triều Nguyễn 1802-1945
-# - Gia Long, Minh Mạng, các vua triều Nguyễn
-# - Kinh đô Huế, bộ máy nhà nước, cải cách hành chính
-# - Châu bản, Kim sách, ấn vàng, bảo vật hoàng cung
-# - Cửu vị thần công, biểu tượng quyền lực
-# - Trang phục, y quan, phẩm phục, nghệ thuật cung đình
-# - Bảo Đại và sự kết thúc chế độ quân chủ
+
+# - Khái quát triều Nguyễn từ năm 1802 đến năm 1945
+
+# - Gia Long, Minh Mạng và các vua tiêu biểu triều Nguyễn
+
+# - Quá trình thành lập triều Nguyễn, thống nhất lãnh thổ sau thời kỳ phân tranh
+
+# - Kinh đô Huế, Hoàng thành Huế, lăng tẩm, đàn Nam Giao, Tàng Thư lâu
+
+# - Bộ máy nhà nước, thiết chế, điển lệ, cải cách hành chính thời Minh Mạng
+
+# - Châu bản, Mộc bản, Kim sách, ấn vàng, kim bảo, bảo vật hoàng cung
+
+# - Cửu vị thần công, Cửu đỉnh, biểu tượng quyền lực và chủ quyền quốc gia
+
+# - Trang phục, y quan, phẩm phục, nghệ thuật cung đình triều Nguyễn
+
+# - Chủ quyền biển đảo Hoàng Sa - Trường Sa qua Châu bản, Mộc bản và tư liệu triều Nguyễn
+
+# - Bảo Đại và sự kết thúc chế độ quân chủ năm 1945
+
+# - Ý nghĩa lịch sử: triều đại quân chủ cuối cùng của Việt Nam, vừa có đóng góp trong quản lý quốc gia, văn hóa cung đình, di sản tư liệu, vừa gắn với giai đoạn khủng hoảng và mất độc lập trước thực dân Pháp
+
 # Nguồn ưu tiên: Bảo tàng Lịch sử Quốc gia.
 
 # =========================
-# Lớp 1 - Tổng quan triều Nguyễn
+
+# Lớp 1 - Tổng quan triều Nguyễn 1802-1945
+
 # =========================
 
 # Triều Nguyễn 1802-1945
+
 https://baotanglichsu.vn/vi/Articles/4051/trieu-nguyen-1802-1945
 
-# Hồ sơ về ông vua cuối cùng của triều đình nhà Nguyễn
-https://baotanglichsu.vn/vi/Articles/3096/7693/ho-so-ve-ong-vua-cuoi-cung-cua-trieu-djinh-nha-nguyen.html
-
 # Ngắm tuyệt phẩm tái hiện chân dung các vị vua triều Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/3098/14072/ngam-tuyet-pham-tai-hien-chan-dung-cac-vi-vua-trieu-nguyen.html
 
+# Hồ sơ về ông vua cuối cùng của triều đình nhà Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/3096/7693/ho-so-ve-ong-vua-cuoi-cung-cua-trieu-djinh-nha-nguyen.html
+
+# Hồ sơ về ông vua cuối cùng của triều đình nhà Nguyễn - bản khác
+
+https://baotanglichsu.vn/vi/Articles/2001/65569/ho-so-ve-ong-vua-cuoi-cung-cua-trieu-djinh-nha-nguyen.html
+
 # Nguyễn Ái Quốc - Hồ Chí Minh nói về nhà Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/1508/50214/nguyen-ai-quoc-ho-chi-minh-noi-ve-nha-nguyen.html
 
 # =========================
-# Lớp 2 - Thiết chế, điển lệ, bộ máy triều Nguyễn
+
+# Lớp 2 - Gia Long và sự thành lập vương triều Nguyễn
+
+# =========================
+
+# Gia Long - Vị Hoàng đế đầu tiên sáng lập vương triều Nguyễn
+
+https://baotanglichsu.vn/VI/Articles/3098/15241/gia-long-vi-hoang-dje-djau-tien-sang-lap-vuong-trieu-nguyen-trieu-djai-phong-kien-cuoi-cung-trong-lich-su-viet-nam.html
+
+# Đàn Nam Giao triều Nguyễn - Nơi hội tụ khí thiêng Trời Đất
+
+https://baotanglichsu.vn/vi/Articles/3096/17533/djan-nam-giao-trieu-nguyen-noi-hoi-tu-khi-thieng-troi-djat.html
+
+# Cửu đỉnh và Cửu vị thần công sẽ là bảo vật quốc gia
+
+https://baotanglichsu.vn/vi/Articles/1508/51509/cuu-djinh-va-cuu-vi-than-cong-se-la-bao-vat-quoc-gia.html
+
+# Bộ sưu tập đồ đồng tại Huế hấp dẫn khách du lịch - có nội dung Cửu vị thần công thời Gia Long
+
+https://baotanglichsu.vn/vi/Articles/3091/12818/bo-suu-tap-djo-djong-tai-hue-hap-dan-khach-du-lich.html
+
+# =========================
+
+# Lớp 3 - Minh Mạng và cải cách hành chính triều Nguyễn
+
+# =========================
+
+# Vua Minh Mệnh và những đóng góp quan trọng trong lịch sử phong kiến nhà Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/3096/8916/vua-minh-menh-va-nhung-djong-gop-quan-trong-trong-lich-su-phong-kien-nha-nguyen.html
+
+# Tổ chức bộ máy chính quyền trung ương thời Minh Mệnh
+
+https://baotanglichsu.vn/vi/Articles/3096/10273/to-chuc-bo-may-chinh-quyentrung-uong-thoi-minh-menh.html
+
+# Tổ chức chính quyền địa phương thời Minh Mệnh
+
+https://baotanglichsu.vn/vi/Articles/3096/11163/to-chuc-chinh-quyen-djia-phuong-thoi-minh-menh.html
+
+# Triển lãm gần 100 tài liệu Châu bản, tư liệu và hình ảnh của vua Minh Mạng
+
+https://baotanglichsu.vn/vi/Articles/3091/73180/trien-lam-gan-100-tai-lieu-chau-ban-tu-lieu-va-hinh-anh-cua-vua-minh-mang.html
+
+# Những Kim Bảo đời vua Minh Mệnh 1820-1840
+
+https://baotanglichsu.vn/vi/Articles/3101/71338/nhung-kim-bao-djoi-vua-minh-menh-1820-1840.html
+
+# Ấn vàng Sắc mệnh chi bảo, tháng 10 năm Minh Mệnh thứ 8, 1827
+
+https://baotanglichsu.vn/vi/Articles/3101/18996/an-vang-sac-menh-chi-bao-thang-10-nam-minh-menh-thu-8-1827.html
+
+# Tầm nhìn chiến lược về biển đảo của vua Minh Mạng qua hình ảnh trên Cửu đỉnh
+
+https://baotanglichsu.vn/vi/Articles/3096/69430/tam-nhin-chien-luoc-ve-bien-djao-cua-vua-minh-mangqua-hinh-anh-tren-cuu-djinh.html
+
+# Huế: Trùng tu lăng Minh Mạng bằng vật liệu xưa
+
+https://baotanglichsu.vn/vi/Articles/2001/62530/hue-trung-tu-lang-minh-mang-bang-vat-lieu-xua.html
+
+# =========================
+
+# Lớp 4 - Thiết chế, điển lệ, bộ máy triều Nguyễn
+
 # =========================
 
 # Triều Nguyễn có lệ “Tứ bất” hay không?
+
 https://baotanglichsu.vn/vi/Articles/3096/9837/trieu-nguyen-co-le-tu-bat-hay-khong.html
 
 # Bút tích của các vị vua triều Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/2001/66450/but-tich-cua-cac-vi-vua-trieu-nguyen.html
 
 # Xem Châu bản hiểu chuyện vua Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/2001/66259/xem-chau-ban-hieu-chuyen-vua-nguyen.html
 
+# Tiếp cận di sản tư liệu triều Nguyễn tại Văn Miếu
+
+https://baotanglichsu.vn/vi/Articles/3091/48961/tiep-can-di-san-tu-lieu-trieu-nguyen-tai-van-mieu.html
+
+# Hơn 100 Châu bản, Mộc bản đặc sắc về Giáo dục triều Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/3091/72461/hon-100-chau-ban-moc-ban-djac-sac-ve-giao-duc-trieu-nguyen-se-djuoc-gioi-thieu-nhan-dip-khai-giang-nam-hoc-moi.html
+
+# Triều Nguyễn với Thiên Chúa Giáo
+
+https://baotanglichsu.vn/vi/Articles/3096/7464/trieu-nguyen-voi-thien-chua-giao.html
+
 # =========================
-# Lớp 3 - Kim sách, ấn vàng, bảo vật hoàng cung
+
+# Lớp 5 - Kinh đô Huế, Hoàng thành Huế, lăng tẩm và di sản triều Nguyễn
+
+# =========================
+
+# Kỳ 1: Khám phá các “kho báu” cổ vật trong Kinh thành Huế
+
+https://baotanglichsu.vn/vi/Articles/3096/18835/ky-1-kham-pha-cac-kho-bau-co-vat-trong-kinh-thanh-hue.html
+
+# Hồi sinh di tích Tàng Thư lâu, một "Tàng kinh các" của Việt Nam dưới triều Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/3091/72073/hoi-sinh-di-tich-tang-thu-lau-mot-tang-kinh-cac-cua-viet-nam-duoi-trieu-nguyen.html
+
+# Cảnh quan văn hóa các lăng vua Nguyễn - Nét độc đáo của đô thị Huế
+
+https://baotanglichsu.vn/vi/Articles/2001/68378/canh-quan-van-hoa-cac-lang-vua-nguyen-net-djoc-djao-cua-djo-thi-hue.html
+
+# Đàn Nam Giao triều Nguyễn - Nơi hội tụ khí thiêng Trời Đất
+
+https://baotanglichsu.vn/vi/Articles/3096/17533/djan-nam-giao-trieu-nguyen-noi-hoi-tu-khi-thieng-troi-djat.html
+
+# =========================
+
+# Lớp 6 - Kim sách, ấn vàng, kim bảo, bảo vật hoàng cung
+
 # =========================
 
 # Bảo vật hoàng cung - Kim sách triều Nguyễn 1802-1945
+
 https://baotanglichsu.vn/vi/Articles/4002/68896/bao-vat-hoang-cung-kim-sach-trieu-nguyen-1802-1945.html
 
 # Chuẩn bị trưng bày chuyên đề Bảo vật hoàng cung - Kim sách triều Nguyễn 1802-1945
+
 https://baotanglichsu.vn/vi/Articles/1502/49621/chuan-bi-trung-bay-chuyen-dje-bao-vat-hoang-cung-kim-sach-trieu-nguyen-1802-1945.html
 
 # Chiếc ấn vàng truyền quốc của triều Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/1508/48890/chiec-an-vang-truyen-quoc-cua-trieu-nguyen.html
 
 # Biểu tượng sức mạnh của vương triều nhà Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/2001/62587/bieu-tuong-suc-manh-cua-vuong-trieu-nha-nguyen.html
 
+# Những cổ vật đặc sắc triều Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/2001/65922/nhung-co-vat-djac-sac-trieu-nguyen.html
+
+# Cặp ấn kiếm triều Nguyễn - Kết thúc chặng đường bị lãng quên
+
+https://baotanglichsu.vn/vi/Articles/1508/50596/cap-an-kiem-trieu-nguyen-ket-thuc-chang-djuong-bi-lang-quen.html
+
 # =========================
-# Lớp 4 - Trang phục, y quan, phẩm phục triều Nguyễn
+
+# Lớp 7 - Cửu vị thần công, Cửu đỉnh và biểu tượng quyền lực
+
+# =========================
+
+# Cửu đỉnh và Cửu vị thần công sẽ là bảo vật quốc gia
+
+https://baotanglichsu.vn/vi/Articles/1508/51509/cuu-djinh-va-cuu-vi-than-cong-se-la-bao-vat-quoc-gia.html
+
+# Kể thêm về Cửu Vị Thần Công
+
+https://baotanglichsu.vn/vi/Articles/3096/7700/ke-them-ve-cuu-vi-than-cong.html
+
+# TT-Huế: Lần đầu phát hiện nhiều viên đạn súng Cửu vị thần công thời Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/1508/51330/tt-hue-lan-djau-phat-hien-nhieu-vien-djan-sung-cuu-vi-than-cong-thoi-nguyen.html
+
+# Bộ sưu tập đồ đồng tại Huế hấp dẫn khách du lịch
+
+https://baotanglichsu.vn/vi/Articles/3091/12818/bo-suu-tap-djo-djong-tai-hue-hap-dan-khach-du-lich.html
+
+# Tầm nhìn chiến lược về biển đảo của vua Minh Mạng qua hình ảnh trên Cửu đỉnh
+
+https://baotanglichsu.vn/vi/Articles/3096/69430/tam-nhin-chien-luoc-ve-bien-djao-cua-vua-minh-mangqua-hinh-anh-tren-cuu-djinh.html
+
+# =========================
+
+# Lớp 8 - Châu bản, Mộc bản và chủ quyền Hoàng Sa - Trường Sa
+
+# =========================
+
+# Châu bản Triều Nguyễn - Tư liệu cổ có giá trị kép khẳng định chủ quyền Hoàng Sa, Trường Sa của Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/3096/16622/chau-ban-trieu-nguyen-tu-lieu-co-co-gia-tri-kep-khang-djinh-chu-quyen-hoang-sa-truong-sa-cua-viet-nam.html
+
+# Trưng bày Mộc bản và Châu bản triều Nguyễn về chủ quyền Hoàng Sa - Trường Sa
+
+https://baotanglichsu.vn/vi/Articles/3091/48985/trung-bay-moc-ban-va-chau-ban-trieu-nguyen-ve-chu-quyen-hoang-sa-truong-sa.html
+
+# Tuyển tập các châu bản triều Nguyễn về thực thi chủ quyền của Việt Nam trên hai quần đảo Hoàng Sa và Trường Sa
+
+https://baotanglichsu.vn/vi/Articles/2006/67021/tuyen-tap-cac-chau-ban-trieu-nguyen-ve-thuc-thi-chu-quyen-cua-viet-nam-tren-hai-quan-djao-hoang-sa-va-truong-sa.html
+
+# Phát huy giá trị Châu bản triều Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/3091/72791/phat-huy-gia-tri-chau-ban-trieu-nguyen.html
+
+# Tiếp cận di sản tư liệu triều Nguyễn tại Văn Miếu
+
+https://baotanglichsu.vn/vi/Articles/3091/48961/tiep-can-di-san-tu-lieu-trieu-nguyen-tai-van-mieu.html
+
+# Ngắm bản đồ cổ về chủ quyền Hoàng Sa từ thế kỷ 16
+
+https://baotanglichsu.vn/vi/Articles/3092/16394/ngam-ban-djo-co-ve-chu-quyen-hoang-sa-tu-tk-16.html
+
+# =========================
+
+# Lớp 9 - Trang phục, y quan, phẩm phục triều Nguyễn
+
 # =========================
 
 # Y phục thời Nguyễn tại Bảo tàng Lịch sử Quốc gia
+
 https://baotanglichsu.vn/vi/Articles/3096/18741/y-phuc-thoi-nguyen-tai-bao-tang-lich-su-quoc-gia.html
 
 # Trang phục cung đình triều Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/3096/18303/trang-phuc-cung-djinh-trieu-nguyen.html
 
 # Chế độ Y quan triều Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/3091/73223/che-djo-y-quan-trieu-nguyen.html
 
 # Bổ tử trên phẩm phục quan triều Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/3096/18573/bo-tu-tren-pham-phuc-quan-trieu-nguyen.html
 
 # Chiêm ngưỡng 12 bộ trang phục cung đình Nguyễn quý hiếm
+
 https://baotanglichsu.vn/vi/Articles/3091/11214/chiem-nguong-12-bo-trang-phuc-cung-djinh-nguyen-quy-hiem.html
 
 # Trưng bày trang phục cung đình
+
 https://baotanglichsu.vn/vi/Articles/1508/51375/trung-bay-trang-phuc-cung-djinh.html
 
 # =========================
-# Lớp 5 - Nghệ thuật, văn hóa cung đình, rồng phượng thời Nguyễn
+
+# Lớp 10 - Nghệ thuật, văn hóa cung đình, rồng phượng thời Nguyễn
+
 # =========================
 
 # Rồng - Phượng trong nghệ thuật thời Nguyễn
+
 https://baotanglichsu.vn/vi/Articles/3096/68844/rong-phuong-trong-nghe-thuat-thoi-nguyen.html
 
-# =========================
-# Lớp 6 - Tài liệu, hiện vật, nghiên cứu bổ trợ về triều Nguyễn
+# Những cổ vật đặc sắc triều Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/2001/65922/nhung-co-vat-djac-sac-trieu-nguyen.html
+
+# Kỳ 1: Khám phá các “kho báu” cổ vật trong Kinh thành Huế
+
+https://baotanglichsu.vn/vi/Articles/3096/18835/ky-1-kham-pha-cac-kho-bau-co-vat-trong-kinh-thanh-hue.html
+
 # =========================
 
+# Lớp 11 - Bảo Đại và sự kết thúc chế độ quân chủ năm 1945
+
+# =========================
+
+# Cách đây 68 năm, Hoàng đế Bảo Đại - nhà vua cuối cùng nhà Nguyễn thoái vị
+
+https://baotanglichsu.vn/vi/Articles/2002/68056/cach-djay-68-nam-30-8-1945-30-8-2013-hoang-dje-bao-djai-nha-vua-cuoi-cung-nha-nguyen-thoai-vi.html
+
+# Người viết Chiếu thoái vị cho vua Bảo Đại
+
+https://baotanglichsu.vn/vi/Articles/3098/13590/nguoi-viet-chieu-thoai-vi-cho-vua-bao-djai.html
+
+# Cặp ấn kiếm triều Nguyễn - Kết thúc chặng đường bị lãng quên
+
+https://baotanglichsu.vn/vi/Articles/1508/50596/cap-an-kiem-trieu-nguyen-ket-thuc-chang-djuong-bi-lang-quen.html
+
+# Hồ sơ về ông vua cuối cùng của triều đình nhà Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/2001/65569/ho-so-ve-ong-vua-cuoi-cung-cua-trieu-djinh-nha-nguyen.html
+
+# Giới thiệu “Nam giao Đại giá đồ thức” năm Bảo Đại thứ 20, 1945
+
+https://baotanglichsu.vn/vi/Articles/2001/65194/gioi-thieu-nam-giao-djai-gia-djo-thuc-nam-bao-djai-thu-20-1945.html
+
+# =========================
+
+# Lớp 12 - Nguồn phụ, tranh luận, chỉ dùng bổ trợ
+
+# Lưu ý: Các bài dưới đây có tính nhận định, tranh luận hoặc liên hệ rộng, không nên xem là nguồn chính cho câu trả lời trọng tâm.
+
+# =========================
+
+# Nguyễn Ái Quốc - Hồ Chí Minh nói về nhà Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/1508/50214/nguyen-ai-quoc-ho-chi-minh-noi-ve-nha-nguyen.html
+
 # Tọa đàm, trao đổi, tranh biện lịch sử tại Bảo tàng Lịch sử Quốc gia
+
 https://baotanglichsu.vn/vi/Articles/1502/49623/toa-djam-trao-djoi-tranh-bien-lich-su-tai-bao-tang-lich-su-quoc-gia.html
+
+# Triều Nguyễn với Thiên Chúa Giáo
+
+https://baotanglichsu.vn/vi/Articles/3096/7464/trieu-nguyen-voi-thien-chua-giao.html

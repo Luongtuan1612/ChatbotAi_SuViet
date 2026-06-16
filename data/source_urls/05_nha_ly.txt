@@ -1,87 +1,225 @@
 # 05 - Nhà Lý
-# Mục tiêu: vương triều Lý, Lý Công Uẩn, Chiếu dời đô, Thăng Long, Lý Thường Kiệt, kháng chiến chống Tống, Văn Miếu, Phật giáo.
+
+# Mục tiêu:
+
+# - Khái quát vương triều Lý từ năm 1009 đến năm 1226
+
+# - Lý Công Uẩn, Lý Thái Tổ, Chiếu dời đô và việc định đô ở Thăng Long
+
+# - Quá trình xây dựng Thăng Long thành trung tâm chính trị, kinh tế, văn hóa của Đại Việt
+
+# - Một số vua Lý tiêu biểu: Lý Thái Tổ, Lý Thái Tông, Lý Thánh Tông, Lý Nhân Tông, Lý Chiêu Hoàng
+
+# - Phật giáo thời Lý và ảnh hưởng đến chính trị, xã hội, văn hóa
+
+# - Giáo dục, khoa cử, Văn Miếu - Quốc Tử Giám
+
+# - Lý Thường Kiệt, kháng chiến chống Tống, phòng tuyến sông Như Nguyệt, Nam quốc sơn hà
+
+# - Mỹ thuật, kiến trúc, hiện vật thời Lý: chùa Một Cột, chùa Phật Tích, điêu khắc đá, gốm thời Lý
+
+# - Ý nghĩa lịch sử: củng cố quốc gia Đại Việt độc lập, xây dựng nền văn minh Đại Việt thời Lý - Trần
+
 # Nguồn ưu tiên: Bảo tàng Lịch sử Quốc gia và các nguồn chính thống.
 
-# Nguồn ưu tiên: Bảo tàng Lịch sử Quốc gia.
-
 # =========================
+
 # Lớp 1 - Tổng quan nhà Lý
+
 # =========================
 
 # Vương triều Lý 1009-1226
+
 https://baotanglichsu.vn/VI/Articles/3129/10148/vuong-trieu-ly-1009-1226.html
 
+# Triều Lý - Trần 1009-1400
+
+https://baotanglichsu.vn/vi/Articles/4047/trieu-ly-tran-1009-1400
+
 # Thăng Long thời nhà Lý 1009-1225
+
 https://baotanglichsu.vn/vi/Articles/3096/6962/thang-long-thoi-nha-ly-1009-1225.html
 
+# Thăng Long thời nhà Lý 1009-1225 - bản khác trong chuyên mục
+
+https://baotanglichsu.vn/vi/Articles/2001/65358/thang-long-thoi-nha-ly-1009-1225.html
+
 # =========================
+
 # Lớp 2 - Lý Công Uẩn, Lý Thái Tổ, Chiếu dời đô
+
 # =========================
 
 # Đâu là sự thật về tông tích của Lý Công Uẩn?
+
 https://baotanglichsu.vn/vi/Articles/3096/7033/djau-la-su-that-ve-tong-tich-cua-ly-cong-uan.html
 
-# Thái sư Á vương Đào Cam Mộc - đệ nhất công thần nhà Lý
-https://baotanglichsu.vn/vi/Articles/3098/14418/thai-su-a-vuong-djao-cam-moc-dje-nhat-cong-than-nha-ly-1010-1226.html
-
-# Những lời tiên tri liên quan đến vương triều Lý
-https://baotanglichsu.vn/vi/Articles/3098/14502/ky-la-nhung-loi-tien-tri-djung-100-cua-vi-nhan-viet.html
-
 # Từ Văn Lang đến Thăng Long - quá trình tìm chọn kinh đô muôn đời của đất nước
+
 https://baotanglichsu.vn/vi/Articles/3096/7097/tu-van-lang-djen-thang-long-qua-trinh-tim-chon-kinh-djo-muon-djoi-cua-djat-nuoc.html
 
-# =========================
-# Lớp 3 - Lý Thường Kiệt, kháng chiến chống Tống, Nam quốc sơn hà
-# =========================
+# Ai là người hiến kế dời đô về Thăng Long?
 
-# Lý Thường Kiệt - người chỉ huy kiệt xuất của cuộc kháng chiến chống quân Tống lần thứ hai
-https://baotanglichsu.vn/VI/Articles/3098/16192/ly-thuong-kiet-nguoi-chi-huy-kiet-xuat-cua-cuoc-khang-chien-chong-quan-tong-lan-thu-hai.html
+https://baotanglichsu.vn/vi/Articles/3096/6831/ai-la-nguoi-hien-ke-doi-djo-ve-thang-long.html
 
-# Lý Thường Kiệt - nỗi kinh hoàng của quân Tống
-https://baotanglichsu.vn/vi/Articles/3096/8270/ly-thuong-kiet-noi-kinh-hoang-cua-quan-tong.html
+# Lần đầu tìm thấy mộc bản khắc Chiếu dời đô
 
-# Tống Trân Thanh Hóa - Lý Thường Kiệt qua tư liệu văn bia
-https://baotanglichsu.vn/vi/Articles/3096/68457/tong-tran-thanh-hoa-ly-thuong-kiet-qua-tu-lieu-van-bia.html
+https://baotanglichsu.vn/vi/Articles/3091/6913/lan-djau-tim-thay-moc-ban-khac-chieu-doi-djo.html
 
-# Những trận đánh khiến người phương Bắc kinh hồn bạt vía
-https://baotanglichsu.vn/vi/Articles/3096/12005/nhung-tran-djanh-khien-nguoi-phuong-bac-kinh-hon-bat-via.html
+# Thăng Long - Hà Nội: Trung tâm chính trị, kinh tế, văn hóa của đất nước
 
-# Nam quốc sơn hà - nội dung liên quan đến bài thơ thần
-https://baotanglichsu.vn/VI/Articles/3096/7193/viet-nho-qua-mot-so-tac-pham-van-hoc-trung-djai-viet-nam.html
+https://baotanglichsu.vn/vi/Articles/2001/65420/thang-long-ha-noi-trung-tam-chinh-tri-kinh-te-van-hoa-cua-djat-nuoc.html
 
-# Tuyên ngôn độc lập 2/9/1945 - có nhắc đến Nam quốc sơn hà và ý nghĩa độc lập dân tộc
-https://baotanglichsu.vn/vi/Articles/3096/71055/tuyen-ngon-djoc-lap-2-9-1945-ban-tuyen-ngon-ve-y-chi-khong-co-gi-quy-hon-djoc-lap-tu-do-cua-dan-toc-viet-nam.html
+# Thái sư Á vương Đào Cam Mộc - đệ nhất công thần nhà Lý
+
+https://baotanglichsu.vn/vi/Articles/3098/14418/thai-su-a-vuong-djao-cam-moc-dje-nhat-cong-than-nha-ly-1010-1226.html
 
 # =========================
-# Lớp 4 - Giáo dục, Văn Miếu - Quốc Tử Giám, Nho học
-# Đã bỏ vanmieu.gov.vn vì khó crawl.
-# Thay bằng nguồn Bảo tàng Lịch sử Quốc gia.
+
+# Lớp 3 - Một số vua Lý tiêu biểu và sự chuyển giao sang nhà Trần
+
+# =========================
+
+# Lý Nhân Tông - ông vua có nhiều kỷ lục
+
+https://baotanglichsu.vn/vi/Articles/3096/6624/ly-nhan-tong-ong-vua-co-nhieu-ky-luc.html
+
+# Khám phá ngôi đền thờ 8 vị vua nhà Lý
+
+https://baotanglichsu.vn/vi/Articles/2001/65960/kham-pha-ngoi-djen-tho-8-vi-vua-nha-ly.html
+
+# Có nên đưa bài vị Lý Chiêu Hoàng thờ cùng 8 vị vua Lý ở đền Đô?
+
+https://baotanglichsu.vn/vi/Articles/1508/50613/co-nen-djua-bai-vi-ly-chieu-hoang-tho-cung-8-vi-vua-ly-o-djen-djo.html
+
+# Ai là tác giả chiếu nhường ngôi của Lý Chiêu Hoàng?
+
+https://baotanglichsu.vn/vi/Articles/3098/14781/ai-la-tac-gia-chieu-nhuong-ngoi-cua-ly-chieu-hoang.html
+
+# =========================
+
+# Lớp 4 - Phật giáo, chính trị và xã hội thời Lý
+
+# =========================
+
+# Ảnh hưởng của đạo Phật đối với chính trị triều Lý
+
+https://baotanglichsu.vn/vi/Articles/3096/7067/anh-huong-cua-djao-phat-djoi-voi-chinh-tri-trieu-ly.html
+
+# Khu vực trung tâm Hoàng thành Thăng Long, Hà Nội - có nội dung về văn hóa Phật giáo thời Lý - Trần
+
+https://baotanglichsu.vn/vi/Articles/3099/17991/khu-vuc-trung-tam-hoang-thanh-thang-long-ha-noi.html
+
+# Chùa Một Cột nhận kỷ lục châu Á
+
+https://baotanglichsu.vn/vi/Articles/1508/51675/chua-mot-cot-nhan-ky-luc-chau-a.html
+
+# Chùa Một Cột - đôi nét về quá trình trùng tu tôn tạo trong lịch sử
+
+https://baotanglichsu.vn/vi/Articles/3096/9374/chua-mot-cot-djoi-net-ve-qua-trinh-trung-tu-ton-tao-trong-lich-su.html
+
+# Đi tìm nét xưa của Chùa Một Cột
+
+https://baotanglichsu.vn/vi/Articles/3096/12358/dji-tim-net-xua-cua-chua-mot-cot.html
+
+# Những tác phẩm điêu khắc đá chùa Phật Tích lưu giữ tại Bảo tàng Lịch sử Quốc gia
+
+https://baotanglichsu.vn/vi/Articles/3096/17362/nhung-tac-pham-djieu-khac-dja-chua-phat-tich-luu-giu-tai-bao-tang-lich-su-quoc-gia.html
+
+# =========================
+
+# Lớp 5 - Giáo dục, Văn Miếu - Quốc Tử Giám, Nho học
+
 # =========================
 
 # Văn Miếu - Quốc Tử Giám, biểu trưng sử học Thăng Long
+
 https://baotanglichsu.vn/vi/Articles/3096/6117/van-mieu-quoc-tu-giam-bieu-trung-su-hoc-thang-long.html
 
 # Tên gọi của Quốc Tử Giám trong lịch sử
+
 https://baotanglichsu.vn/vi/Articles/3096/9490/ten-goi-cua-quoc-tu-giam-trong-lich-su.html
 
 # Hội thảo khoa học Văn Miếu - Quốc Tử Giám và giáo dục Nho học Việt Nam
+
 https://baotanglichsu.vn/vi/Articles/3091/71224/hoi-thao-khoa-hoc-van-mieu-quoc-tu-giam-va-giao-duc-nho-hoc-viet-nam.html
 
 # Văn Miếu - Quốc Tử Giám, di sản tư liệu thế giới khu vực châu Á - Thái Bình Dương
+
 https://baotanglichsu.vn/vi/Articles/2001/65467/van-mieu-quoc-tu-giam-di-san-tu-lieu-the-gioi-khu-vuc-chau-a-thai-binh-duong.html
 
 # Khảo cổ học khẳng định niên đại Văn Miếu
+
 https://baotanglichsu.vn/vi/Articles/2001/62571/khao-co-hoc-khang-djinh-nien-djai-van-mieu.html
 
 # =========================
-# Lớp 5 - Văn hóa, mỹ thuật, hiện vật thời Lý
+
+# Lớp 6 - Lý Thường Kiệt, kháng chiến chống Tống, Nam quốc sơn hà
+
+# =========================
+
+# Lý Thường Kiệt - người chỉ huy kiệt xuất của cuộc kháng chiến chống quân Tống lần thứ hai
+
+https://baotanglichsu.vn/VI/Articles/3098/16192/ly-thuong-kiet-nguoi-chi-huy-kiet-xuat-cua-cuoc-khang-chien-chong-quan-tong-lan-thu-hai.html
+
+# Lý Thường Kiệt - nỗi kinh hoàng của quân Tống
+
+https://baotanglichsu.vn/vi/Articles/3096/8270/ly-thuong-kiet-noi-kinh-hoang-cua-quan-tong.html
+
+# Tìm hiểu thêm về anh hùng dân tộc Lý Thường Kiệt qua hai tấm bia triều Lý
+
+https://baotanglichsu.vn/vi/Articles/3096/69429/tim-hieu-them-ve-anh-hung-dan-toc-ly-thuong-kiet-qua-hai-tam-bia-trieuly-trung-bay-o-bao-tang-lich-su-quoc-gia.html
+
+# Tống Trân Thanh Hóa - Lý Thường Kiệt qua tư liệu văn bia
+
+https://baotanglichsu.vn/vi/Articles/3096/68457/tong-tran-thanh-hoa-ly-thuong-kiet-qua-tu-lieu-van-bia.html
+
+# Những trận đánh khiến người phương Bắc kinh hồn bạt vía
+
+https://baotanglichsu.vn/vi/Articles/3096/12005/nhung-tran-djanh-khien-nguoi-phuong-bac-kinh-hon-bat-via.html
+
+# Nam quốc sơn hà - nội dung liên quan đến bài thơ thần
+
+https://baotanglichsu.vn/VI/Articles/3096/7193/viet-nho-qua-mot-so-tac-pham-van-hoc-trung-djai-viet-nam.html
+
+# Tuyên ngôn độc lập 2/9/1945 - có nhắc đến Nam quốc sơn hà và ý nghĩa độc lập dân tộc
+
+https://baotanglichsu.vn/vi/Articles/3096/71055/tuyen-ngon-djoc-lap-2-9-1945-ban-tuyen-ngon-ve-y-chi-khong-co-gi-quy-hon-djoc-lap-tu-do-cua-dan-toc-viet-nam.html
+
+# =========================
+
+# Lớp 7 - Văn hóa, mỹ thuật, hiện vật thời Lý
+
 # =========================
 
 # Điêu khắc đá thời Lý ở chùa Sùng Nghiêm Diên Thánh
+
 https://baotanglichsu.vn/vi/Articles/2001/65360/huong-toi-djai-le-1000-nam-thang-long-ha-noi-djieu-khac-dja-thoi-ly-o-chua-sung-nghiem-dien-thanh.html
 
 # Gốm hoa nâu thời Lý - Trần
+
 https://baotanglichsu.vn/vi/Articles/3101/7168/gom-hoa-nau-thoi-ly-tran.html
 
 # Quan chức dưới các triều đại phong kiến Việt Nam
+
 https://baotanglichsu.vn/vi/Articles/2001/65364/quan-chuc-duoi-cac-trieu-djai-phong-kien-viet-nam.html
+
+# =========================
+
+# Lớp 8 - Nguồn phụ, giai thoại, chỉ dùng bổ trợ
+
+# Lưu ý: Các bài dưới đây có tính kể chuyện/giai thoại, không nên xem là nguồn chính cho câu trả lời trọng tâm.
+
+# =========================
+
+# Những lời tiên tri liên quan đến vương triều Lý
+
+https://baotanglichsu.vn/vi/Articles/3098/14502/ky-la-nhung-loi-tien-tri-djung-100-cua-vi-nhan-viet.html
+
+# Lý kỳ điềm báo mệnh đế của Lý Thái Tông
+
+https://baotanglichsu.vn/vi/Articles/3098/13783/ly-ky-djiem-bao-menh-dje-cua-ly-thai-tong.html
+
+# Tài xem tướng bắt bệnh của Vua Lý Thái Tông
+
+https://baotanglichsu.vn/vi/Articles/3096/11517/tai-xem-tuong-bat-benh-cua-vua-ly-thai-tong.html

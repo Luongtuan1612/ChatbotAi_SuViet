@@ -1,142 +1,623 @@
 # 13 - Việt Nam từ năm 1945 đến năm 1975
+
 # Mục tiêu:
+
 # - Việt Nam sau Cách mạng tháng Tám năm 1945
-# - Kháng chiến chống thực dân Pháp
+
+# - Xây dựng và bảo vệ chính quyền cách mạng non trẻ
+
+# - Tổng tuyển cử năm 1946, Hiến pháp đầu tiên, Tuần lễ vàng, Bình dân học vụ
+
+# - Hiệp định Sơ bộ 6/3/1946, Tạm ước 14/9/1946
+
+# - Toàn quốc kháng chiến ngày 19/12/1946
+
+# - Kháng chiến chống thực dân Pháp 1946-1954
+
+# - Việt Bắc Thu - Đông 1947, Chiến dịch Biên giới 1950, Đông Xuân 1953-1954
+
 # - Chiến dịch Điện Biên Phủ năm 1954
+
 # - Hiệp định Genève năm 1954
+
+# - Giai đoạn 1954-1960, đấu tranh chính trị ở miền Nam, phong trào Đồng Khởi
+
+# - Mặt trận Dân tộc Giải phóng miền Nam Việt Nam
+
+# - Đường Trường Sơn, Đường Hồ Chí Minh trên biển
+
 # - Kháng chiến chống Mỹ cứu nước
+
+# - Các chiến lược chiến tranh của Mỹ: chiến tranh đặc biệt, chiến tranh cục bộ, Việt Nam hóa chiến tranh
+
+# - Chiến thắng Ấp Bắc, Vạn Tường, Tổng tiến công và nổi dậy Tết Mậu Thân 1968
+
+# - Chiến tranh phá hoại miền Bắc, Hà Nội - Điện Biên Phủ trên không
+
+# - Hiệp định Paris năm 1973
+
 # - Tổng tiến công và nổi dậy mùa Xuân 1975
+
 # - Chiến dịch Hồ Chí Minh
-# - Ngày 30/4/1975, thống nhất đất nước
+
+# - Ngày 30/4/1975, giải phóng miền Nam, thống nhất đất nước
+
 # - Nhân vật tiêu biểu: Hồ Chí Minh, Võ Nguyên Giáp, Văn Tiến Dũng
+
 # Nguồn ưu tiên:
+
 # - Bảo tàng Lịch sử Quốc gia
+
 # - Báo Quân đội nhân dân
+
 # - Cổng thông tin Chính phủ
 
+# - Trang thông tin Hồ Chí Minh
+
+# - Tư liệu Văn kiện Đảng
 
 # =========================
-# Lớp 1 - Kháng chiến chống Pháp và Điện Biên Phủ 1954
+
+# Lớp 1 - Tổng quan Việt Nam 1945-1975
+
 # =========================
 
-# Một số hiện vật về chiến thắng Điện Biên Phủ, tháng 5-1954
+# Trưng bày thường xuyên - phần ba mươi năm kháng chiến bảo vệ độc lập và thống nhất đất nước 1945-1975
+
+https://baotanglichsu.vn/vi/Articles/3144/trung-bay-thuong-xuyen
+
+# Ảnh tư liệu - cuộc kháng chiến chống thực dân Pháp và cuộc kháng chiến chống Mỹ
+
+https://baotanglichsu.vn/vi/Articles/4107/anh-tu-lieu
+
+# Tranh cổ động giai đoạn 1945-1975 lưu giữ tại Bảo tàng Lịch sử Quốc gia
+
+https://baotanglichsu.vn/vi/Articles/3096/72041/gia-tri-suu-tap-tranh-co-djong-giai-djoan-1945-1975-hien-luu-giu-tai-bao-tang-lich-su-quoc-gia.html
+
+# Trưng bày chuyên đề Nhân dân thế giới đoàn kết với Việt Nam trong đấu tranh thống nhất đất nước 1954-1975
+
+https://baotanglichsu.vn/vi/Articles/3090/68893/trung-bay-chuyen-dje-nhan-dan-the-gioi-djoan-ket-voi-viet-nam-trong-djau-tranh-thong-nhat-djat-nuoc-1954-1975-su-tai-hien-sinh-djong-cua-tinh-djoan-ket-quoc-te-vi-hoa-binh-o-viet-nam.html
+
+# =========================
+
+# Lớp 2 - Việt Nam sau Cách mạng tháng Tám 1945, xây dựng chính quyền cách mạng
+
+# =========================
+
+# Cuộc Tổng tuyển cử 6/1/1946 và Hiến pháp đầu tiên của nước Việt Nam Dân chủ Cộng hòa
+
+https://baotanglichsu.vn/vi/Articles/3096/18900/cuoc-tong-tuyen-cu-6-1-1946-va-hien-phap-djau-tien-cua-nuoc-viet-nam-dan-chu-cong-hoa.html
+
+# Những sự kiện trọng đại trong cuộc Tổng tuyển cử đầu tiên
+
+https://baotanglichsu.vn/vi/Articles/3097/74416/nhung-su-kien-trong-djai-trong-cuoc-tong-tuyen-cu-djau-tien.html
+
+# Chiếc hòm phiếu bầu cử Quốc hội khóa I
+
+https://baotanglichsu.vn/vi/Articles/1002/17555/chiec-hom-phieu-bau-cu-quoc-hoi-khoa-i.html
+
+# Quỹ Độc lập - Tuần lễ vàng, bài học về phát huy sức mạnh lòng dân
+
+https://baotanglichsu.vn/vi/Articles/3097/73357/quy-djoc-lap-tuan-le-vang-bai-hoc-ve-phat-huy-suc-manh-long-dan.html
+
+# Thông tin báo chí trưng bày chuyên đề Bình dân học vụ - Thắp sáng tương lai
+
+https://baotanglichsu.vn/vi/Articles/3090/75718/thong-tin-bao-chi-trung-bay-chuyen-dje-binh-dan-hoc-vu-thap-sang-tuong-lai.html
+
+# Huy hiệu Bình dân học vụ - Biểu tượng của ánh sáng tri thức
+
+https://baotanglichsu.vn/vi/Articles/1002/75963/huy-hieu-binh-dan-hoc-vu-bieu-tuong-cua-anh-sang-tri-thuc-giua-nguc-tu-con-djao.html
+
+# =========================
+
+# Lớp 3 - Đấu tranh ngoại giao 1945-1946, Hiệp định Sơ bộ, Tạm ước, Toàn quốc kháng chiến
+
+# =========================
+
+# Đấu tranh ngoại giao nước Việt Nam Dân chủ Cộng hòa thời kỳ mới thành lập
+
+https://baotanglichsu.vn/VI/Articles/3096/71741/djau-tranh-ngoai-giao-nuoc-viet-nam-dcch-thoi-ky-moi-thanh-lap.html
+
+# Những ngày đầu toàn quốc kháng chiến 19/12/1946 - 17/2/1947
+
+https://baotanglichsu.vn/vi/Articles/1508/51248/gioi-thieu-danh-muc-tai-lieu-anh-ha-noi-nhung-ngay-djau-toan-quoc-khang-chien-19-12-1946-17-02-1947.html
+
+# 19/12/1946 - Ngày toàn quốc kháng chiến
+
+https://baotanglichsu.vn/vi/Articles/2002/68312/19-12-1946-ngay-toan-quoc-khang-chien.html
+
+# 19/12/1946 - Ngày toàn quốc kháng chiến - bản VI
+
+https://baotanglichsu.vn/VI/Articles/3097/19663/19-12-1946-ngay-toan-quoc-khang-chien.html
+
+# Lời kêu gọi toàn quốc kháng chiến - Lời hịch thời đại Hồ Chí Minh
+
+https://baotanglichsu.vn/vi/Articles/3097/72738/loi-keu-goi-toan-quoc-khang-chien-loi-hich-thoi-djai-ho-chi-minh.html
+
+# Bút tích Lời kêu gọi toàn quốc kháng chiến
+
+https://baotanglichsu.vn/vi/Articles/1001/28354/but-tich-loi-keu-goi-toan-quoc-khang-chien.html
+
+# Di tích nơi Chủ tịch Hồ Chí Minh viết Lời kêu gọi toàn quốc kháng chiến
+
+https://baotanglichsu.vn/vi/Articles/3091/73616/khai-mac-trung-bay-bo-sung-ve-noi-chu-tich-ho-chi-minh-viet-loi-keu-goi-toan-quoc-khang-chien-thang-12-1946.html
+
+# =========================
+
+# Lớp 4 - Kháng chiến chống thực dân Pháp 1946-1954
+
+# =========================
+
+# Việt Bắc - Thủ đô gió ngàn
+
+https://baotanglichsu.vn/vi/Articles/3090/72749/thong-tin-bao-chi-trung-bay-chuyen-dje-viet-bac-thu-djo-gio-ngan.html
+
+# An toàn khu Định Hóa trong kháng chiến chống thực dân Pháp
+
+https://baotanglichsu.vn/vi/Articles/3097/72888/an-toan-khu-djinh-hoa-thai-nguyen-trong-khang-chien-chong-thuc-dan-phap.html
+
+# Chiến thắng Việt Bắc Thu - Đông năm 1947
+
+https://baotanglichsu.vn/VI/Articles/3097/15198/chien-thang-viet-bac-thu-djong-nam-1947-chien-luoc-djanh-nhanh-thang-nhanh-cua-thuc-dan-phap-bi-that-bai.html
+
+# Chiến dịch Biên giới Thu Đông 1950
+
+https://baotanglichsu.vn/VI/Articles/3097/18574/chien-dich-bien-gioi-thu-djong-16-9-17-10-1950-su-thanh-cong-trong-su-dung-ke-hoach-tac-chien.html
+
+# Ngày giải phóng Thủ đô Hà Nội 10/10/1954
+
+https://baotanglichsu.vn/vi/Articles/2002/68259/ngay-giai-phong-thu-djo-ha-noi-10-10-1954-moc-son-trong-lich-su-xay-dung-phat-trien-cua-thu-djo-va-djat-nuoc.html
+
+# Một số hiện vật về văn hóa - xã hội Việt Nam thời kỳ kháng chiến chống Pháp
+
+https://baotanglichsu.vn/vi/Articles/4102/mot-so-hien-vat-ve-van-hoa-xa-hoi-viet-nam-thoi-ky-khang-chien-chong-phap
+
+# =========================
+
+# Lớp 5 - Chiến dịch Điện Biên Phủ năm 1954
+
+# =========================
+
+# Một số hiện vật về chiến thắng Điện Biên Phủ, tháng 5/1954
+
 https://baotanglichsu.vn/vi/Articles/4057/mot-so-hien-vat-ve-chien-thang-djien-bien-phu-thang-5-1954
 
 # Điện Biên Phủ
+
 https://baotanglichsu.vn/VI/Articles/3129/16185/djien-bien-phu.html
 
 # Chiến thắng Điện Biên Phủ - sự kiện mang giá trị và tầm vóc thời đại
+
 https://baotanglichsu.vn/vi/Articles/3096/71477/chien-thang-djien-bien-phu-su-kien-mang-gia-tri-va-tam-voc-thoi-djai.html
 
 # Chiến thắng Điện Biên Phủ mang tầm vóc thời đại
+
 https://baotanglichsu.vn/vi/Articles/3097/72192/chien-thang-djien-bien-phu-mang-tam-voc-thoi-djai.html
 
-# Một số hình ảnh về chiến dịch Điện Biên Phủ, năm 1954
+# Một đỉnh cao chói lọi của sự nghiệp giải phóng dân tộc
+
+https://baotanglichsu.vn/vi/Articles/3097/70762/mot-djinh-cao-choi-loi-cua-su-nghiep-giai-phong-dan-toc.html
+
+# Một số hình ảnh về chiến dịch Điện Biên Phủ năm 1954
+
 https://baotanglichsu.vn/vi/Articles/2002/68005/mot-so-hinh-anh-ve-chien-dich-djien-bien-phu-nam-1954.html
 
 # Trận quyết chiến chiến lược - Điện Biên Phủ đợt I
+
 https://baotanglichsu.vn/vi/Articles/3097/13943/tran-quyet-chien-chien-luoc-tieu-diet-tap-djoan-cu-djiem-djien-bien-phu-13-3-7-5-1954-djot-i-chien-dich-djien-bien-phu-djon-phu-djau.html
 
 # Chiến thắng Điện Biên Phủ năm 1954 dưới góc nhìn của người nước ngoài
+
 https://baotanglichsu.vn/vi/Articles/3129/16434/chien-thang-djien-bien-phu-nam-1954-duoi-goc-nhin-cua-nguoi-nuoc-ngoai.html
 
-# Giới thiệu tài liệu lưu trữ quốc gia về Chiến dịch Điện Biên Phủ và Hội nghị Giơ-ne-vơ năm 1954
-https://baotanglichsu.vn/vi/Articles/3091/74581/gioi-thieu-tai-lieu-luu-tru-quoc-gia-ve-chien-dich-djien-bien-phu-va-hoi-nghi-gio-ne-vo-nam-1954.html
+# Chủ tịch Hồ Chí Minh với Chiến dịch Điện Biên Phủ
+
+https://baotanglichsu.vn/vi/Articles/3097/theo-dong-lich-su/Page4
 
 # Chiến dịch Điện Biên Phủ: 3 đợt tấn công ác liệt
+
 https://baochinhphu.vn/chien-dich-dien-bien-phu-3-dot-tan-cong-ac-liet-10224050209051285.htm
 
 # Chiến thắng Điện Biên Phủ khẳng định thiên tài quân sự của Đại tướng Võ Nguyên Giáp
+
 https://www.qdnd.vn/quoc-phong-an-ninh/chien-thang-dien-bien-phu-moc-son-lich-su/anh-hung/chien-thang-dien-bien-phu-khang-dinh-thien-tai-quan-su-cua-dai-tuong-vo-nguyen-giap-771789
 
-
-# =========================
-# Lớp 2 - Nhân vật quân sự tiêu biểu
-# =========================
-
-# Đại tướng Võ Nguyên Giáp, thiên tài quân sự, nhà lãnh đạo có uy tín lớn
-https://baotanglichsu.vn/vi/Articles/3097/72773/djai-tuong-vo-nguyen-giap-thien-tai-quan-su-nha-lanh-djao-co-uy-tin-lon-tam-guong-ngoi-sang-ve-djao-djuc-cach-mang.html
-
-# Đại tướng Võ Nguyên Giáp với báo chí cách mạng 1925-1945
-https://baotanglichsu.vn/VI/Articles/3096/18524/djai-tuong-vo-nguyen-giap-voi-bao-chi-cach-mang-1925-1945.html
-
-# Kỷ niệm 105 năm Ngày sinh Đại tướng Văn Tiến Dũng
-https://baotanglichsu.vn/vi/Articles/3098/73084/ky-niem-105-nam-ngay-sinh-djai-tuong-van-tien-dung-vi-djai-tuong-anh-hung.html
-
-# Vị Đại tướng chỉ huy Chiến dịch Hồ Chí Minh trong những ngày tháng 4/1975
-https://baochinhphu.vn/vi-dai-tuong-chi-huy-chien-dich-ho-chi-minh-trong-nhung-ngay-thang-4-1975-102271567.htm
-
-
-# =========================
-# Lớp 3 - Kháng chiến chống Mỹ và Đại thắng mùa Xuân 1975
-# =========================
-
-# Tổng tiến công và nổi dậy mùa Xuân 1975: chủ trương, kế hoạch chiến lược và thời cơ
-https://baotanglichsu.vn/vi/Articles/2002/61999/tong-tien-cong-va-noi-day-mua-xuan-1975-chu-truong-ke-hoach-chien-luoc-va-thoi-co.html
-
-# Đại thắng mùa Xuân 1975 - bài học về sự lãnh đạo, chỉ đạo của Đảng
-https://baotanglichsu.vn/vi/Articles/3097/72170/djai-thang-mua-xuan-1975-bai-hoc-ve-su-lanh-djao-chi-djao-cua-djang.html
-
-# Đại thắng mùa Xuân 1975 - thành công xuất sắc của nghệ thuật chỉ đạo chiến tranh
-https://baotanglichsu.vn/vi/Articles/3097/75415/djai-thang-mua-xuan-1975-thanh-cong-xuat-sac-cua-nghe-thuat-chi-djao-chien-tranh.html
-
-# Chiến thắng mùa xuân 1975 - những mốc son lịch sử
-https://baochinhphu.vn/chien-thang-mua-xuan-1975-nhung-moc-son-lich-su-10274124.htm
-
-# Kỷ niệm trọng thể 50 năm Giải phóng miền Nam, thống nhất đất nước
-https://baochinhphu.vn/truc-tiep-ky-niem-trong-the-50-nam-giai-phong-mien-nam-thong-nhat-dat-nuoc-102250429120220339.htm
-
-
-# =========================
-# Lớp 4 - Chiến dịch Hồ Chí Minh và ngày 30/4/1975
-# =========================
-
-# Chiến dịch Hồ Chí Minh lịch sử 26/4-30/4/1975
-https://baotanglichsu.vn/vi/Articles/3097/14153/chien-dich-ho-chi-minh-lich-su-26-4-30-4-1975.html
-
-# Chiến dịch Hồ Chí Minh 14-30/4/1975 - trận quyết chiến chiến lược cuối cùng
-https://baotanglichsu.vn/vi/Articles/3097/16216/chien-dich-ho-chi-minh-14-30-4-1975-tran-quyet-chien-chien-luoc-cuoi-cung-thang-loi-ket-thuc-hoan-toan-cuoc-chong-my-cuu-nuoc-cua-quan-va-dan-viet-nam.html
-
-# Chiến dịch Hồ Chí Minh - trận chiến giữ những cây cầu
-https://baotanglichsu.vn/vi/Articles/3097/71462/chien-dich-ho-chi-minh-tran-chien-giu-nhung-cay-cau.html
-
-# Kỳ tích trong chiến dịch Hồ Chí Minh
-https://baotanglichsu.vn/VI/Articles/3097/14190/ky-tich-trong-chien-dich-ho-chi-minh.html
-
-# Về bức ảnh xe tăng tiến vào Dinh Độc Lập
-https://baotanglichsu.vn/vi/Articles/1508/52372/ve-buc-anh-xe-tang-tien-vao-dinh-djoc-lap.html
-
-# Chiến dịch Hồ Chí Minh lịch sử kết thúc thắng lợi cuộc kháng chiến chống Mỹ cứu nước
-https://www.qdnd.vn/vung-buoc-duoi-quan-ky-quyet-thang/lich-su-quan-doi-nhan-dan-viet-nam/chien-dich-ho-chi-minh-lich-su-ket-thuc-thang-loi-cuoc-khang-chien-chong-my-cuu-nuoc-807001
-
-# Chiến dịch Hồ Chí Minh toàn thắng
-https://sknc.qdnd.vn/theo-dong-su-kien/chien-dich-ho-chi-minh-toan-thang-503794
-
-# Chiến dịch Hồ Chí Minh - 45 năm nhìn lại
-https://tphcm.chinhphu.vn/chien-dich-ho-chi-minh-45-nam-nhin-lai-10120160.htm
-
-# Chiến dịch Hồ Chí Minh: Nét độc đáo trong nghệ thuật quân sự Việt Nam
-https://tphcm.chinhphu.vn/chien-dich-ho-chi-minh-net-doc-dao-trong-nghe-thuat-quan-su-viet-nam-10120198.htm
-
-# Chiến công của "cánh quân thứ 6"
-https://baochinhphu.vn/chien-cong-cua-canh-quan-thu-6-102270842.htm
-
-# Gặp lại một thời huyền thoại
-https://baochinhphu.vn/gap-lai-mot-thoi-huyen-thoai-10275200.htm
-
-# Khúc ca mừng chiến thắng lay động con tim
-https://baochinhphu.vn/khuc-ca-mung-chien-thang-lay-dong-con-tim-102271876.htm
-
-
-# =========================
-# Lớp 5 - Hiện vật, ký ức lịch sử, giáo dục truyền thống
-# =========================
-
 # Bảo tàng Chiến thắng Điện Biên Phủ - địa chỉ đỏ giáo dục truyền thống lịch sử
+
 https://baotanglichsu.vn/vi/Articles/3091/74580/bao-tang-chien-thang-djien-bien-phu-djia-chi-djo-giao-duc-truyen-thong-lich-su.html
 
 # Xuất bản cuốn sách Điện Biên Phủ - lịch sử và ký ức
+
 https://baotanglichsu.vn/vi/Articles/3129/74584/xuat-ban-cuon-sach-djien-bien-phu-lich-su-va-ky-uc.html
 
-# Những kỷ vật của Anh hùng liệt sĩ Nguyễn Văn Trỗi hiện lưu giữ tại BTLSQG
+# =========================
+
+# Lớp 6 - Hiệp định Genève năm 1954
+
+# =========================
+
+# Hội nghị Giơ-ne-vơ từ ngày 8/5 đến 21/7/1954
+
+https://baotanglichsu.vn/vi/Articles/3097/19190/tu-ngay-8-5-djen-21-7-1954-hoi-nghi-gionevo.html
+
+# Hiệp định Giơ-ne-vơ được ký kết, kết thúc thắng lợi cuộc kháng chiến 9 năm chống Pháp
+
+https://baotanglichsu.vn/vi/Articles/3097/14722/cach-djay-59-nam-20-7-1954-20-7-2013-hiep-djinh-gionevo-djuoc-ky-ket-ket-thuc-thang-loi-cuoc-khang-chien-9-nam-chong-thuc-dan-phap-cua-nhan-dan-viet-nam.html
+
+# 60 năm ký kết Hiệp định Giơ-ne-vơ và một số tư liệu đang lưu giữ tại Bảo tàng Lịch sử Quốc gia
+
+https://baotanglichsu.vn/vi/Articles/3097/16627/60-nam-ky-ket-hiep-djinh-gionevo-va-mot-so-tu-lieu-djang-luu-giu-tai-btlsqg.html
+
+# Kỷ niệm 70 năm ký kết Hiệp định Geneva 1954 - mốc son lịch sử của ngoại giao cách mạng Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/3097/74810/ky-niem-70-nam-ky-ket-hiep-djinh-geneva-1954-2024-moc-son-lich-su-cua-ngoai-giao-cach-mang-viet-nam-bai-1-con-djuong-djen-hoi-nghi-geneva.html
+
+# Giới thiệu tài liệu lưu trữ quốc gia về Chiến dịch Điện Biên Phủ và Hội nghị Giơ-ne-vơ năm 1954
+
+https://baotanglichsu.vn/vi/Articles/3091/74581/gioi-thieu-tai-lieu-luu-tru-quoc-gia-ve-chien-dich-djien-bien-phu-va-hoi-nghi-gio-ne-vo-nam-1954.html
+
+# =========================
+
+# Lớp 7 - Giai đoạn 1954-1960, Đồng Khởi, Mặt trận Dân tộc Giải phóng miền Nam
+
+# =========================
+
+# Mỹ tổ chức cưỡng ép đồng bào miền Bắc di cư vào Nam sau Hiệp định Giơ-ne-vơ
+
+https://baotanglichsu.vn/vi/Articles/3097/14900/8-1954-my-to-chuc-cuong-ep-djong-bao-mien-bac-di-cu-vao-nam.html
+
+# Phong trào Đồng Khởi
+
+https://baotanglichsu.vn/vi/Articles/1002/28436/phong-trao-djong-khoi.html
+
+# Bài học rút ra từ phong trào Đồng Khởi ở Nam Bộ - phần 1
+
+https://baotanglichsu.vn/vi/Articles/3097/71281/bai-hoc-rut-ra-tu-phong-trao-djong-khoi-o-nam-bo-phan-1.html
+
+# 20/12/1960 - Mặt trận Dân tộc Giải phóng miền Nam Việt Nam thành lập
+
+https://baotanglichsu.vn/vi/Articles/3097/18879/20-12-1960-mat-tran-dan-toc-giai-phong-mien-nam-viet-nam-thanh-lap.html
+
+# Kỷ niệm 52 năm thành lập Mặt trận Dân tộc Giải phóng miền Nam Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/3097/13280/ky-niem-52-nam-thanh-lap-mat-tran-dan-toc-giai-phong-mien-nam-viet-nam-20-12-1960-20-12-2012.html
+
+# Mặt trận Dân tộc Giải phóng miền Nam Việt Nam sau Hiệp định Giơ-ne-vơ
+
+https://www.qdnd.vn/ho-so-su-kien/40-nam-chien-thang-vi-dai-30-4/dong-gop-to-lon-cua-mat-tran-dan-toc-giai-phong-mien-nam-viet-nam-trong-khang-chien-chong-my-cuu-nuoc-259905
+
+# =========================
+
+# Lớp 8 - Đường Trường Sơn, Đường Hồ Chí Minh trên biển, chi viện chiến trường miền Nam
+
+# =========================
+
+# Ngày 19/5/1959 - Thành lập Đoàn 559 Bộ đội Trường Sơn
+
+https://baotanglichsu.vn/vi/Articles/2002/68275/ngay-19-5-1959-thanh-lap-djoan-559-bo-djoi-truong-son-djuong-ho-chi-minh.html
+
+# Đường Trường Sơn
+
+https://baotanglichsu.vn/vi/Articles/1002/28406/djuong-truong-son.html
+
+# Đường Trường Sơn - con đường nối hậu phương và tiền tuyến
+
+https://baotanglichsu.vn/vi/Articles/3096/18043/djuong-truong-son-con-djuong-noi-hau-phuong-va-tien-tuyen.html
+
+# Về các di tích của Đường Hồ Chí Minh trên Biển Đông
+
+https://baotanglichsu.vn/vi/Articles/3096/14874/ve-cac-di-tich-cua-djuong-ho-chi-minh-tren-bien-djong.html
+
+# 50 năm thống nhất đất nước - Đường Hồ Chí Minh trên biển
+
+https://baotanglichsu.vn/vi/Articles/3097/75291/50-nam-thong-nhat-djat-nuoc-djuong-ho-chi-minh-tren-bien-minh-chung-song-djong-cho-y-chi-quat-cuong-cua-dan-toc-viet-nam.html
+
+# =========================
+
+# Lớp 9 - Chiến tranh đặc biệt 1961-1965, Ấp Bắc
+
+# =========================
+
+# Chiến thắng Ấp Bắc ngày 2/1/1963
+
+https://baotanglichsu.vn/vi/Articles/2002/61869/chien-thang-ap-bac-ngay-2-1-1963.html
+
+# Kỷ niệm 50 năm chiến thắng Ấp Bắc - Bẻ gãy chiến thuật trực thăng vận, thiết xa vận
+
+https://baotanglichsu.vn/vi/Articles/2002/67950/ky-niem-50-nam-chien-thang-ap-bac-2-1-1963-2-1-2013-be-bay-chien-thuat-truc-thang-van-thiet-xa-van-cua-my-nguy.html
+
+# Bài 2: Các cứ liệu lịch sử khẳng định bản chất cuộc kháng chiến - có nội dung về chiến tranh đặc biệt
+
+https://www.qdnd.vn/phong-chong-dien-bien-hoa-binh/phan-bac-luan-dieu-xuyen-tac-chien-thang-vi-dai-cua-viet-nam-bai-2-cac-cu-lieu-lich-su-khang-dinh-ban-chat-cuoc-khang-chien-tiep-theo-va-het-825005
+
+# =========================
+
+# Lớp 10 - Chiến tranh cục bộ 1965-1968, Vạn Tường, Tết Mậu Thân 1968
+
+# =========================
+
+# Chiến thắng Vạn Tường - mốc quan trọng trong chống chiến tranh cục bộ
+
+https://baotanglichsu.vn/vi/Articles/2002/68044/ky-niem-48-nam-18-8-1965-18-8-2013-chien-thang-van-tuong.html
+
+# Kỷ niệm 48 năm Chiến thắng Vạn Tường
+
+https://baotanglichsu.vn/vi/Articles/3097/14898/ky-niem-48-nam-18-8-1965-18-8-2013-chien-thang-van-tuong.html
+
+# Chiến dịch Chiến tranh cục bộ: mùa khô thứ nhất 1965-1966
+
+https://baotanglichsu.vn/vi/Articles/2002/67987/chien-dich-chien-tranh-cuc-bo-mua-kho-thu-nhat-1965-1966.html
+
+# Cuộc Tổng tiến công và nổi dậy Tết Mậu Thân 1968 - tầm vóc và ý nghĩa lịch sử
+
+https://baotanglichsu.vn/vi/Articles/3097/73672/cuoc-tong-tien-cong-va-noi-day-tet-mau-than-1968-tam-voc-va-y-nghia-lich-su.html
+
+# Kỷ niệm 45 năm Tổng tiến công và nổi dậy Tết Mậu Thân 1968
+
+https://baotanglichsu.vn/vi/Articles/3097/13605/ky-niem-45-nam-tong-tien-cong-va-noi-day-tet-mau-than-30-1-1968-30-1-2013-dang-djung-viet-nam-xuan-1968.html
+
+# Nơi họp và quyết định cuộc Tổng tiến công và nổi dậy Tết Mậu Thân 1968
+
+https://baotanglichsu.vn/vi/Articles/3091/55748/noi-hop-va-quyet-djinh-cuoc-tong-tien-cong-va-noi-day-tet-mau-than-1968.html
+
+# Tổng tiến công và nổi dậy Mậu Thân 1968 - Giá trị lịch sử
+
+https://tulieuvankien.dangcongsan.vn/van-kien-tu-lieu-ve-dang/book/sach-chinh-tri/tong-tien-cong-va-noi-day-mau-than-1968-gia-tri-lich-su-1
+
+# Miền Nam tiến công và nổi dậy sau Tết Mậu Thân, làm phá sản chiến tranh cục bộ
+
+https://baotanglichsu.vn/vi/Articles/3097/15801/22-2-djen-30-3-1969-mien-nam-tien-cong-va-noi-day.html
+
+# =========================
+
+# Lớp 11 - Chiến tranh phá hoại miền Bắc, Hà Nội - Điện Biên Phủ trên không
+
+# =========================
+
+# Kỷ niệm ngày quân dân miền Bắc đánh thắng cuộc chiến tranh phá hoại lần thứ nhất
+
+https://baotanglichsu.vn/vi/Articles/3097/15367/ky-niem-45-nam-ngay-quan-dan-mien-bac-djanh-thang-cuoc-chien-tranh-pha-hoai-lan-thu-nhat-cua-dje-quoc-my-11-1968-11-2013.html
+
+# Đế quốc Mỹ bắt đầu cuộc chiến tranh phá hoại miền Bắc lần thứ hai
+
+https://baotanglichsu.vn/vi/Articles/3097/16077/6-4-1972-dje-quoc-my-bat-djau-cuoc-chien-tranh-pha-hoai-mien-bac-lan-thu-hai.html
+
+# Chiến thắng Hà Nội - Điện Biên Phủ trên không
+
+https://baotanglichsu.vn/VI/Articles/3097/13204/40-nam-nhin-lai-chien-thang-ha-noi-djien-bien-phu-tren-khong.html
+
+# Ảnh tư liệu cuộc kháng chiến chống Mỹ, có nội dung Hà Nội năm 1972 và Hiệp định Paris
+
+https://baotanglichsu.vn/vi/Articles/4105/anh-tu-lieu
+
+# =========================
+
+# Lớp 12 - Việt Nam hóa chiến tranh 1969-1973, Đường 9 - Nam Lào, Mỹ rút quân
+
+# =========================
+
+# Sự kiện Mỹ rút khỏi Việt Nam - có nội dung về Việt Nam hóa chiến tranh
+
+https://baotanglichsu.vn/vi/Articles/3097/16053/41-nam-su-kien-my-rut-khoi-viet-nam-29-3-1973-29-3-2014.html
+
+# Kỷ niệm 40 năm người lính Mỹ cuối cùng rút khỏi miền Nam Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/2002/67981/ky-niem-40-nam-nguoi-linh-my-cuoi-cung-rut-khoi-mien-nam-viet-nam-29-3-1973-29-3-1913.html
+
+# Chiến dịch Đường 9 - Nam Lào làm phá sản một bước quan trọng chiến lược Việt Nam hóa chiến tranh
+
+https://www.qdnd.vn/quoc-phong-an-ninh/xay-dung-quan-doi/chien-dich-duong-9-nam-lao-mang-y-nghia-to-lon-654672
+
+# Chiến thắng Đường 9 - Nam Lào, bước ngoặt thay đổi cục diện chiến tranh
+
+https://sknc.qdnd.vn/ky-niem-sau-sac/chien-thang-duong-9-nam-lao-buoc-ngoat-thay-doi-cuc-dien-chien-tranh-498417
+
+# Cuộc tiến công chiến lược năm 1972
+
+https://www.qdnd.vn/vung-buoc-duoi-quan-ky-quyet-thang/lich-su-quan-doi-nhan-dan-viet-nam/thang-loi-ban-le-trong-tien-trinh-khang-chien-chong-my-cuu-nuoc-806023
+
+# =========================
+
+# Lớp 13 - Hiệp định Paris năm 1973
+
+# =========================
+
+# Hiệp định Paris - một mốc son sáng chói trong lịch sử ngoại giao Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/3097/13500/hiep-djinh-paris-mot-moc-son-sang-choi-trong-lich-su-ngoai-giao-viet-nam.html
+
+# Hiệp định Paris được ký kết ngày 27/1/1973
+
+https://baotanglichsu.vn/vi/Articles/3097/15711/cach-djay-41-nam-27-1-1973-27-1-2014-hiep-djinh-paris-djuoc-ky-ket.html
+
+# Kỷ niệm 40 năm Hiệp định Paris
+
+https://baotanglichsu.vn/vi/Articles/3097/13464/ky-niem-40-nam-hiep-djinh-paris-27-1-1973-27-1-2013.html
+
+# Hiệp định Paris: Bài học về độc lập tự chủ và đoàn kết quốc tế
+
+https://baotanglichsu.vn/vi/Articles/3097/73647/hiep-djinh-paris-bai-hoc-ve-djoc-lap-tu-chu-va-djoan-ket-quoc-te.html
+
+# 40 năm ngày ký Hiệp định Paris - Những cuộc đấu trí ở Paris
+
+https://baotanglichsu.vn/vi/Articles/3097/13504/40-nam-ngay-ky-hiep-djinh-pa-ri-nhung-cuoc-djau-tri-o-pa-ri-cap-bai-trung-le-djuc-tho-xuan-thuy-ky-cuoi.html
+
+# =========================
+
+# Lớp 14 - Tổng tiến công và nổi dậy mùa Xuân 1975
+
+# =========================
+
+# Tổng tiến công và nổi dậy mùa Xuân 1975: chủ trương, kế hoạch chiến lược và thời cơ
+
+https://baotanglichsu.vn/vi/Articles/2002/61999/tong-tien-cong-va-noi-day-mua-xuan-1975-chu-truong-ke-hoach-chien-luoc-va-thoi-co.html
+
+# Đại thắng mùa Xuân 1975 - bài học về sự lãnh đạo, chỉ đạo của Đảng
+
+https://baotanglichsu.vn/vi/Articles/3097/72170/djai-thang-mua-xuan-1975-bai-hoc-ve-su-lanh-djao-chi-djao-cua-djang.html
+
+# Đại thắng mùa Xuân 1975 - thành công xuất sắc của nghệ thuật chỉ đạo chiến tranh
+
+https://baotanglichsu.vn/vi/Articles/3097/75415/djai-thang-mua-xuan-1975-thanh-cong-xuat-sac-cua-nghe-thuat-chi-djao-chien-tranh.html
+
+# Chiến thắng mùa xuân 1975 - những mốc son lịch sử
+
+https://baochinhphu.vn/chien-thang-mua-xuan-1975-nhung-moc-son-lich-su-10274124.htm
+
+# Trưng bày chuyên đề Non sông liền một dải
+
+https://baotanglichsu.vn/vi/Articles/3090/75384/thong-tin-bao-chi-trung-bay-chuyen-dje-non-song-lien-mot-dai.html
+
+# Khai mạc trưng bày chuyên đề Non sông liền một dải
+
+https://baotanglichsu.vn/vi/Articles/3090/75397/bao-tang-lich-su-quoc-gia-khai-mac-trung-bay-chuyen-dje-non-song-lien-mot-dai.html
+
+# Chiến thắng 30/4 - Đỉnh cao chói lọi của sự nghiệp giải phóng dân tộc
+
+https://baotanglichsu.vn/vi/Articles/3097/73875/chien-thang-30-4-djinh-cao-choi-loi-cua-su-nghiep-giai-phong-dan-toc.html
+
+# Chiến thắng của khát vọng hòa bình, độc lập dân tộc và thống nhất đất nước
+
+https://baotanglichsu.vn/vi/Articles/3097/17986/chien-thang-cua-khat-vong-hoa-binh-djoc-lap-dan-toc-va-thong-nhat-djat-nuoc.html
+
+# Kỷ niệm trọng thể 50 năm Giải phóng miền Nam, thống nhất đất nước
+
+https://baochinhphu.vn/truc-tiep-ky-niem-trong-the-50-nam-giai-phong-mien-nam-thong-nhat-dat-nuoc-102250429120220339.htm
+
+# =========================
+
+# Lớp 15 - Chiến dịch Hồ Chí Minh và ngày 30/4/1975
+
+# =========================
+
+# Chiến dịch Hồ Chí Minh lịch sử 26/4-30/4/1975
+
+https://baotanglichsu.vn/vi/Articles/3097/14153/chien-dich-ho-chi-minh-lich-su-26-4-30-4-1975.html
+
+# Chiến dịch Hồ Chí Minh 14-30/4/1975 - trận quyết chiến chiến lược cuối cùng
+
+https://baotanglichsu.vn/vi/Articles/3097/16216/chien-dich-ho-chi-minh-14-30-4-1975-tran-quyet-chien-chien-luoc-cuoi-cung-thang-loi-ket-thuc-hoan-toan-cuoc-chong-my-cuu-nuoc-cua-quan-va-dan-viet-nam.html
+
+# Chiến dịch Hồ Chí Minh 14-30/4/1975 - bản VI
+
+https://baotanglichsu.vn/VI/Articles/3097/16216/chien-dich-ho-chi-minh-14-30-4-1975-tran-quyet-chien-chien-luoc-cuoi-cung-thang-loi-ket-thuc-hoan-toan-cuoc-chong-my-cuu-nuoc-cua-quan-va-dan-viet-nam.html
+
+# Chiến dịch Hồ Chí Minh - trận chiến giữ những cây cầu
+
+https://baotanglichsu.vn/vi/Articles/3097/71462/chien-dich-ho-chi-minh-tran-chien-giu-nhung-cay-cau.html
+
+# Kỳ tích trong Chiến dịch Hồ Chí Minh
+
+https://baotanglichsu.vn/VI/Articles/3097/14190/ky-tich-trong-chien-dich-ho-chi-minh.html
+
+# Năm cánh quân thần tốc tiến về Sài Gòn
+
+https://baotanglichsu.vn/vi/Articles/3129/17989/nam-canh-quan-than-toc-tien-ve-sai-gon.html
+
+# Về bức ảnh xe tăng tiến vào Dinh Độc Lập
+
+https://baotanglichsu.vn/vi/Articles/1508/52372/ve-buc-anh-xe-tang-tien-vao-dinh-djoc-lap.html
+
+# Chiến dịch Hồ Chí Minh lịch sử kết thúc thắng lợi cuộc kháng chiến chống Mỹ cứu nước
+
+https://www.qdnd.vn/vung-buoc-duoi-quan-ky-quyet-thang/lich-su-quan-doi-nhan-dan-viet-nam/chien-dich-ho-chi-minh-lich-su-ket-thuc-thang-loi-cuoc-khang-chien-chong-my-cuu-nuoc-807001
+
+# Chiến dịch Hồ Chí Minh toàn thắng
+
+https://sknc.qdnd.vn/theo-dong-su-kien/chien-dich-ho-chi-minh-toan-thang-503794
+
+# Chiến dịch Hồ Chí Minh - 45 năm nhìn lại
+
+https://tphcm.chinhphu.vn/chien-dich-ho-chi-minh-45-nam-nhin-lai-10120160.htm
+
+# Chiến dịch Hồ Chí Minh: Nét độc đáo trong nghệ thuật quân sự Việt Nam
+
+https://tphcm.chinhphu.vn/chien-dich-ho-chi-minh-net-doc-dao-trong-nghe-thuat-quan-su-viet-nam-10120198.htm
+
+# Chiến công của cánh quân thứ 6
+
+https://baochinhphu.vn/chien-cong-cua-canh-quan-thu-6-102270842.htm
+
+# =========================
+
+# Lớp 16 - Nhân vật tiêu biểu: Hồ Chí Minh, Võ Nguyên Giáp, Văn Tiến Dũng
+
+# =========================
+
+# Tiểu sử Chủ tịch Hồ Chí Minh
+
+https://hochiminh.vn/cuoc-doi-su-nghiep/tieu-su-ho-chi-minh/tieu-su-chu-tich-ho-chi-minh-1890-1969-9?categoryId=102001152
+
+# Lãnh tụ Nguyễn Ái Quốc - Chủ tịch Hồ Chí Minh từ Pác Bó Cách mạng đến Quảng trường Ba Đình lịch sử
+
+https://baotanglichsu.vn/vi/Articles/3097/72584/lanh-tu-nguyen-ai-quoc-chu-tich-ho-chi-minh-tu-pac-bo-cach-mang-djen-quang-truong-ba-djinh-lich-su.html
+
+# Đại tướng Võ Nguyên Giáp, thiên tài quân sự, nhà lãnh đạo có uy tín lớn
+
+https://baotanglichsu.vn/vi/Articles/3097/72773/djai-tuong-vo-nguyen-giap-thien-tai-quan-su-nha-lanh-djao-co-uy-tin-lon-tam-guong-ngoi-sang-ve-djao-djuc-cach-mang.html
+
+# Đại tướng Võ Nguyên Giáp với báo chí cách mạng 1925-1945
+
+https://baotanglichsu.vn/VI/Articles/3096/18524/djai-tuong-vo-nguyen-giap-voi-bao-chi-cach-mang-1925-1945.html
+
+# Kỷ niệm 105 năm Ngày sinh Đại tướng Văn Tiến Dũng
+
+https://baotanglichsu.vn/vi/Articles/3098/73084/ky-niem-105-nam-ngay-sinh-djai-tuong-van-tien-dung-vi-djai-tuong-anh-hung.html
+
+# Vị Đại tướng chỉ huy Chiến dịch Hồ Chí Minh trong những ngày tháng 4/1975
+
+https://baochinhphu.vn/vi-dai-tuong-chi-huy-chien-dich-ho-chi-minh-trong-nhung-ngay-thang-4-1975-102271567.htm
+
+# =========================
+
+# Lớp 17 - Hiện vật, ký ức lịch sử, giáo dục truyền thống
+
+# =========================
+
+# Một số hiện vật về chiến thắng Điện Biên Phủ, tháng 5/1954
+
+https://baotanglichsu.vn/vi/Articles/4057/mot-so-hien-vat-ve-chien-thang-djien-bien-phu-thang-5-1954
+
+# Bảo tàng Chiến thắng Điện Biên Phủ - địa chỉ đỏ giáo dục truyền thống lịch sử
+
+https://baotanglichsu.vn/vi/Articles/3091/74580/bao-tang-chien-thang-djien-bien-phu-djia-chi-djo-giao-duc-truyen-thong-lich-su.html
+
+# Những kỷ vật của Anh hùng liệt sĩ Nguyễn Văn Trỗi hiện lưu giữ tại Bảo tàng Lịch sử Quốc gia
+
 https://baotanglichsu.vn/vi/Articles/3098/62002/nhung-ky-vat-cua-anh-hung-liet-sy-nguyen-van-troi-hien-luu-giu-tai-btlsqg.html
+
+# Hiện vật khác - giai đoạn kháng chiến chống Pháp, chống Mỹ
+
+https://baotanglichsu.vn/vi/Articles/4103/hien-vat-khac
+
+# Ảnh tư liệu - cuộc kháng chiến chống Mỹ, giải phóng miền Nam, thống nhất đất nước
+
+https://baotanglichsu.vn/vi/Articles/4105/anh-tu-lieu
+
+# 70 năm Quân đội nhân dân Việt Nam - album hiện vật, hình ảnh
+
+https://baotanglichsu.vn/vi/Album/11/70-nam-quan-djoi-nhan-dan-viet-nam
+
+# =========================
+
+# Lớp 18 - Nguồn phụ, ký ức, bài viết kỷ niệm, chỉ dùng bổ trợ
+
+# Lưu ý:
+
+# - Các bài dưới đây có tính kỷ niệm, ký ức, truyền thống hoặc bình luận.
+
+# - Không nên xem là nguồn chính duy nhất cho câu trả lời trọng tâm.
+
+# =========================
+
+# Gặp lại một thời huyền thoại
+
+https://baochinhphu.vn/gap-lai-mot-thoi-huyen-thoai-10275200.htm
+
+# Khúc ca mừng chiến thắng lay động con tim
+
+https://baochinhphu.vn/khuc-ca-mung-chien-thang-lay-dong-con-tim-102271876.htm
+
+# Triển lãm Dấu ấn mùa Thu lịch sử
+
+https://baotanglichsu.vn/vi/Articles/3091/18475/trien-lam-dau-an-mua-thu-lich-su-tai-bao-tang-lich-su-quan-su-viet-nam.html

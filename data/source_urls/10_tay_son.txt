@@ -1,90 +1,319 @@
 # 10 - Phong trào Tây Sơn / Triều Tây Sơn
+
 # Mục tiêu:
+
+# - Khái quát phong trào Tây Sơn và triều Tây Sơn từ cuối thế kỷ XVIII đến năm 1802
+
 # - Khởi nghĩa nông dân Tây Sơn năm 1771
-# - Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ
+
+# - Ba anh em Tây Sơn: Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ
+
 # - Nguyễn Huệ / Hoàng đế Quang Trung
-# - Lật đổ chúa Nguyễn, chúa Trịnh
-# - Đánh quân Xiêm, quân Thanh
-# - Chiến thắng Ngọc Hồi - Đống Đa
-# - Thăng Long - Hà Nội thời Tây Sơn
-# - Chính sách xây dựng đất nước của Quang Trung
-# - Văn hóa, quân sự, voi chiến, Bảo tàng Quang Trung
-# - Sự suy yếu và kết thúc triều Tây Sơn
+
+# - Lật đổ chúa Nguyễn ở Đàng Trong, chúa Trịnh ở Đàng Ngoài, góp phần xóa bỏ tình trạng chia cắt Đàng Trong - Đàng Ngoài
+
+# - Đánh quân Xiêm ở Rạch Gầm - Xoài Mút năm 1785
+
+# - Đánh quân Thanh, chiến thắng Ngọc Hồi - Đống Đa năm 1789
+
+# - Thăng Long - Hà Nội thời Tây Sơn, Phú Xuân thời Tây Sơn
+
+# - Chính sách xây dựng đất nước của Quang Trung: khuyến nông, khuyến học, đề cao chữ Nôm, ổn định xã hội sau chiến tranh
+
+# - Văn hóa, quân sự, voi chiến, hiện vật thời Tây Sơn, trống đồng Cảnh Thịnh, văn bản Quang Trung
+
+# - Bảo tàng Quang Trung và ký ức lịch sử về phong trào Tây Sơn
+
+# - Sự suy yếu và kết thúc triều Tây Sơn sau khi Quang Trung mất
+
 # Nguồn ưu tiên: Bảo tàng Lịch sử Quốc gia.
 
 # =========================
+
 # Lớp 1 - Tổng quan phong trào Tây Sơn / Triều Tây Sơn
+
 # =========================
 
 # Triều Tây Sơn 1778-1802
+
 https://baotanglichsu.vn/vi/Articles/4050/trieu-tay-son-1778-1802
 
 # Triều Tây Sơn 1778-1802 - bản khác trong hệ thống trưng bày
+
 https://baotanglichsu.vn/vi/Articles/4084/trieu-tay-son-1778-1802
 
 # Vài nét về Khởi nghĩa nông dân Tây Sơn mùa xuân năm 1771
+
 https://baotanglichsu.vn/vi/Articles/3097/19624/vai-net-ve-khoi-nghia-nong-dan-tay-son-mua-xuan-nam-1771.html
 
+# Vài nét về Khởi nghĩa nông dân Tây Sơn mùa xuân năm 1771 - bản khác
+
+https://baotanglichsu.vn/vi/Articles/2001/68307/vai-net-ve-khoi-nghia-nong-dan-tay-son-mua-xuan-nam-1771.html
+
+# Vua Quang Trung: Những định mệnh lịch sử
+
+https://baotanglichsu.vn/VI/Articles/3096/6119/vua-quang-trung-nhung-djinh-menh-lich-su.html
+
+# Diện mạo oai hùng của Hoàng đế Quang Trung
+
+https://baotanglichsu.vn/vi/Articles/3096/9541/dien-mao-oai-hung-cua-hoang-dje-quang-trung.html
+
 # Bảo tàng Quang Trung và Điện thờ Tây Sơn
+
 https://baotanglichsu.vn/vi/Articles/3096/16947/bao-tang-quang-trung-va-djien-tho-tay-son.html
 
 # =========================
-# Lớp 2 - Nguyễn Huệ / Hoàng đế Quang Trung
-# =========================
 
-# Kỷ niệm 225 năm Hoàng đế Quang Trung - Nguyễn Huệ đại phá quân xâm lược Mãn Thanh
-https://baotanglichsu.vn/vi/Articles/3097/15721/ky-niem-225-nam-1789-2014-hoang-dje-quang-trung-nguyen-hue-djai-pha-quan-xam-luoc-man-thanh.html
-
-# Chính sử nhà Nguyễn viết gì về đối thủ Quang Trung?
-https://baotanglichsu.vn/vi/Articles/3096/12875/chinh-su-nha-nguyen-viet-gi-ve-djoi-thu-quang-trung-1.html
-
-# Hoàng đế Quang Trung và Ngọc Hân công chúa - kỳ 2
-https://baotanglichsu.vn/vi/Articles/3096/7161/hoang-dje-quang-trung-va-ngoc-han-cong-chua-ky-2.html
-
-# Thực hư chuyện vua Quang Trung cầu hôn công chúa nhà Thanh
-https://baotanglichsu.vn/vi/Articles/3096/9220/thuc-hu-chuyen-vua-quang-trung-cau-hon-cong-chua-nha-thanh.html
-
-# Giải mã kết cục của con cháu vua Quang Trung
-https://baotanglichsu.vn/vi/Articles/3096/12666/giai-ma-ket-cuc-tham-cua-con-chau-vua-quang-trung.html
+# Lớp 2 - Tây Sơn tam kiệt, Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ
 
 # =========================
-# Lớp 3 - Đại phá quân Thanh, Ngọc Hồi - Đống Đa
+
+# Nguyễn Huệ và câu chuyện "vua anh, vua em"
+
+https://baotanglichsu.vn/vi/Articles/3098/12451/nguyen-hue-va-cau-chuyen-vua-anh-vua-em.html
+
+# Tại sao anh em nhà Tây Sơn "nồi da xáo thịt"? - kỳ 1
+
+https://baotanglichsu.vn/vi/Articles/3096/11570/tai-sao-anh-em-nha-tay-son-noi-da-xao-thit-ky-1.html
+
+# Gốc tích họ Hồ của vua Quang Trung
+
+https://baotanglichsu.vn/vi/Articles/2001/65337/goc-tich-ho-ho-cua-vua-quang-trung.html
+
+# Bảo tàng Quang Trung và Điện thờ Tây Sơn - có nội dung quê hương ba anh em Tây Sơn
+
+https://baotanglichsu.vn/vi/Articles/3096/16947/bao-tang-quang-trung-va-djien-tho-tay-son.html
+
 # =========================
 
-# Cuộc tấn công thần tốc nhất lịch sử Việt
-https://baotanglichsu.vn/vi/Articles/3096/12071/cuoc-tan-cong-than-toc-nhat-lich-su-viet.html
-
-# Cuộc tấn công thần tốc nhất lịch sử Việt - bản khác
-https://baotanglichsu.vn/vi/Articles/2001/66240/cuoc-tan-cong-than-toc-nhat-lich-su-viet.html
-
-# Thăng Long - Hà Nội thời Tây Sơn
-https://baotanglichsu.vn/vi/Articles/2001/65172/thang-long-ha-noi-thoi-tay-son.html
-
-# Gò Đống Đa không phải đắp từ xác giặc?
-https://baotanglichsu.vn/vi/Articles/2001/66168/go-djong-dja-khong-phai-djap-tu-xac-giac.html
-
-# Sự tích pho tượng Đức Ông ở Chùa Bộc - liên quan vua Quang Trung
-https://baotanglichsu.vn/vi/Articles/3096/18972/su-tich-pho-tuong-djuc-ong-o-chua-boc.html
+# Lớp 3 - Lật đổ chúa Nguyễn, chúa Trịnh, thống nhất đất nước
 
 # =========================
-# Lớp 4 - Quân sự Tây Sơn, voi chiến, nghệ thuật tác chiến
+
+# Vài nét về Khởi nghĩa nông dân Tây Sơn mùa xuân năm 1771 - có nội dung lật đổ các thế lực phong kiến suy tàn
+
+https://baotanglichsu.vn/vi/Articles/3097/19624/vai-net-ve-khoi-nghia-nong-dan-tay-son-mua-xuan-nam-1771.html
+
+# Diện mạo oai hùng của Hoàng đế Quang Trung - có nội dung đánh tan quân Xiêm, đánh đổ chúa Trịnh
+
+https://baotanglichsu.vn/vi/Articles/3096/9541/dien-mao-oai-hung-cua-hoang-dje-quang-trung.html
+
+# Nhà Tây Sơn lật đổ chúa Nguyễn, chúa Trịnh, vua Lê trong bối cảnh cuối thế kỷ XVIII
+
+https://baotanglichsu.vn/vi/Articles/2001/65434/hoang-dje-quang-trung-va-ngoc-han-cong-chua-ky-2.html
+
+# Khánh thành Nhà trưng bày Bảo tàng Quang Trung tỉnh Bình Định - có nội dung lật đổ chúa Trịnh
+
+https://baotanglichsu.vn/vi/Articles/3091/69636/khanh-thanh-nha-trung-bay-bao-tang-quang-trung-tinh-binh-djinh.html
+
+# Xứ Quảng Nam xưa: Thời Tây Sơn
+
+https://baotanglichsu.vn/vi/Articles/3101/73279/xu-quang-nam-xua-thoi-tay-son.html
+
 # =========================
 
-# Voi lửa - cỗ xe tăng khủng khiếp của vua Quang Trung
-https://baotanglichsu.vn/vi/Articles/2001/65793/voi-lua-co-xe-tang-khung-khiep-cua-vua-quang-trung.html
+# Lớp 4 - Kháng chiến chống Xiêm, chiến thắng Rạch Gầm - Xoài Mút năm 1785
 
-# Những trận đánh khiến người phương Bắc kinh hồn bạt vía - có nội dung về Tây Sơn/Quang Trung
-https://baotanglichsu.vn/vi/Articles/3096/12005/nhung-tran-djanh-khien-nguoi-phuong-bac-kinh-hon-bat-via.html
+# =========================
 
-# Những vua chúa đánh trận siêu đẳng trong sử Việt - có Nguyễn Huệ
+# Di tích lịch sử Rạch Gầm - Xoài Mút
+
+https://baotanglichsu.vn/vi/Articles/3091/19881/di-tich-lich-su-rach-gam-xoai-mut.html
+
+# 10 trận thủy chiến kinh điển trong sử Việt - phần 2, có Rạch Gầm - Xoài Mút
+
+https://baotanglichsu.vn/vi/Articles/2001/66590/10-tran-thuy-chien-kinh-djien-trong-su-viet-2.html
+
+# Tuyển tập những năm Tỵ lẫy lừng trong sử Việt - có trận Rạch Gầm - Xoài Mút năm 1785
+
+https://baotanglichsu.vn/vi/Articles/2001/66500/tuyen-tap-nhung-nam-ty-lay-lung-trong-su-viet.html
+
+# Nguyễn Huệ và câu chuyện "vua anh, vua em" - có nội dung đánh tan quân Xiêm La
+
+https://baotanglichsu.vn/vi/Articles/3098/12451/nguyen-hue-va-cau-chuyen-vua-anh-vua-em.html
+
+# Những vua chúa đánh trận siêu đẳng trong sử Việt - có trận Rạch Gầm - Xoài Mút
+
 https://baotanglichsu.vn/vi/Articles/3098/14211/nhung-vua-chua-djanh-tran-sieu-djang-trong-su-viet-3.html
 
 # =========================
-# Lớp 5 - Thăng Long, văn hóa, di tích, ký ức Tây Sơn
+
+# Lớp 5 - Đại phá quân Thanh, Ngọc Hồi - Đống Đa năm 1789
+
 # =========================
 
+# Kỷ niệm 225 năm Hoàng đế Quang Trung - Nguyễn Huệ đại phá quân xâm lược Mãn Thanh
+
+https://baotanglichsu.vn/vi/Articles/3097/15721/ky-niem-225-nam-1789-2014-hoang-dje-quang-trung-nguyen-hue-djai-pha-quan-xam-luoc-man-thanh.html
+
+# Cuộc tấn công thần tốc nhất lịch sử Việt
+
+https://baotanglichsu.vn/vi/Articles/3096/12071/cuoc-tan-cong-than-toc-nhat-lich-su-viet.html
+
+# Cuộc tấn công thần tốc nhất lịch sử Việt - bản khác
+
+https://baotanglichsu.vn/vi/Articles/2001/66240/cuoc-tan-cong-than-toc-nhat-lich-su-viet.html
+
 # Thăng Long - Hà Nội thời Tây Sơn
+
 https://baotanglichsu.vn/vi/Articles/2001/65172/thang-long-ha-noi-thoi-tay-son.html
 
-# Bảo tàng Quang Trung và Điện thờ Tây Sơn
-https://baotanglichsu.vn/vi/Articles/3096/16947/bao-tang-quang-trung-va-djien-tho-tay-son.html
+# Thăng Long - Hà Nội thời Tây Sơn 1788-1802
+
+https://baotanglichsu.vn/vi/Articles/2001/65379/thang-long-ha-noi-thoi-tay-son-1788-1802.html
+
+# Gò Đống Đa không phải đắp từ xác giặc?
+
+https://baotanglichsu.vn/vi/Articles/2001/66168/go-djong-dja-khong-phai-djap-tu-xac-giac.html
+
+# Sự tích pho tượng Đức Ông ở Chùa Bộc - liên quan vua Quang Trung
+
+https://baotanglichsu.vn/vi/Articles/3096/18972/su-tich-pho-tuong-djuc-ong-o-chua-boc.html
+
+# Những trận đánh khiến người phương Bắc kinh hồn bạt vía - có nội dung về Tây Sơn/Quang Trung
+
+https://baotanglichsu.vn/vi/Articles/3096/12005/nhung-tran-djanh-khien-nguoi-phuong-bac-kinh-hon-bat-via.html
+
+# =========================
+
+# Lớp 6 - Chính sách xây dựng đất nước của Quang Trung
+
+# =========================
+
+# Triều Tây Sơn 1778-1802 - có nội dung khuyến nông, khuyến học, đề cao chữ Nôm
+
+https://baotanglichsu.vn/vi/Articles/4050/trieu-tay-son-1778-1802
+
+# Thăng Long - Hà Nội thời Tây Sơn 1788-1802 - có nội dung khuyến học, Viện Sùng Chính, chữ Nôm
+
+https://baotanglichsu.vn/vi/Articles/2001/65379/thang-long-ha-noi-thoi-tay-son-1788-1802.html
+
+# Vua Quang Trung với Văn Miếu
+
+https://baotanglichsu.vn/vi/Articles/3096/7178/vua-quang-trung-voi-van-mieu.html
+
+# Vua Quang Trung với bia tiến sĩ ở Văn Miếu Hà Nội
+
+https://baotanglichsu.vn/vi/Articles/3096/6415/vua-quang-trung-voi-bia-tien-si-o-van-mieu-ha-noi.html
+
+# Ấn vàng truyền quốc của chúa Nguyễn Phúc Chu năm 1709 - có đoạn tổng quan về Quang Trung khôi phục đất nước sau 1789
+
+https://baotanglichsu.vn/vi/Articles/1001/19817/bao-vat-quoc-gia-an-vang-truyen-quoc-cua-chua-nguyen-phuc-chu-nam-1709.html
+
+# =========================
+
+# Lớp 7 - Quân sự Tây Sơn, voi chiến, nghệ thuật tác chiến
+
+# =========================
+
+# Voi lửa - cỗ xe tăng khủng khiếp của vua Quang Trung
+
+https://baotanglichsu.vn/vi/Articles/2001/65793/voi-lua-co-xe-tang-khung-khiep-cua-vua-quang-trung.html
+
+# Những vua chúa đánh trận siêu đẳng trong sử Việt - có Nguyễn Huệ
+
+https://baotanglichsu.vn/vi/Articles/3098/14211/nhung-vua-chua-djanh-tran-sieu-djang-trong-su-viet-3.html
+
+# 10 trận thủy chiến kinh điển trong sử Việt - phần 2, có nghệ thuật thủy chiến Rạch Gầm - Xoài Mút
+
+https://baotanglichsu.vn/vi/Articles/2001/66590/10-tran-thuy-chien-kinh-djien-trong-su-viet-2.html
+
+# Cuộc tấn công thần tốc nhất lịch sử Việt - có nghệ thuật hành quân thần tốc
+
+https://baotanglichsu.vn/vi/Articles/3096/12071/cuoc-tan-cong-than-toc-nhat-lich-su-viet.html
+
+# =========================
+
+# Lớp 8 - Văn hóa, hiện vật, văn bản, bảo vật thời Tây Sơn
+
+# =========================
+
+# Cổ vật thời Tây Sơn 1788-1802
+
+https://baotanglichsu.vn/vi/Articles/3101/71082/co-vat-thoi-tay-son-1788-1802.html
+
+# Cổ vật thời Tây Sơn 1788-1802 - bản VI
+
+https://baotanglichsu.vn/VI/Articles/3101/71082/co-vat-thoi-tay-son-1788-1802.html
+
+# Văn bản Quang Trung lưu giữ tại Bảo tàng Lịch sử Quốc gia
+
+https://baotanglichsu.vn/VI/Articles/3101/18710/van-ban-quang-trung-luu-giu-tai-bao-tang-lich-su-quoc-gia.html
+
+# Trống đồng Cảnh Thịnh
+
+https://baotanglichsu.vn/vi/Articles/1001/28213/trong-djong-canh-thinh.html
+
+# Trống đồng Cảnh Thịnh - tiếng vọng ngàn năm
+
+https://baotanglichsu.vn/vi/Articles/1002/28553/trong-djong-canh-thinh-tieng-vong-ngan-nam.html
+
+# Trống đồng Cảnh Thịnh độc bản thời Tây Sơn
+
+https://baotanglichsu.vn/vi/Articles/2004/65978/trong-djong-canh-thinh-djoc-ban-thoi-tay-son.html
+
+# Giới thiệu Bảo vật Quốc gia: Trống đồng Cảnh Thịnh
+
+https://baotanglichsu.vn/VI/Articles/1001/13638/gioi-thieu-bao-vat-quoc-gia-8-trong-djong-canh-thinh-bau-vat-thoi-tay-son.html
+
+# =========================
+
+# Lớp 9 - Sự suy yếu và kết thúc triều Tây Sơn
+
+# =========================
+
+# Vua Quang Trung: Những định mệnh lịch sử - có nội dung Quang Trung mất năm 1792 và Tây Sơn suy yếu
+
+https://baotanglichsu.vn/VI/Articles/3096/6119/vua-quang-trung-nhung-djinh-menh-lich-su.html
+
+# Bắc thành thời Tây Sơn: Những gương mặt tiêu biểu
+
+https://baotanglichsu.vn/vi/Articles/3096/6396/bac-thanh-thoi-tay-son-nhung-guong-mat-tieu-bieu.html
+
+# Di hài vua Quang Trung ở Nghệ An? - có nội dung Quang Trung mất năm 1792 và Phượng Hoàng Trung Đô
+
+https://baotanglichsu.vn/vi/Articles/3096/7201/di-hai-vua-quang-trung-o-nghe-an.html
+
+# Giải mã kết cục của con cháu vua Quang Trung
+
+https://baotanglichsu.vn/vi/Articles/3096/12666/giai-ma-ket-cuc-tham-cua-con-chau-vua-quang-trung.html
+
+# =========================
+
+# Lớp 10 - Nguồn phụ, giai thoại, chỉ dùng bổ trợ
+
+# Lưu ý: Các bài dưới đây có tính giai thoại, tranh luận hoặc chuyện hậu cung, không nên xem là nguồn chính cho câu trả lời trọng tâm.
+
+# =========================
+
+# Chính sử nhà Nguyễn viết gì về đối thủ Quang Trung?
+
+https://baotanglichsu.vn/vi/Articles/3096/12875/chinh-su-nha-nguyen-viet-gi-ve-djoi-thu-quang-trung-1.html
+
+# Hoàng đế Quang Trung và Ngọc Hân công chúa - kỳ 2
+
+https://baotanglichsu.vn/vi/Articles/3096/7161/hoang-dje-quang-trung-va-ngoc-han-cong-chua-ky-2.html
+
+# Hoàng đế Quang Trung và Ngọc Hân công chúa - bản khác
+
+https://baotanglichsu.vn/vi/Articles/2001/65434/hoang-dje-quang-trung-va-ngoc-han-cong-chua-ky-2.html
+
+# Thực hư chuyện vua Quang Trung cầu hôn công chúa nhà Thanh
+
+https://baotanglichsu.vn/vi/Articles/3096/9220/thuc-hu-chuyen-vua-quang-trung-cau-hon-cong-chua-nha-thanh.html
+
+# Tại sao anh em nhà Tây Sơn "nồi da xáo thịt"? - kỳ 1
+
+https://baotanglichsu.vn/vi/Articles/3096/11570/tai-sao-anh-em-nha-tay-son-noi-da-xao-thit-ky-1.html
+
+# Gò Đống Đa không phải đắp từ xác giặc?
+
+https://baotanglichsu.vn/vi/Articles/2001/66168/go-djong-dja-khong-phai-djap-tu-xac-giac.html
+
+# Đi tìm ngoại hình vua Quang Trung
+
+https://baotanglichsu.vn/vi/Articles/2001/66173/dji-tim-ngoai-hinh-vua-quang-trung.html
+
+# Về số phận của hai người con của vua Quang Trung và công chúa Ngọc Hân
+
+https://baotanglichsu.vn/vi/Articles/3096/6257/ve-so-phan-cua-hai-nguoi-con-cua-vua-quang-trung-va-cong-chua-ngoc-han.html
