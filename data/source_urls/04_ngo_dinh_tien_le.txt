@@ -1,30 +1,187 @@
 # 04 - Triều Ngô, Đinh, Tiền Lê
-# Mục tiêu: nhà Ngô, loạn 12 sứ quân, Đinh Bộ Lĩnh, nhà Đinh, Đại Cồ Việt, Hoa Lư, Lê Hoàn, nhà Tiền Lê, kháng chiến chống Tống.
+
+# Mục tiêu:
+
+# - Khái quát giai đoạn Ngô - Đinh - Tiền Lê từ năm 939 đến năm 1009
+
+# - Nhà Ngô, Ngô Quyền xưng vương, định đô ở Cổ Loa
+
+# - Tình hình đất nước sau nhà Ngô và loạn 12 sứ quân
+
+# - Đinh Bộ Lĩnh dẹp loạn 12 sứ quân, thống nhất đất nước
+
+# - Nhà Đinh, quốc hiệu Đại Cồ Việt, kinh đô Hoa Lư
+
+# - Tổ chức nhà nước thời Đinh, các nhân vật tiêu biểu như Đinh Tiên Hoàng, Nguyễn Bặc, Lưu Cơ
+
+# - Lê Hoàn, Dương Vân Nga, sự thành lập nhà Tiền Lê
+
+# - Kháng chiến chống Tống năm 981
+
+# - Vai trò của Hoa Lư trong giai đoạn Đinh - Tiền Lê
+
+# - Ý nghĩa lịch sử: củng cố nền độc lập tự chủ sau thời Bắc thuộc
+
 # Nguồn ưu tiên: Bảo tàng Lịch sử Quốc gia.
 
+# =========================
+
+# Lớp 1 - Tổng quan triều Ngô - Đinh - Tiền Lê
+
+# =========================
+
 # Tổng quan triều Ngô - Đinh - Tiền Lê
+
 https://baotanglichsu.vn/vi/Articles/4046/trieu-ngo-djinh-tien-le-939-1009
 
+# Trưng bày thường xuyên - phần Việt Nam từ thế kỷ 10 đến giữa thế kỷ 20
+
+https://baotanglichsu.vn/vi/Articles/4094/Trung-bay-thuong-xuyen
+
+# =========================
+
+# Lớp 2 - Nhà Ngô và bước đầu xây dựng quốc gia độc lập
+
+# =========================
+
+# Ngô Quyền - người mở đầu kỷ nguyên độc lập cho đất nước
+
+https://baotanglichsu.vn/vi/Articles/3098/16483/ngo-quyen-nguoi-mo-djau-ky-nguyen-djoc-lap-cho-djat-nuoc-thoat-khoi-nghin-nam-bac-thuoc.html
+
+# Ngô Quyền - người mở đầu kỷ nguyên độc lập của Đại Việt
+
+https://baotanglichsu.vn/vi/Articles/3098/13071/ngo-quyen-nguoi-mo-djau-ky-nguyen-djoc-lap-cua-djai-viet.html
+
+# Kỷ niệm chiến thắng Bạch Đằng lần thứ nhất năm 938
+
+https://baotanglichsu.vn/vi/Articles/3097/15404/ky-niem-1075-nam-11-938-11-2013-chien-thang-bach-djang-lan-thu-nhat.html
+
+# Lễ kỷ niệm 1080 năm Ngô Quyền xưng vương, định đô tại Cổ Loa
+
+https://baotanglichsu.vn/vi/Articles/3091/70738/le-ky-niem-1080-nam-ngo-quyen-xung-vuong-djinh-djo-tai-co-loa-939-2019.html
+
+# =========================
+
+# Lớp 3 - Loạn 12 sứ quân và Đinh Bộ Lĩnh thống nhất đất nước
+
+# =========================
+
 # Nhà Đinh với sự nghiệp thống nhất đất nước
+
 https://baotanglichsu.vn/vi/Articles/3096/10060/nha-djinh-voi-su-nghiep-thong-nhat-djat-nuoc.html
 
 # Nhà Đinh với sự nghiệp thống nhất và phát triển đất nước
+
 https://baotanglichsu.vn/vi/Articles/3129/19596/nha-djinh-voi-su-nghiep-thong-nhat-va-phat-trien-djat-nuoc.html
 
+# Tầm nhìn chiến lược của Đinh Bộ Lĩnh
+
+https://baotanglichsu.vn/vi/Articles/3096/14529/tam-nhin-chien-luoc-cua-djinh-bo-linh.html
+
+# Đinh Tiên Hoàng bị sử sách gọi nhầm tên?
+
+https://baotanglichsu.vn/vi/Articles/3096/9139/djinh-tien-hoang-bi-su-sach-goi-nham-ten.html
+
+# Phát hiện thành lũy của vua Đinh Bộ Lĩnh ở Thái Bình
+
+https://baotanglichsu.vn/vi/Articles/3096/12554/phat-hien-thanh-luy-cua-vua-djinh-bo-linh-o-thai-binh.html
+
+# Những vua chúa đánh trận siêu đẳng trong sử Việt - có Đinh Bộ Lĩnh
+
+https://baotanglichsu.vn/vi/Articles/3098/14210/nhung-vua-chua-djanh-tran-sieu-djang-trong-su-viet-2.html
+
+# Ai là vị sứ quân một tai nổi tiếng trong sử Việt?
+
+https://baotanglichsu.vn/vi/Articles/3098/13723/ai-la-vi-su-quan-mot-tai-noi-tieng-trong-su-viet.html
+
 # Hội thảo khoa học về Đinh Tiên Hoàng
+
 https://baotanglichsu.vn/vi/Articles/3091/74847/hoi-thao-khoa-hoc-djinh-tien-hoang-tam-voc-lich-su-va-khat-vong-dan-toc.html
 
-# Lê Đại Hành, vị vua đầu tiên của nhà Tiền Lê
-https://baotanglichsu.vn/vi/Articles/3098/14759/le-djai-hanh-941-1005-vi-vua-djau-tien-cua-nha-tien-le.html
+# =========================
 
-# Ai là tể tướng đầu tiên trong lịch sử Việt Nam?
-https://baotanglichsu.vn/vi/Articles/3098/15741/ai-la-te-tuong-djau-tien-trong-lich-su-viet-nam.html
+# Lớp 4 - Đại Cồ Việt và kinh đô Hoa Lư
 
-# Án xưa: Chuyện về hoàng hậu hai triều
-https://baotanglichsu.vn/vi/Articles/2001/65233/an-xua-chuyen-ve-hoang-hau-hai-trieu.html
+# =========================
 
 # Kinh đô Hoa Lư: Sự thật và hư ảo?
+
 https://baotanglichsu.vn/vi/Articles/3096/72811/kinh-djo-hoa-lu-su-that-va-hu-ao.html
 
-# Trưng bày thường xuyên - phần Việt Nam từ thế kỷ 10 đến giữa thế kỷ 20
-https://baotanglichsu.vn/vi/Articles/4094/Trung-bay-thuong-xuyen
+# Khai quật khảo cổ học di tích Cố đô Hoa Lư
+
+https://baotanglichsu.vn/vi/Articles/3090/5959/khai-quat-khao-co-hoc-di-tich-co-djo-hoa-lu.html
+
+# Khai quật di tích Cố đô Hoa Lư
+
+https://baotanglichsu.vn/vi/Articles/3127/6090/khai-quat-di-tich-co-djo-hoa-lu.html
+
+# Giá trị lịch sử to lớn của kinh thành Hoa Lư
+
+https://baotanglichsu.vn/vi/Articles/3096/73646/gia-tri-lich-su-to-lon-cua-kinh-thanh-hoa-lu.html
+
+# Ninh Bình: Bảo tồn và phát huy giá trị di sản Cố đô Hoa Lư
+
+https://baotanglichsu.vn/vi/Articles/3091/73328/ninh-binh-bao-ton-va-phat-huy-gia-tri-di-san-co-djo-hoa-lu.html
+
+# Thêm những giá trị thú vị về kinh đô Hoa Lư
+
+https://baotanglichsu.vn/vi/Articles/3127/72149/them-nhung-gia-tri-thu-vi-ve-kinh-djo-hoa-lu.html
+
+# Đi tìm thành cổ cố đô Hoa Lư - cấu trúc đắp dựng thành đen
+
+https://baotanglichsu.vn/vi/Articles/3096/75536/dji-tim-thanh-co-co-djo-hoa-lu-ky-1-bat-ngo-voi-cau-truc-djap-dung-thanh-den.html
+
+# =========================
+
+# Lớp 5 - Nhân vật và tổ chức nhà nước thời Đinh
+
+# =========================
+
+# Hội thảo khoa học “Vai trò lịch sử của Thái sư Lưu Cơ”
+
+https://baotanglichsu.vn/vi/Articles/3098/73119/hoi-thao-khoa-hoc-vai-tro-lich-su-cua-thai-su-luu-co.html
+
+# Ai là tể tướng đầu tiên trong lịch sử Việt Nam?
+
+https://baotanglichsu.vn/vi/Articles/3098/15741/ai-la-te-tuong-djau-tien-trong-lich-su-viet-nam.html
+
+# =========================
+
+# Lớp 6 - Lê Hoàn, Dương Vân Nga và nhà Tiền Lê
+
+# =========================
+
+# Lê Đại Hành, vị vua đầu tiên của nhà Tiền Lê
+
+https://baotanglichsu.vn/vi/Articles/3098/14759/le-djai-hanh-941-1005-vi-vua-djau-tien-cua-nha-tien-le.html
+
+# Dấu ấn năm Thìn trong lịch sử dân tộc Việt Nam - có Lê Hoàn lên ngôi năm 980
+
+https://baotanglichsu.vn/vi/Articles/3096/9945/dau-an-nam-thin-trong-lich-su-dan-toc-vn.html
+
+# Án xưa: Chuyện về hoàng hậu hai triều
+
+https://baotanglichsu.vn/vi/Articles/2001/65233/an-xua-chuyen-ve-hoang-hau-hai-trieu.html
+
+# =========================
+
+# Lớp 7 - Kháng chiến chống Tống năm 981
+
+# =========================
+
+# Mùa Xuân năm 981 - Kháng chiến chống quân Tống lần thứ nhất thắng lợi
+
+https://baotanglichsu.vn/vi/Articles/3097/15910/mua-xuan-nam-981-khang-chien-chong-quan-tong-lan-thu-nhat-thang-loi.html
+
+# 10 trận thủy chiến kinh điển trong sử Việt - có kháng chiến chống Tống năm 981
+
+https://baotanglichsu.vn/vi/Articles/2001/66589/10-tran-thuy-chien-kinh-djien-trong-su-viet-1.html
+
+# Tuyển tập những năm Tỵ lẫy lừng trong sử Việt - có cuộc kháng chiến năm 981
+
+https://baotanglichsu.vn/vi/Articles/3096/13519/tuyen-tap-nhung-nam-ty-lay-lung-trong-su-viet.html
+
+# Giải mã bí ẩn giấc mơ của Quốc sư Khuông Việt - có bối cảnh chống Tống năm 981
+
+https://baotanglichsu.vn/vi/Articles/3096/7883/giai-ma-bi-an-giac-mo-cua-quoc-su-khuong-viet.html

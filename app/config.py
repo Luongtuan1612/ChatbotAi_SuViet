@@ -20,7 +20,7 @@ class Settings:
     CHROMA_COLLECTION_NAME: str = os.getenv("CHROMA_COLLECTION_NAME", "suviet_history")
 
     TOP_K: int = int(os.getenv("TOP_K", "5"))
-    SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "0.7"))
+    SIMILARITY_THRESHOLD: float = float(os.getenv("SIMILARITY_THRESHOLD", "1.2"))
 
 
 settings = Settings()

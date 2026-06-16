@@ -1,84 +1,235 @@
 # 07 - Nhà Hồ
+
 # Mục tiêu:
-# - Khái quát triều Hồ 1400-1407
-# - Hồ Quý Ly, Hồ Hán Thương
+
+# - Khái quát triều Hồ từ năm 1400 đến năm 1407
+
+# - Hồ Quý Ly, Hồ Hán Thương, Hồ Nguyên Trừng
+
 # - Quốc hiệu Đại Ngu
+
 # - Dời đô về An Tôn, Tây Đô, Thành nhà Hồ
+
 # - Cải cách kinh tế, chính trị, giáo dục, quân sự
-# - Tiền giấy, hạn điền, hạn nô, thi cử, chữ Nôm
+
+# - Tiền giấy, luật bảo vệ tiền tệ, hạn điền, hạn nô, thi cử, chữ Nôm
+
+# - Xây dựng quân đội, thủy quân, thành lũy và hệ thống phòng thủ
+
 # - Chống quân Minh, nguyên nhân thất bại, bài học lòng dân
+
+# - Nhìn nhận hai mặt về nhà Hồ: cải cách táo bạo nhưng chưa tạo được nền tảng lòng dân vững chắc
+
 # Nguồn ưu tiên: Bảo tàng Lịch sử Quốc gia.
 
 # =========================
+
 # Lớp 1 - Tổng quan triều Hồ
+
 # =========================
 
 # Triều Hồ 1400-1407
+
 https://baotanglichsu.vn/vi/Articles/4048/trieu-ho-1400-1407
 
 # Ý thức độc lập dân tộc của vương triều Hồ
+
 https://baotanglichsu.vn/vi/Articles/3096/12974/y-thuc-djoc-lap-dan-toc-cua-vuong-trieu-ho.html
 
+# Nhìn nhận lại môn lịch sử - Một nửa sự thật về nhà Hồ
+
+https://baotanglichsu.vn/vi/Articles/3091/12975/nhin-nhan-lai-mon-lich-su-mot-nua-su-that-ve-nha-ho.html
+
+# Rồng đá, rùa đá bị chặt đầu: Hé lộ những ân oán lịch sử
+
+https://baotanglichsu.vn/vi/Articles/2001/66043/rong-dja-rua-dja-bi-chat-djau-he-lo-nhung-an-oan-lich-su.html
+
 # =========================
-# Lớp 2 - Hồ Quý Ly, gia thế, quốc hiệu Đại Ngu
+
+# Lớp 2 - Hồ Quý Ly, Hồ Hán Thương, Hồ Nguyên Trừng, quốc hiệu Đại Ngu
+
 # =========================
 
 # Gia thế của Hồ Quý Ly và ý nghĩa của quốc hiệu Đại Ngu
+
 https://baotanglichsu.vn/vi/Articles/3098/15076/gia-the-cua-ho-quy-ly-va-y-nghia-cua-quoc-hieu-djai-ngu.html
 
 # Vì sao Hồ Quý Ly chọn tên nước là Đại Ngu?
+
 https://baotanglichsu.vn/vi/Articles/3098/13720/vi-sao-ho-quy-ly-chon-ten-nuoc-la-djai-ngu.html
 
 # Hồ Quý Ly củng cố quyền lực thế nào?
+
 https://baotanglichsu.vn/vi/Articles/3098/12951/ho-quy-ly-cung-co-quyen-luc-the-nao.html
 
 # Trần Nghệ Tông biết trước âm mưu cướp ngôi của Hồ Quý Ly?
+
 https://baotanglichsu.vn/vi/Articles/3096/11559/tran-nghe-tong-biet-truoc-am-muu-cuop-ngoi-cua-ho-quy-ly.html
 
+# Chuyện chưa kể về "ông già nước Nam" - có nội dung về Hồ Nguyên Trừng và nhà Hồ chống Minh
+
+https://baotanglichsu.vn/vi/Articles/3098/13611/chuyen-chua-ke-ve-ong-gia-nuoc-nam.html
+
 # =========================
-# Lớp 3 - Cải cách của Hồ Quý Ly
+
+# Lớp 3 - Cải cách chính trị, kinh tế, xã hội của Hồ Quý Ly
+
 # =========================
 
 # Những cải cách của Hồ Quý Ly cuối thế kỷ XIV, đầu thế kỷ XV
+
 https://baotanglichsu.vn/vi/Articles/3098/14720/nhung-cai-cach-cua-ho-quy-ly-cuoi-the-ky-xiv-djau-the-ky-xv.html
 
 # Hồ Quý Ly và những cải cách lớn về kinh tế
+
 https://baotanglichsu.vn/vi/Articles/3098/13166/ho-quy-ly-va-nhung-cai-cach-lon-ve-kinh-te.html
 
-# Những cải cách trong thi cử triều Hồ
-https://baotanglichsu.vn/vi/Articles/3091/6355/nhung-cai-cach-trong-thi-cu-trieu-ho.html
-
 # Cải cách Hồ Quý Ly
+
 https://baotanglichsu.vn/vi/Articles/3129/19687/cai-cach-ho-quy-ly.html
 
+# 10 cuộc “đổi mới” quan trọng trong lịch sử Việt Nam - có nội dung về cải cách Hồ Quý Ly
+
+https://baotanglichsu.vn/vi/Articles/2001/66599/10-cuoc-djoi-moi-quan-trong-trong-su-viet-nam-1.html
+
+# Hồ Quý Ly củng cố quyền lực thế nào? - có nội dung quản lý dân cư, tuyển chọn nhân tài, thi cử
+
+https://baotanglichsu.vn/vi/Articles/3098/12951/ho-quy-ly-cung-co-quyen-luc-the-nao.html
+
 # =========================
-# Lớp 4 - Dời đô, Thành nhà Hồ, Tây Đô
+
+# Lớp 4 - Tiền giấy, hạn điền, hạn nô, luật pháp và quản lý kinh tế
+
+# =========================
+
+# Lần đầu tiên có luật bảo vệ tiền tệ
+
+https://baotanglichsu.vn/vi/Articles/3096/6956/lan-djau-tien-co-luat-bao-ve-tien-te.html
+
+# Những cải cách của Hồ Quý Ly cuối thế kỷ XIV, đầu thế kỷ XV - có nội dung hạn điền, hạn nô, tiền giấy
+
+https://baotanglichsu.vn/vi/Articles/3098/14720/nhung-cai-cach-cua-ho-quy-ly-cuoi-the-ky-xiv-djau-the-ky-xv.html
+
+# Ý thức độc lập dân tộc của vương triều Hồ - có nội dung quan chế, hình luật nước Đại Ngu
+
+https://baotanglichsu.vn/vi/Articles/3096/12974/y-thuc-djoc-lap-dan-toc-cua-vuong-trieu-ho.html
+
+# =========================
+
+# Lớp 5 - Giáo dục, thi cử, chữ Nôm, Nho học thực dụng
+
+# =========================
+
+# Những cải cách trong thi cử triều Hồ
+
+https://baotanglichsu.vn/vi/Articles/3091/6355/nhung-cai-cach-trong-thi-cu-trieu-ho.html
+
+# Những cải cách của Hồ Quý Ly cuối thế kỷ XIV, đầu thế kỷ XV - có nội dung chữ Nôm và giáo dục
+
+https://baotanglichsu.vn/vi/Articles/3098/14720/nhung-cai-cach-cua-ho-quy-ly-cuoi-the-ky-xiv-djau-the-ky-xv.html
+
+# Một công trình độc đáo của Hồ Quý Ly ngoài Thành nhà Hồ - có nội dung chữ Nôm, phê phán Tống Nho
+
+https://baotanglichsu.vn/vi/Articles/3091/10208/mot-cong-trinh-djoc-djao-cua-ho-quy-ly-ngoai-thanh-nha-ho.html
+
+# =========================
+
+# Lớp 6 - Dời đô, Thành nhà Hồ, Tây Đô
+
 # =========================
 
 # Vì sao Hồ Quý Ly quyết định dời đô về An Tôn?
+
 https://baotanglichsu.vn/vi/Articles/3098/13143/vi-sao-ho-quy-ly-quyet-djinh-doi-djo-ve-an-ton.html
 
 # Thành nhà Hồ chính thức trở thành Di sản thế giới
+
 https://baotanglichsu.vn/vi/Articles/1508/51418/thanh-nha-ho-chinh-thuc-tro-thanh-di-san-the-gioi.html
 
 # Chùm ảnh: Thành nhà Hồ Thanh Hóa - tòa kinh thành xây bằng đá, di sản văn hóa thế giới
+
 https://baotanglichsu.vn/vi/Articles/3096/11641/chum-anh-thanh-nha-ho-thanh-hoa-toa-kinh-thanh-xay-bang-dja-di-san-van-hoa-the-gioi.html
 
 # 4 cửa và kỹ thuật xếp đá tuyệt đẹp ở Thành nhà Hồ
+
 https://baotanglichsu.vn/vi/Articles/3091/11632/4-cua-va-ky-thuat-xep-dja-tuyet-djep-o-thanh-nha-ho.html
 
 # Một công trình độc đáo của Hồ Quý Ly ngoài Thành nhà Hồ
+
 https://baotanglichsu.vn/vi/Articles/3091/10208/mot-cong-trinh-djoc-djao-cua-ho-quy-ly-ngoai-thanh-nha-ho.html
 
 # Khảo cổ học tại Di sản thế giới Thành nhà Hồ - Bài 1
+
 https://baotanglichsu.vn/vi/Articles/3127/75475/khao-co-hoc-tai-di-san-the-gioi-thanh-nha-ho-bai-1-giai-ma-dau-tich-kinh-thanh-dja.html
 
+# Thành nhà Hồ - Thanh Hóa: thêm bằng chứng giải mã bí ẩn
+
+https://baotanglichsu.vn/vi/Articles/2001/62828/thanh-nha-ho-thanh-hoa-them-bang-chung-giai-ma-bi-an.html
+
+# Ai chặt đầu rồng đá Thành nhà Hồ?
+
+https://baotanglichsu.vn/vi/Articles/3091/9972/ai-chat-djau-rong-dja-thanh-nha-ho.html
+
+# Mổ xẻ "đất rồng chầu rắn cuốn" của Thành nhà Hồ
+
+https://baotanglichsu.vn/vi/Articles/3096/14058/mo-xe-djat-rong-chau-ran-cuon-cua-thanh-nha-ho.html
+
 # =========================
-# Lớp 5 - Thất bại của nhà Hồ, chống quân Minh, bài học lịch sử
+
+# Lớp 7 - Quân sự, thủy quân, hệ thống phòng thủ và chống quân Minh
+
+# =========================
+
+# Nhà Hồ mưu tính đánh đuổi quân Minh xâm lược thế nào?
+
+https://baotanglichsu.vn/vi/Articles/2001/66513/nha-ho-muu-tinh-djanh-djuoi-quan-minh-xam-luoc-the-nao.html
+
+# Chỉ tồn tại 7 năm, thủy quân nhà Hồ vẫn mạnh vượt thời đại
+
+https://baotanglichsu.vn/vi/Articles/3096/8897/chi-ton-tai-7-nam-thuy-quan-nha-ho-van-manh-vuot-thoi-djai-ky-3.html
+
+# Chuyện chưa kể về "ông già nước Nam" - có nội dung quân Hồ chống quân Minh
+
+https://baotanglichsu.vn/vi/Articles/3098/13611/chuyen-chua-ke-ve-ong-gia-nuoc-nam.html
+
+# Hành trình tìm mộ Hồ Quý Ly - có nội dung nhà Hồ chuẩn bị phòng vệ trước quân Minh
+
+https://baotanglichsu.vn/vi/Articles/3091/6843/hanh-trinh-tim-mo-ho-quy-ly-tu-nhung-giac-mong-la.html
+
+# =========================
+
+# Lớp 8 - Thất bại của nhà Hồ, bài học lòng dân
+
 # =========================
 
 # Bài học về lòng dân của nhà Hồ
+
 https://baotanglichsu.vn/vi/Articles/3096/12305/bai-hoc-ve-long-dan-cua-nha-ho.html
 
-# Thành nhà Hồ - Thanh Hóa: thêm bằng chứng giải mã bí ẩn
-https://baotanglichsu.vn/vi/Articles/2001/62828/thanh-nha-ho-thanh-hoa-them-bang-chung-giai-ma-bi-an.html
+# Nhìn nhận lại môn lịch sử - Một nửa sự thật về nhà Hồ
+
+https://baotanglichsu.vn/vi/Articles/3091/12975/nhin-nhan-lai-mon-lich-su-mot-nua-su-that-ve-nha-ho.html
+
+# Rồng đá, rùa đá bị chặt đầu: Hé lộ những ân oán lịch sử
+
+https://baotanglichsu.vn/vi/Articles/2001/66043/rong-dja-rua-dja-bi-chat-djau-he-lo-nhung-an-oan-lich-su.html
+
+# =========================
+
+# Lớp 9 - Nguồn phụ, giai thoại, chỉ dùng bổ trợ
+
+# Lưu ý: Các bài dưới đây có tính kể chuyện/giai thoại, không nên xem là nguồn chính cho câu trả lời trọng tâm.
+
+# =========================
+
+# Trần Nghệ Tông biết trước âm mưu cướp ngôi của Hồ Quý Ly?
+
+https://baotanglichsu.vn/vi/Articles/3096/11559/tran-nghe-tong-biet-truoc-am-muu-cuop-ngoi-cua-ho-quy-ly.html
+
+# Hành trình tìm mộ Hồ Quý Ly: Từ những giấc mộng lạ
+
+https://baotanglichsu.vn/vi/Articles/3091/6843/hanh-trinh-tim-mo-ho-quy-ly-tu-nhung-giac-mong-la.html
+
+# Mổ xẻ "đất rồng chầu rắn cuốn" của Thành nhà Hồ
+
+https://baotanglichsu.vn/vi/Articles/3096/14058/mo-xe-djat-rong-chau-ran-cuon-cua-thanh-nha-ho.html

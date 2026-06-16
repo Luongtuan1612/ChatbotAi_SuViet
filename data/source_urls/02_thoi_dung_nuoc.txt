@@ -1,51 +1,179 @@
 # 02 - Thời dựng nước đầu tiên
-# Mục tiêu: Văn Lang, Âu Lạc, vua Hùng, An Dương Vương, Cổ Loa, Đông Sơn, trống đồng, đời sống cư dân Việt cổ.
+
+# Mục tiêu:
+
+# - Khái quát thời dựng nước đầu tiên trong lịch sử Việt Nam
+
+# - Nhà nước Văn Lang, Âu Lạc
+
+# - Vua Hùng, thời Hùng Vương
+
+# - An Dương Vương, Cổ Loa, Cao Lỗ, nỏ thần
+
+# - Văn hóa Đông Sơn, trống đồng Đông Sơn, trống đồng Ngọc Lũ
+
+# - Đời sống vật chất, tinh thần, tổ chức xã hội của cư dân Việt cổ
+
+# - Cơ sở khảo cổ học của sự hình thành nhà nước sơ khai
+
 # Nguồn ưu tiên: Bảo tàng Lịch sử Quốc gia.
 
+# =========================
+
+# Lớp 1 - Tổng quan thời dựng nước đầu tiên
+
+# =========================
+
 # Tổng quan Việt Nam thời dựng nước đầu tiên
+
 https://baotanglichsu.vn/vi/Articles/4010/viet-nam-thoi-dung-nuoc-djau-tien
 
 # Nhà nước Văn Lang - Âu Lạc
+
 https://baotanglichsu.vn/vi/Articles/4043/nha-nuoc-van-lang-au-lac
 
 # Văn Lang - Âu Lạc, nhà nước đầu tiên trong lịch sử
+
 https://baotanglichsu.vn/vi/Articles/3090/15953/bao-tang-lich-su-quoc-gia-to-chuc-gio-hoc-lich-su-voi-chu-dje-van-lang-au-lac-nha-nuoc-djau-tien-trong-lich-su.html
 
 # Sinh hoạt CLB Em yêu lịch sử - Văn Lang, Âu Lạc
+
 https://baotanglichsu.vn/VI/Articles/3316/17101/sinh-hoat-clb-em-yeu-lich-su-voi-chu-dje-van-lang-au-lac-nha-nuoc-djau-tien-trong-lich-su.html
 
 # Về các nhà nước sơ khai ở miền Bắc Việt Nam
+
 https://baotanglichsu.vn/vi/Articles/3096/10144/ve-cac-nha-nuoc-so-khai-o-mien-bac-viet-nam.html
 
 # Từ Văn Lang đến Thăng Long - quá trình tìm chọn kinh đô
+
 https://baotanglichsu.vn/vi/Articles/3096/7097/tu-van-lang-djen-thang-long-qua-trinh-tim-chon-kinh-djo-muon-djoi-cua-djat-nuoc.html
 
+# =========================
+
+# Lớp 2 - Vua Hùng, thời Hùng Vương và cơ sở hình thành nhà nước sơ khai
+
+# =========================
+
+# Giải mã thời Hùng Vương thông qua khảo cổ học
+
+https://baotanglichsu.vn/vi/Articles/2001/62798/giai-ma-thoi-hung-vuong-thong-qua-khao-co-hoc.html
+
+# Thời Hùng Vương: Từ tâm thức đến lịch sử
+
+https://baotanglichsu.vn/vi/Articles/2001/65055/thoi-hung-vuong-tu-tam-thuc-djen-lich-su.html
+
+# Văn hóa Đông Sơn ở Việt Nam 90 năm phát hiện và nghiên cứu - phần cuối, có nội dung về cấu trúc xã hội Đông Sơn
+
+https://baotanglichsu.vn/vi/Articles/3101/16793/van-hoa-djong-son-o-viet-nam-90-nam-phat-hien-va-nghien-cuu-phan-cuoi.html
+
+# =========================
+
+# Lớp 3 - Âu Lạc, An Dương Vương, Cổ Loa, Cao Lỗ và nỏ thần
+
+# =========================
+
 # Thành Cổ Loa - Kinh đô nước Âu Lạc
+
 https://baotanglichsu.vn/vi/Articles/3096/62046/thanh-co-loa-kinh-djo-nuoc-au-lac.html
 
 # Cổ Loa - công trình phòng thủ sớm nhất
+
 https://baotanglichsu.vn/vi/Articles/3096/10191/bai-2-co-loa-cong-trinh-phong-thu-som-nhat.html
 
 # Di tích Cổ Loa đón Bằng Di tích quốc gia đặc biệt
+
 https://baotanglichsu.vn/vi/Articles/1508/51804/di-tich-co-loa-djon-bang-di-tich-quoc-gia-djac-biet.html
 
 # Tướng quân Cao Lỗ và chiếc lẫy nỏ
+
 https://baotanglichsu.vn/VI/Articles/3096/16815/tim-hieu-ve-tuong-quan-cao-lo-va-chiec-lay-no-trung-bay-o-bao-tang-lich-su-quoc-gia.html
 
+# Nỏ thần An Dương Vương - Từ huyền thoại đến sự thật lịch sử
+
+https://baotanglichsu.vn/vi/Articles/3096/17444/no-than-an-duong-vuong-tu-huyen-thoai-djen-su-that-lich-su.html
+
+# Nỏ thần Liên Châu - Nỗi khiếp đảm của giặc ngoại xâm phương Bắc
+
+https://baotanglichsu.vn/vi/Articles/3096/15792/no-than-lien-chau-noi-khiep-djam-cua-giac-ngoai-xam-phuong-bac.html
+
+# Phục dựng nỏ thần Cổ Loa
+
+https://baotanglichsu.vn/vi/Articles/2001/65087/phuc-dung-no-than-co-loa.html
+
+# =========================
+
+# Lớp 4 - Văn hóa Đông Sơn và đời sống cư dân Việt cổ
+
+# =========================
+
+# Văn hóa Đông Sơn, khoảng 2.500 - 2.000 năm cách ngày nay
+
+https://baotanglichsu.vn/vi/Articles/4017/van-hoa-djong-son-khoang-2-500-2-000-nam-cach-ngay-nay
+
 # Lịch sử phát hiện và nghiên cứu văn hóa Đông Sơn ở Việt Nam
+
 https://baotanglichsu.vn/vi/Articles/3101/68508/lich-su-phat-hien-va-nghien-cuu-van-hoa-djong-son-o-viet-nam.html
 
+# Văn hóa Đông Sơn - phát hiện và nghiên cứu
+
+https://baotanglichsu.vn/vi/Articles/3099/14397/van-hoa-djong-son-phat-hien-va-nghien-cuu.html
+
+# Tổng thuật tọa đàm khoa học quốc tế: Văn hóa Đông Sơn và nguồn gốc dân tộc Việt
+
+https://baotanglichsu.vn/vi/Articles/3101/16823/tong-thuat-toa-djam-khoa-hoc-quoc-te-van-hoa-djong-son-va-nguon-goc-dan-toc-viet.html
+
+# Những tín hiệu Đông Sơn
+
+https://baotanglichsu.vn/vi/Articles/3101/68515/nhung-tin-hieu-djong-son.html
+
 # Sưu tập trang sức Đông Sơn
+
 https://baotanglichsu.vn/VI/Articles/3101/17300/suu-tap-trang-suc-djong-son-tai-bao-tang-lich-su-quoc-gia.html
 
-# Trống đồng Cổ Loa
-https://baotanglichsu.vn/vi/Articles/3091/9120/trong-djong-co-loa-minh-van-va-mot-cach-hieu-moi.html
-
-# Trống đồng Hải Bối
-https://baotanglichsu.vn/vi/Articles/1508/50111/trong-djong-hai-boi.html
-
 # Thạp đồng - loại hình bản sắc của văn hóa Đông Sơn
+
 https://baotanglichsu.vn/vi/Articles/2005/61929/thap-djong-loai-hinh-ban-sac-cua-van-hoa-djong-son.html
 
 # Kho báu độc nhất vô nhị của quốc gia - văn hóa Đông Sơn
+
 https://baotanglichsu.vn/vi/Articles/3101/73003/co-mot-kho-bau-djoc-nhat-vo-nhi-cua-quoc-gia.html
+
+# =========================
+
+# Lớp 5 - Trống đồng Đông Sơn và bảo vật tiêu biểu
+
+# =========================
+
+# Trống đồng Đông Sơn, hiện vật tiêu biểu của nền văn minh Việt Nam thời dựng nước
+
+https://baotanglichsu.vn/vi/Articles/3101/16689/trong-djong-djong-son-hien-vat-tieu-bieu-cua-nen-van-minh-viet-nam-thuo-dung-nuoc-phan-ii-va-het.html
+
+# Trống đồng Cổ Loa
+
+https://baotanglichsu.vn/vi/Articles/3091/9120/trong-djong-co-loa-minh-van-va-mot-cach-hieu-moi.html
+
+# Trống đồng Hải Bối
+
+https://baotanglichsu.vn/vi/Articles/1508/50111/trong-djong-hai-boi.html
+
+# Giới thiệu bảo vật quốc gia: Trống đồng Ngọc Lũ
+
+https://baotanglichsu.vn/vi/Articles/1001/13602/gioi-thieu-bao-vat-quoc-gia-1-trong-djong-ngoc-lu-hien-vat-tieu-bieu-nhat-cua-nen-van-hoa-djong-son.html
+
+# Một cách giải mã hoa văn trống đồng Ngọc Lũ của nền văn hóa Đông Sơn Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/3101/16534/mot-cach-giai-ma-hoa-van-trong-djong-ngoc-lu-cua-nen-van-hoa-djong-son-viet-nam.html
+
+# =========================
+
+# Lớp 6 - Quân sự, kỹ thuật và đời sống thời dựng nước
+
+# =========================
+
+# Sức mạnh thủy quân Việt từ cổ chí kim - kỳ 1, có nội dung về thuyền thời Hùng Vương
+
+https://baotanglichsu.vn/vi/Articles/2001/65746/suc-manh-thuy-quan-viet-tu-co-chi-kim-ky-1.html
+
+# Hình tượng voi trong nghệ thuật Đông Sơn và vấn đề lịch sử tương quan
+
+https://baotanglichsu.vn/VI/Articles/3101/71804/hinh-tuong-voi-trong-nghe-thuat-djong-son-va-van-dje-lich-su-tuong-quan.html

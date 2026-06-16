@@ -1,110 +1,409 @@
 # 12 - Việt Nam từ năm 1858 đến năm 1945
+
 # Mục tiêu:
-# - Pháp xâm lược Việt Nam từ năm 1858
-# - Phong trào yêu nước chống Pháp cuối thế kỷ XIX
-# - Nguyễn Trung Trực, Nguyễn Tri Phương
-# - Nguyễn Ái Quốc - Hồ Chí Minh
-# - Việt Minh, lực lượng vũ trang cách mạng
-# - Cách mạng tháng Tám năm 1945
-# - Chính phủ Lâm thời
-# - Tuyên ngôn Độc lập
-# - Ngày 2/9/1945, nước Việt Nam Dân chủ Cộng hòa
+
+# - Khái quát cuộc đấu tranh giành độc lập của dân tộc Việt Nam từ năm 1858 đến năm 1945
+
+# - Thực dân Pháp xâm lược Việt Nam từ năm 1858 và chính sách cai trị thuộc địa
+
+# - Phong trào yêu nước chống Pháp cuối thế kỷ XIX: Nguyễn Tri Phương, Nguyễn Trung Trực, Cần Vương, Ba Đình, Hương Khê, Hoàng Hoa Thám
+
+# - Phong trào yêu nước đầu thế kỷ XX: Phan Bội Châu, Duy Tân hội, Đông Du, Phan Châu Trinh, Duy Tân, Đông Kinh Nghĩa Thục
+
+# - Việt Nam Quốc dân Đảng, Nguyễn Thái Học, khởi nghĩa Yên Bái
+
+# - Nguyễn Ái Quốc - Hồ Chí Minh trên hành trình tìm đường cứu nước
+
+# - Sự ra đời của Đảng Cộng sản Việt Nam năm 1930
+
+# - Các cao trào cách mạng 1930-1931, 1936-1939, 1939-1945
+
+# - Việt Minh, Pác Bó, Tân Trào, lực lượng vũ trang cách mạng
+
+# - Đội Việt Nam Tuyên truyền Giải phóng quân
+
+# - Tổng khởi nghĩa Cách mạng tháng Tám năm 1945
+
+# - Chính phủ Lâm thời nước Việt Nam Dân chủ Cộng hòa
+
+# - Tuyên ngôn Độc lập ngày 2/9/1945
+
+# - Sự ra đời của nước Việt Nam Dân chủ Cộng hòa
+
 # Nguồn ưu tiên:
+
 # - Bảo tàng Lịch sử Quốc gia
+
 # - Trang thông tin Hồ Chí Minh
+
 # - Tư liệu Văn kiện Đảng
+
 # - Cổng thông tin Chính phủ
 
+# =========================
+
+# Lớp 1 - Tổng quan Việt Nam 1858-1945
 
 # =========================
-# Lớp 1 - Phong trào chống Pháp cuối thế kỷ XIX
+
+# Cuộc đấu tranh giành độc lập của dân tộc Việt Nam 1858-1945
+
+https://baotanglichsu.vn/vi/Articles/4052/cuoc-djau-tranh-gianh-djoc-lap-cua-dan-toc-viet-nam-1858-1945
+
+# Trưng bày thường xuyên - có nội dung lịch sử Việt Nam từ giữa thế kỷ XIX đến nay
+
+https://baotanglichsu.vn/vi/Articles/3144/trung-bay-thuong-xuyen
+
+# Giờ học lịch sử: Cuộc đấu tranh giành độc lập của nhân dân Việt Nam từ 1858 đến năm 1945
+
+https://baotanglichsu.vn/VI/Articles/3316/12659/ghi-nhan-tu-mot-gio-hoc-lich-su-cua-truong-thcs-nguyen-tat-thanh-tai-bao-tang-lich-su-quoc-gia.html
+
+# Ảnh tư liệu giai đoạn 1858-1945
+
+https://baotanglichsu.vn/vi/Articles/4092/anh-tu-lieu
+
+# =========================
+
+# Lớp 2 - Pháp xâm lược Việt Nam, chống Pháp cuối thế kỷ XIX
+
 # =========================
 
 # Nguyễn Trung Trực - một anh hùng dân tộc đặc biệt
+
 https://baotanglichsu.vn/vi/Articles/1508/51474/nguyen-trung-truc-mot-anh-hung-dan-toc-djac-biet.html
 
 # Khởi nghĩa Nguyễn Trung Trực 1861-1868
+
 https://baotanglichsu.vn/vi/Articles/3097/15075/khoi-nghia-nguyen-trung-truc-1861-1868-bao-gio-nuoc-nam-het-co-thi-moi-het-nguoi-nam-djanh-tay.html
 
 # Theo dấu người xưa - Hỏa hồng Nhựt Tảo oanh thiên địa
+
 https://baotanglichsu.vn/vi/Articles/3096/12463/theo-dau-nguoi-xua-ky-11-hoa-hong-nhut-tao-oanh-thien-djia.html
 
 # Chuyện về chiếc chiếu cổ tắm máu anh hùng Nguyễn Trung Trực
+
 https://baotanglichsuquocgia.vn/vi/Articles/3098/13210/chuyen-ve-chiec-chieu-co-tam-mau-anh-hung-nguyen-trung-truc.html
 
-# Thành Hà Nội từ bị tấn công, thất thủ đến chiếm đóng và phá hủy
+# Thành Hà Nội từ bị tấn công, thất thủ đến chiếm đóng và phá hủy 1873-1897
+
 https://baotanglichsuquocgia.vn/vi/Articles/3097/73430/thanh-ha-noi-tu-bi-tan-cong-that-thu-djen-djen-chiem-djong-va-pha-huy-mot-thoi-ky-bi-trang-trong-lich-su-can-djai-viet-nam-1873-1897.html
 
+# Địa danh Ba Đình và Quảng trường Ba Đình, Hà Nội - có nội dung về khởi nghĩa Ba Đình
+
+https://baotanglichsu.vn/vi/Articles/3096/14937/djia-danh-ba-djinh-va-quang-truong-ba-dinh-ha-noi.html
+
+# Đinh Công Tráng 1842-1887 - Lãnh tụ cuộc khởi nghĩa Ba Đình trong phong trào Cần Vương
+
+https://baotanglichsu.vn/vi/Articles/3098/15545/djinh-cong-trang-1842-1887-lanh-tu-cuoc-khoi-nghia-ba-djinh-trong-phong-trao-can-vuong-chong-phap-cuoi-the-ky-xix.html
+
+# Dụ Cần Vương - Đỉnh cao của truyền thống yêu nước
+
+https://baotanglichsu.vn/vi/Articles/3096/12032/du-can-vuong-djinh-cao-cua-truyen-thong-yeu-nuoc.html
+
+# Súng trường do Cao Thắng chế tạo trong cuộc khởi nghĩa Hương Khê 1885-1896
+
+https://baotanglichsu.vn/vi/Articles/1002/13780/sung-truong-do-cao-thang-che-tao-trong-cuoc-khoi-nghia-huong-khe-1885-1896.html
 
 # =========================
-# Lớp 2 - Nguyễn Ái Quốc - Hồ Chí Minh trước năm 1945
-# =========================
 
-# Tiểu sử Hồ Chí Minh
-https://hochiminh.vn/cuoc-doi-su-nghiep/tieu-su-ho-chi-minh
-
+# Lớp 3 - Phong trào yêu nước đầu thế kỷ XX
 
 # =========================
-# Lớp 3 - Cách mạng tháng Tám năm 1945
+
+# Phong trào Đông Du 1905-1908 - một hình thức xây dựng lực lượng cách mạng những năm đầu thế kỷ XX
+
+https://baotanglichsu.vn/vi/Articles/3097/14624/phong-trao-djong-du-1905-1908-mot-hinh-thuc-xay-dung-luc-luong-cach-mang-nhung-nam-djau-the-ky-xx.html
+
+# Duy Tân Hội - một tổ chức chống Pháp những năm đầu thế kỷ XX ở Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/2001/68013/duy-tan-hoi-mot-to-chuc-chong-phap-nhung-nam-djau-the-ky-xx-o-viet-nam.html
+
+# Trang trọng lễ giỗ lần thứ 84 của chí sĩ yêu nước Phan Bội Châu
+
+https://baotanglichsu.vn/vi/Articles/3091/75017/trang-trong-le-gio-lan-thu-84-cua-chi-si-yeu-nuoc-phan-boi-chau.html
+
+# Phan Châu Trinh - đại diện tri thức Việt Nam đầu thế kỷ XX
+
+https://baotanglichsu.vn/vi/Articles/2001/66932/phan-chau-trinh-djai-dien-tri-thuc-viet-nam-djau-the-ky-xx.html
+
+# Phan Châu Trinh với tư tưởng canh tân đất nước
+
+https://baotanglichsu.vn/vi/Articles/3096/19514/phan-chau-trinh-voi-tu-tuong-canh-tan-djat-nuoc.html
+
+# Phong trào Duy Tân đầu thế kỷ XX
+
+https://baotanglichsu.vn/vi/Articles/3096/7456/phong-trao-duy-tan-djau-the-ky-xx.html
+
+# Đông Kinh Nghĩa Thục và tư tưởng cải cách giáo dục
+
+https://baotanglichsu.vn/vi/Articles/2001/66339/djong-kinh-nghia-thuc-va-tu-tuong-cai-cach-giao-duc.html
+
+# 130 năm thăng trầm chữ Việt - Ngọn lửa Đông Kinh Nghĩa Thục
+
+https://baotanglichsu.vn/vi/Articles/3096/9833/130-nam-thang-tram-chu-viet-ky-6-ngon-lua-djong-kinh-nghia-thuc.html
+
+# =========================
+
+# Lớp 4 - Việt Nam Quốc dân Đảng, Nguyễn Thái Học, khởi nghĩa Yên Bái
+
+# =========================
+
+# Nguyễn Thái Học - Vị lãnh tụ của Việt Nam Quốc dân Đảng
+
+https://baotanglichsu.vn/vi/Articles/3098/19711/nguyen-thai-hoc-vi-lanh-tu-cua-viet-nam-quoc-dan-djang.html
+
+# Kỷ niệm 83 năm khởi nghĩa Yên Bái 10/2/1930
+
+https://baotanglichsu.vn/vi/Articles/3097/13668/ky-niem-83-nam-khoi-nghia-yen-bai-10-2-1930-10-2-2013.html
+
+# Kỷ niệm 84 năm khởi nghĩa Yên Bái - Không thành công thì thành nhân
+
+https://baotanglichsu.vn/vi/Articles/2002/68123/ky-niem-84-nam-khoi-nghia-yen-bai-10-2-1930-10-2-2014-khong-thanh-cong-thi-thanh-nhan.html
+
+# 17/6/1930 - Kết cục bi tráng của các lãnh tụ Việt Nam Quốc dân Đảng và giá trị lịch sử cuộc khởi nghĩa Yên Bái
+
+https://baotanglichsu.vn/vi/Articles/3097/16510/17-6-1930-ket-cuc-bi-trang-cua-cac-lanh-tu-viet-nam-quoc-dan-djang-va-gia-tri-lich-su-cuoc-khoi-nghia-yen-bai.html
+
+# Hiện vật khác - có nội dung máy chém thực dân Pháp, Nguyễn Thái Học và chiến sĩ Việt Nam Quốc dân Đảng
+
+https://baotanglichsu.vn/vi/Articles/4093/hien-vat-khac
+
+# =========================
+
+# Lớp 5 - Nguyễn Ái Quốc - Hồ Chí Minh trước năm 1945
+
+# =========================
+
+# Tiểu sử Chủ tịch Hồ Chí Minh 1890-1969
+
+https://hochiminh.vn/cuoc-doi-su-nghiep/tieu-su-ho-chi-minh/tieu-su-chu-tich-ho-chi-minh-1890-1969-9?categoryId=102001152
+
+# Nguyễn Ái Quốc và sự ra đời của Đảng Cộng sản Việt Nam
+
+https://baotanglichsu.vn/VI/Articles/3316/13922/gio-hoc-lich-su-tai-bao-tang-lich-su-quoc-gia-chu-dje-nguyen-ai-quoc-va-su-ra-djoi-cua-djang-cong-san-viet-nam.html
+
+# Hành trình theo chân Bác 1911-1941
+
+https://baotanglichsu.vn/vi/Articles/3097/14396/ky-niem-123-nam-ngay-sinh-chu-tich-ho-chi-minh-19-5-1890-19-5-2013-hanh-trinh-theo-chan-bac-1911-1941.html
+
+# Lãnh tụ Nguyễn Ái Quốc về nước trực tiếp chỉ đạo cách mạng
+
+https://hochiminh.vn/hoc-va-lam-theo-bac/hoc-va-lam-theo-bac/lanh-tu-nguyen-ai-quoc-ve-nuoc-truc-tiep-chi-dao-cach-mang-3939
+
+# Tư liệu ảnh Chủ tịch Hồ Chí Minh từ năm 1930-1945
+
+https://hochiminh.vn/tu-lieu-anh/tu-lieu-anh-chu-tich-ho-chi-minh-tu-nam-1930-1945.html
+
+# Hồ Chí Minh - Biên niên tiểu sử, tập 2: 1930 - 9/1945
+
+https://tulieuvankien.dangcongsan.vn/c-mac-angghen-lenin-ho-chi-minh/book/ho-chi-minh/tieu-su-cuoc-doi-va-su-nghiep/ho-chi-minh-bien-nien-tieu-su-tap-2-1930-91945-22
+
+# Hồ Chí Minh 1890-1969 - Tư liệu Văn kiện Đảng
+
+https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/phong-trao-cong-san-cong-nhan-quoc-te/cac-lanh-tu-va-cac-nha-lanh-dao-noi-tieng/ho-chi-minh-1890-1969-3081
+
+# =========================
+
+# Lớp 6 - Đảng Cộng sản Việt Nam ra đời năm 1930 và cao trào cách mạng
+
+# =========================
+
+# Ngày thành lập Đảng Cộng sản Việt Nam 3-2-1930
+
+https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/su-kien-va-nhan-chung/ngay-thanh-lap-dang-cong-san-viet-nam-3-2-1930-3342
+
+# Đảng Cộng sản Việt Nam ra đời - Bước ngoặt lịch sử của cách mạng Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/3097/17673/djang-cong-san-viet-nam-ra-djoi-buoc-ngoat-lich-su-cua-cach-mang-viet-nam.html
+
+# Ngọn cờ cách mạng Việt Nam dưới sự lãnh đạo của Đảng từ 1930 đến 1945
+
+https://baotanglichsu.vn/VI/Articles/3090/15832/bao-tang-lich-su-quoc-gia-voi-gio-hoc-lich-su-ngon-co-cach-mang-viet-nam-duoi-su-lanh-djao-cua-djang-tu-1930-djen-1945.html
+
+# Kỷ niệm 85 năm ngày thành lập Đảng Cộng sản Việt Nam 3/2/1930-3/2/2015
+
+https://baotanglichsu.vn/vi/Album/10/ky-niem-85-nam-ngay-thanh-lap-djang-cong-san-viet-nam-3-2-1930-3-2-2015
+
+# Nhóm báo chí cách mạng thời kỳ 1936-1939
+
+https://baotanglichsu.vn/vi/Articles/4053/nhom-bao-chi-cach-mang-thoi-ky-1936-1939
+
+# =========================
+
+# Lớp 7 - Việt Minh, Pác Bó, Tân Trào, lực lượng vũ trang cách mạng
+
+# =========================
+
+# Mặt trận Việt Minh với cách mạng Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/3096/19262/mat-tran-viet-minh-voi-cach-mang-viet-nam.html
+
+# Chương trình Việt Minh - Tư liệu Văn kiện Đảng
+
+https://tulieuvankien.dangcongsan.vn/van-kien-tu-lieu-ve-dang/hoi-nghi-bch-trung-uong/khoa-i/chuong-trinh-viet-minh-665
+
+# Diễn ca Mười chính sách của Việt Minh
+
+https://tulieuvankien.dangcongsan.vn/c-mac-angghen-lenin-ho-chi-minh/ho-chi-minh/nghien-cuu-hoc-tap-tu-tuong/dien-ca-muoi-chinh-sach-cua-viet-minh-2545
+
+# Lãnh tụ Nguyễn Ái Quốc - Chủ tịch Hồ Chí Minh từ Pác Bó Cách mạng đến Quảng trường Ba Đình lịch sử
+
+https://baotanglichsu.vn/vi/Articles/3097/72584/lanh-tu-nguyen-ai-quoc-chu-tich-ho-chi-minh-tu-pac-bo-cach-mang-djen-quang-truong-ba-djinh-lich-su.html
+
+# Cội nguồn cách mạng Việt Nam - Pác Bó
+
+https://pacbo.hochiminh.vn/PacBodata/pano/info.html
+
+# Tân Trào - Thủ đô Khu Giải phóng
+
+https://baotanglichsu.vn/vi/Articles/2001/66913/tan-trao-thu-djo-khu-giai-phong.html
+
+# Lũng Bó - nơi lãnh tụ Hồ Chí Minh quyết định thành lập Đội Việt Nam Tuyên truyền Giải phóng quân
+
+https://baotanglichsu.vn/vi/Articles/2002/68108/lung-bo-noi-lanh-tu-ho-chi-minh-quyet-djinh-thanh-lap-djoi-viet-nam-tuyen-truyen-giai-phong-quan.html
+
+# Bảo tồn và phát huy giá trị Khu di tích lịch sử rừng Trần Hưng Đạo - nơi ra đời Đội Việt Nam Tuyên truyền Giải phóng quân
+
+https://baotanglichsu.vn/vi/Articles/3097/69195/bao-ton-va-phat-huy-gia-tri-khu-di-tich-lich-su-rung-tran-hung-djao-noi-ra-djoi-djoi-viet-nam-tuyen-truyen-giai-phong-quan.html
+
+# Sưu tập vũ khí dùng trong Cách mạng tháng Tám năm 1945
+
+https://baotanglichsu.vn/vi/Articles/4054/suu-tap-vu-khi-dung-trong-cach-mang-thang-tam-nam-1945
+
+# =========================
+
+# Lớp 8 - Cách mạng tháng Tám năm 1945
+
 # =========================
 
 # Tổng khởi nghĩa Cách mạng tháng Tám năm 1945
+
 https://baotanglichsu.vn/vi/Articles/3097/18473/tong-khoi-nghia-cach-mang-thang-tam-nam-1945.html
 
 # Cách mạng tháng Tám và Quốc khánh 2/9/1945 của nước Việt Nam Dân chủ Cộng hòa
+
 https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/su-kien-va-nhan-chung/cach-mang-thang-8-va-quoc-khanh-291945-cua-nuoc-viet-nam-dan-chu-cong-hoa-3310
 
 # Sưu tập hiện vật về Cách mạng Tháng Tám năm 1945 tại Bảo tàng Lịch sử Quốc gia
+
 https://baotanglichsu.vn/vi/Articles/1002/73335/suu-tap-hien-vat-ve-cach-mang-thang-tam-nam-1945-tai-bao-tang-lich-su-quoc-gia.html
 
 # Cách mạng tháng Tám năm 1945 qua tư liệu ảnh lưu giữ tại Bảo tàng Lịch sử Quốc gia
+
 https://baotanglichsu.vn/vi/Articles/3097/16888/cach-mang-thang-tam-nam-1945-qua-tu-lieu-anh-luu-giu-tai-bao-tang-lich-su-quoc-gia.html
 
 # Kỷ niệm 68 năm Cách mạng tháng Tám - có Quân lệnh số 1
+
 https://baotanglichsu.vn/vi/Articles/3097/14854/ky-niem-68-nam-cach-mang-thang-tam-8-1945-8-2013-p2.html
 
 # Lực lượng vũ trang và quần chúng vũ trang trong khởi nghĩa tháng Tám 1945
+
 https://baotanglichsu.vn/vi/Articles/3097/16819/luc-luong-vu-trang-va-quan-chung-vu-trang-trong-khoi-nghia-thang-tam-1945.html
 
+# Bảo tàng Lịch sử Quốc gia với việc trưng bày, phát huy giá trị Cách mạng tháng Tám năm 1945
+
+https://baotanglichsu.vn/vi/Articles/3090/71740/bao-tang-lich-su-quoc-gia-voi-viec-trung-bay-phat-huy-gia-tri-cach-mang-thang-tam-nam-1945.html
+
 # Cách mạng Tháng Tám và Quốc khánh 2/9: Giá trị thời đại và sức sống trường tồn
+
 https://baochinhphu.vn/cach-mang-thang-tam-va-quoc-khanh-2-9-gia-tri-thoi-dai-va-suc-song-truong-ton-102250814162924434.htm
 
 # Khởi nghĩa giành chính quyền ở Hà Nội - Sự kiện đặc biệt trong Cách mạng tháng Tám 1945
+
 https://baochinhphu.vn/khoi-nghia-gianh-chinh-quyen-o-ha-noi-su-kien-dac-biet-trong-cach-mang-thang-tam-1945-102277816.htm
 
-
 # =========================
-# Lớp 4 - Chính phủ Lâm thời và nước Việt Nam Dân chủ Cộng hòa
+
+# Lớp 9 - Chính phủ Lâm thời và nước Việt Nam Dân chủ Cộng hòa
+
 # =========================
 
 # Tuyên cáo ngày 28/8/1945 về việc thành lập Chính phủ Lâm thời Việt Nam Dân chủ Cộng hòa
+
 https://xaydungchinhsach.chinhphu.vn/tuyen-cao-ngay-28-8-1945-ve-viec-thanh-lap-chinh-phu-lam-thoi-viet-nam-dan-chu-cong-hoa-119220902083059184.htm
 
+# Chính phủ dưới sự lãnh đạo của Đảng, 80 năm hành trình vì nước, vì dân
+
+https://baochinhphu.vn/thu-tuong-chinh-phu-duoi-su-lanh-dao-cua-dang-80-nam-hanh-trinh-vi-nuoc-vi-dan-102250820102639285.htm
+
+# Bộ trưởng Bộ Nội vụ Võ Nguyên Giáp - Người tham gia xây dựng nền hành chính vì hạnh phúc của người dân Việt Nam
+
+https://baochinhphu.vn/bo-truong-bo-noi-vu-vo-nguyen-giap-nguoi-tham-gia-xay-dung-nen-hanh-chinh-vi-hanh-phuc-cua-nguoi-dan-viet-nam-102298768.htm
+
+# Kỷ niệm 70 năm Cách mạng tháng Tám và Quốc khánh 2-9
+
+https://baotanglichsu.vn/vi/Album/7/ky-niem-70-nam-cach-mang-thang-tam-va-quoc-khanh-2-9-1945-2015
 
 # =========================
-# Lớp 5 - Tuyên ngôn Độc lập và ngày 2/9/1945
+
+# Lớp 10 - Tuyên ngôn Độc lập và ngày 2/9/1945
+
 # =========================
 
 # Ngày 2-9-1945 - Mốc son chói lọi của một dân tộc anh hùng
+
 https://hochiminh.vn/tin-tuc/ngay-2-9-1945-moc-son-choi-loi-cua-mot-dan-toc-anh-hung-9459
 
 # Tuyên ngôn độc lập của Chủ tịch Hồ Chí Minh
+
 https://hochiminh.vn/tin-tuc/tuyen-ngon-doc-lap-cua-chu-tich-ho-chi-minh-loi-hieu-trieu-yeu-nuoc-bao-ve-doc-lap-dan-toc-5365
 
 # Tuyên ngôn Độc lập - áng văn lập quốc vĩ đại
+
 https://hochiminh.vn/tu-tuong-dao-duc-ho-chi-minh/nghien-cuu-tu-tuong-dao-duc-ho-chi-minh/tuyen-ngon-doc-lap-ang-van-lap-quoc-vi-dai-7396
 
 # Bản Tuyên ngôn của tinh thần và ý chí độc lập, tự do
+
 https://tulieuvankien.dangcongsan.vn/c-mac-angghen-lenin-ho-chi-minh/ho-chi-minh/nghien-cuu-hoc-tap-tu-tuong/ban-tuyen-ngon-cua-tinh-than-va-y-chi-doc-lap-tu-do-3964
 
 # Tuyên ngôn độc lập và Nhà nước pháp quyền
+
 https://baochinhphu.vn/tuyen-ngon-doc-lap-va-nha-nuoc-phap-quyen-102299509.htm
 
+# Vẹn nguyên Lời thề Độc lập
+
+https://baochinhphu.vn/ven-nguyen-loi-the-doc-lap-102226268.htm
+
 # Tinh thần Ngày Độc lập 2/9 và bài học xây dựng chính quyền vì dân, do dân
+
 https://baochinhphu.vn/tinh-than-ngay-doc-lap-2-9-va-bai-hoc-xay-dung-chinh-quyen-vi-dan-do-dan-10236520.htm
 
 # Người trực tiếp bảo vệ lễ đài độc lập tại Quảng trường Ba Đình trong ngày 2/9/1945
+
 https://baotanglichsu.vn/vi/Articles/3098/71689/nguoi-truc-tiep-bao-ve-le-djai-djoc-lap-tai-quang-truong-ba-djinh-trong-ngay-2-9-1945.html
 
+# Địa danh Ba Đình và Quảng trường Ba Đình, Hà Nội
+
+https://baotanglichsu.vn/vi/Articles/3096/14937/djia-danh-ba-djinh-va-quang-truong-ba-dinh-ha-noi.html
+
 # Di tích lịch sử 48 Hàng Ngang - nơi Chủ tịch Hồ Chí Minh viết Tuyên ngôn Độc lập
+
 https://thanglong.chinhphu.vn/ha-noi-gan-bien-cong-trinh-va-trung-bay-trien-lam-tai-di-tich-lich-su-48-hang-ngang-103250818130032212.htm
+
+# Hiện vật khác - tượng đồng Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập
+
+https://baotanglichsu.vn/vi/Articles/4093/hien-vat-khac
+
+# =========================
+
+# Lớp 11 - Nguồn phụ, hiện vật, ảnh tư liệu, chỉ dùng bổ trợ
+
+# Lưu ý: Các bài dưới đây có tính ảnh tư liệu, trưng bày, hiện vật hoặc tổng thuật, không nên xem là nguồn chính duy nhất cho câu trả lời trọng tâm.
+
+# =========================
+
+# Ảnh tư liệu giai đoạn 1858-1945
+
+https://baotanglichsu.vn/vi/Articles/4092/anh-tu-lieu
+
+# Hiện vật khác giai đoạn 1858-1945
+
+https://baotanglichsu.vn/vi/Articles/4093/hien-vat-khac
+
+# Triển lãm Dấu ấn mùa Thu lịch sử
+
+https://baotanglichsu.vn/vi/Articles/3091/18475/trien-lam-dau-an-mua-thu-lich-su-tai-bao-tang-lich-su-quan-su-viet-nam.html
+
+# Chiến tranh thế giới thứ hai 1939-1945 - bối cảnh quốc tế
+
+https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/su-kien-va-nhan-chung/chien-tranh-the-gioi-thu-hai-1939-1945-3354

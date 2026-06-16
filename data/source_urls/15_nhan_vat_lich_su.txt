@@ -1,196 +1,539 @@
 # 15 - Nhân vật lịch sử
+
 # Mục tiêu:
+
 # - Nhân vật tiêu biểu trong lịch sử Việt Nam
+
 # - Trả lời được: nhân vật là ai, sống thời nào, công lao gì, gắn với sự kiện nào
+
 # - Ưu tiên nhân vật xuất hiện nhiều trong chương trình học và câu hỏi phổ biến
+
+# - Ưu tiên nguồn có tính tiểu sử, công lao, vai trò lịch sử, sự kiện gắn với nhân vật
+
 # Nguồn ưu tiên:
+
 # - Bảo tàng Lịch sử Quốc gia
+
 # - Trang thông tin Hồ Chí Minh
+
 # - Báo Quân đội nhân dân
+
 # - Cổng thông tin Chính phủ
 
+# =========================
+
+# Lớp 1 - Thời dựng nước: Vua Hùng, An Dương Vương, Cao Lỗ
 
 # =========================
-# Lớp 1 - Thời Bắc thuộc và chống Bắc thuộc
+
+# Giải mã thời Hùng Vương thông qua khảo cổ học
+
+https://baotanglichsu.vn/vi/Articles/2001/62798/giai-ma-thoi-hung-vuong-thong-qua-khao-co-hoc.html
+
+# Thời Hùng Vương: Từ tâm thức đến lịch sử
+
+https://baotanglichsu.vn/vi/Articles/2001/65055/thoi-hung-vuong-tu-tam-thuc-djen-lich-su.html
+
+# Thành Cổ Loa - Kinh đô nước Âu Lạc
+
+https://baotanglichsu.vn/vi/Articles/3096/62046/thanh-co-loa-kinh-djo-nuoc-au-lac.html
+
+# Nỏ thần An Dương Vương - Từ huyền thoại đến sự thật lịch sử
+
+https://baotanglichsu.vn/vi/Articles/3096/17444/no-than-an-duong-vuong-tu-huyen-thoai-djen-su-that-lich-su.html
+
+# Tướng quân Cao Lỗ và chiếc lẫy nỏ
+
+https://baotanglichsu.vn/VI/Articles/3096/16815/tim-hieu-ve-tuong-quan-cao-lo-va-chiec-lay-no-trung-bay-o-bao-tang-lich-su-quoc-gia.html
+
 # =========================
+
+# Lớp 2 - Thời Bắc thuộc và chống Bắc thuộc
+
+# =========================
+
+# Việt Nam từ thế kỷ 1 đến thế kỷ 10
+
+https://baotanglichsu.vn/vi/Articles/4011/viet-nam-tu-the-ky-1-djen-the-ky-10
+
+# Cuộc khởi nghĩa Hai Bà Trưng năm 40-43 sau Công nguyên
+
+https://baotanglichsu.vn/vi/Articles/3098/13485/cuoc-khoi-nghia-hai-ba-trung-nam-40-43-sau-cong-nguyen.html
+
+# Cuộc chiến của Hai Bà Trưng và những điều suy ngẫm
+
+https://baotanglichsu.vn/vi/Articles/3091/10252/cuoc-chien-cua-hai-ba-trung-va-nhung-djieu-suy-ngam.html
+
+# Cuộc khởi nghĩa của Triệu Thị Trinh
+
+https://baotanglichsu.vn/vi/Articles/3098/14281/cuoc-khoi-nghia-cua-trieu-thi-trinh.html
+
+# Khu di tích Bà Triệu được xếp hạng quốc gia đặc biệt
+
+https://baotanglichsu.vn/vi/Articles/3091/17585/khu-di-tich-ba-trieu-djuoc-xep-hang-quoc-gia-djac-biet.html
+
+# Vua Lý Nam Đế 503-548, người mở đầu triều Tiền Lý
+
+https://baotanglichsu.vn/vi/Articles/3098/18076/vua-ly-nam-dje-503-548-nguoi-mo-djau-trieu-tien-ly.html
+
+# Tháng 2/544 - Lý Nam Đế tuyên bố dựng nước độc lập, quốc hiệu Vạn Xuân
+
+https://baotanglichsu.vn/vi/Articles/2001/68142/thang-2-544-ly-nam-dje-tuyen-bo-dung-nuoc-djoc-lap-quoc-hieu-van-xuan.html
+
+# Quê hương Lý Bí ở đâu?
+
+https://baotanglichsu.vn/vi/Articles/2001/66640/que-huong-ly-bi-o-djau.html
+
+# Khởi nghĩa Mai Thúc Loan, một di sản quý báu
+
+https://baotanglichsu.vn/vi/Articles/3097/13699/khoi-nghia-mai-thuc-loan-mot-di-san-quy-bau.html
+
+# Những hiểu lầm về Mai Hắc Đế
+
+https://baotanglichsu.vn/vi/Articles/3096/6483/nhung-hieu-lam-ve-mai-hac-dje.html
+
+# Chuyện về Phùng Hưng của đất Đường Lâm hai vua
+
+https://baotanglichsu.vn/vi/Articles/3098/12335/chuyen-ve-phung-hung-cua-djat-djuong-lam-hai-vua.html
+
+# Hội thảo khoa học Bố Cái Đại Vương Phùng Hưng
+
+https://baotanglichsu.vn/vi/Articles/3091/70774/hoi-thao-khoa-hoc-bo-cai-djai-vuong-phung-hung-than-the-cuoc-djoi-va-su-nghiep.html
+
+# Họ Khúc dấy nghiệp 905-938: Thời kỳ tự chủ
+
+https://baotanglichsu.vn/vi/Articles/2001/66181/ho-khuc-day-nghiep-905-938-thoi-ky-tu-chu.html
+
+# Võ tướng Dương Đình Nghệ - người khởi binh đánh đuổi quân Nam Hán
+
+https://baotanglichsu.vn/vi/Articles/3098/15781/vo-tuong-duong-djinh-nghe-nguoi-khoi-binh-djanh-djuoi-quan-nam-han-giai-phong-thanh-djai-la-gianh-quyen-tu-chu-cho-nuoc-viet.html
 
 # Ngô Quyền và chiến thắng Bạch Đằng năm 938
+
 https://baotanglichsu.vn/vi/Articles/3098/13934/ngo-quyen-va-chien-thang-bach-djang-nam-938.html
 
 # Ngô Quyền - người mở đầu kỷ nguyên độc lập cho đất nước
+
 https://baotanglichsu.vn/vi/Articles/3098/16483/ngo-quyen-nguoi-mo-djau-ky-nguyen-djoc-lap-cho-djat-nuoc-thoat-khoi-nghin-nam-bac-thuoc.html
 
 # Vì sao Ngô Quyền có thể đánh tan quân Nam Hán?
+
 https://baotanglichsu.vn/vi/Articles/3096/8265/vi-sao-ngo-quyen-co-the-djanh-tan-quan-nam-han.html
 
-
 # =========================
-# Lớp 2 - Thời Ngô, Đinh, Tiền Lê
+
+# Lớp 3 - Thời Ngô, Đinh, Tiền Lê
+
 # =========================
 
 # Nhà Đinh với sự nghiệp thống nhất đất nước
+
 https://baotanglichsu.vn/vi/Articles/3096/10060/nha-djinh-voi-su-nghiep-thong-nhat-djat-nuoc.html
 
 # Nhà Đinh với sự nghiệp thống nhất và phát triển đất nước
+
 https://baotanglichsu.vn/vi/Articles/3129/19596/nha-djinh-voi-su-nghiep-thong-nhat-va-phat-trien-djat-nuoc.html
 
+# Tầm nhìn chiến lược của Đinh Bộ Lĩnh
+
+https://baotanglichsu.vn/vi/Articles/3096/14529/tam-nhin-chien-luoc-cua-djinh-bo-linh.html
+
 # Lê Đại Hành, vị vua đầu tiên của nhà Tiền Lê
+
 https://baotanglichsu.vn/vi/Articles/3098/14759/le-djai-hanh-941-1005-vi-vua-djau-tien-cua-nha-tien-le.html
 
+# Mùa Xuân năm 981 - Kháng chiến chống quân Tống lần thứ nhất thắng lợi
+
+https://baotanglichsu.vn/vi/Articles/3097/15910/mua-xuan-nam-981-khang-chien-chong-quan-tong-lan-thu-nhat-thang-loi.html
+
+# Ai là tể tướng đầu tiên trong lịch sử Việt Nam?
+
+https://baotanglichsu.vn/vi/Articles/3098/15741/ai-la-te-tuong-djau-tien-trong-lich-su-viet-nam.html
 
 # =========================
-# Lớp 3 - Thời Lý
+
+# Lớp 4 - Thời Lý
+
 # =========================
 
 # Vương triều Lý 1009-1226
+
 https://baotanglichsu.vn/VI/Articles/3129/10148/vuong-trieu-ly-1009-1226.html
 
 # Đâu là sự thật về tông tích của Lý Công Uẩn?
+
 https://baotanglichsu.vn/vi/Articles/3096/7033/djau-la-su-that-ve-tong-tich-cua-ly-cong-uan.html
 
+# Ai là người hiến kế dời đô về Thăng Long?
+
+https://baotanglichsu.vn/vi/Articles/3096/6831/ai-la-nguoi-hien-ke-doi-djo-ve-thang-long.html
+
 # Thái sư Á vương Đào Cam Mộc - đệ nhất công thần nhà Lý
+
 https://baotanglichsu.vn/vi/Articles/3098/14418/thai-su-a-vuong-djao-cam-moc-dje-nhat-cong-than-nha-ly-1010-1226.html
 
+# Lý Nhân Tông - ông vua có nhiều kỷ lục
+
+https://baotanglichsu.vn/vi/Articles/3096/6624/ly-nhan-tong-ong-vua-co-nhieu-ky-luc.html
+
 # Lý Thường Kiệt - người chỉ huy kiệt xuất của cuộc kháng chiến chống quân Tống lần thứ hai
+
 https://baotanglichsu.vn/VI/Articles/3098/16192/ly-thuong-kiet-nguoi-chi-huy-kiet-xuat-cua-cuoc-khang-chien-chong-quan-tong-lan-thu-hai.html
 
 # Lý Thường Kiệt - nỗi kinh hoàng của quân Tống
+
 https://baotanglichsu.vn/vi/Articles/3096/8270/ly-thuong-kiet-noi-kinh-hoang-cua-quan-tong.html
 
+# Tìm hiểu thêm về anh hùng dân tộc Lý Thường Kiệt qua hai tấm bia triều Lý
+
+https://baotanglichsu.vn/vi/Articles/3096/69429/tim-hieu-them-ve-anh-hung-dan-toc-ly-thuong-kiet-qua-hai-tam-bia-trieuly-trung-bay-o-bao-tang-lich-su-quoc-gia.html
 
 # =========================
-# Lớp 4 - Thời Trần
+
+# Lớp 5 - Thời Trần
+
 # =========================
 
 # Trần Thái Tông - vị vua đầu tiên trong triều Trần 1225-1400
+
 https://baotanglichsu.vn/vi/Articles/3098/14320/tran-thai-tong-vi-vua-djau-tien-trong-trieu-tran-1225-1400.html
 
+# Trần Nhân Tông và Phật giáo Trúc Lâm
+
+https://baotanglichsu.vn/vi/Articles/3091/69159/tran-nhan-tong-va-phat-giao-truc-lam-djac-sac-tu-tuong-van-hoa.html
+
+# Phật hoàng Trần Nhân Tông và những tư tưởng vẹn nguyên tính thời sự
+
+https://baotanglichsu.vn/vi/Articles/1508/50847/phat-hoang-tran-nhan-tong-va-nhung-tu-tuong-ven-nguyen-tinh-thoi-su.html
+
+# Khí phách ngất trời của Trần Quốc Tuấn
+
+https://baotanglichsu.vn/vi/Articles/3096/10260/khi-phach-ngat-troi-cua-tran-quoc-tuan.html
+
 # Hiền tài xứ Đông - có nội dung về Trần Quốc Tuấn
+
 https://baotanglichsu.vn/vi/Articles/3096/6552/hien-tai-xu-djong.html
 
 # Chí Linh - mảnh đất địa linh nhân kiệt, Kiếp Bạc và Trần Hưng Đạo
+
 https://baotanglichsu.vn/VI/Articles/3096/12591/chi-linh-manh-djat-djia-linh-nhan-kiet.html
 
+# Chiêu Minh Vương Trần Quang Khải
+
+https://baotanglichsu.vn/vi/Articles/3098/17651/chieu-minh-vuong-tran-quang-khai.html
+
+# Danh tướng trận hải chiến Vân Đồn - Trần Khánh Dư
+
+https://baotanglichsu.vn/vi/Articles/3098/16587/danh-tuong-tran-hai-chien-van-djon.html
+
 # Danh tướng Phạm Ngũ Lão 1255-1320
+
 https://baotanglichsu.vn/vi/Articles/3098/16591/danh-tuong-pham-ngu-lao-1255-1320.html
 
-
 # =========================
-# Lớp 5 - Thời Hồ
+
+# Lớp 6 - Thời Hồ
+
 # =========================
 
 # Gia thế của Hồ Quý Ly và ý nghĩa của quốc hiệu Đại Ngu
+
 https://baotanglichsu.vn/vi/Articles/3098/15076/gia-the-cua-ho-quy-ly-va-y-nghia-cua-quoc-hieu-djai-ngu.html
 
 # Hồ Quý Ly củng cố quyền lực thế nào?
+
 https://baotanglichsu.vn/vi/Articles/3098/12951/ho-quy-ly-cung-co-quyen-luc-the-nao.html
 
 # Những cải cách của Hồ Quý Ly cuối thế kỷ XIV, đầu thế kỷ XV
+
 https://baotanglichsu.vn/vi/Articles/3098/14720/nhung-cai-cach-cua-ho-quy-ly-cuoi-the-ky-xiv-djau-the-ky-xv.html
 
+# Chuyện chưa kể về "ông già nước Nam" - có nội dung về Hồ Nguyên Trừng
+
+https://baotanglichsu.vn/vi/Articles/3098/13611/chuyen-chua-ke-ve-ong-gia-nuoc-nam.html
 
 # =========================
-# Lớp 6 - Thời Lê sơ
+
+# Lớp 7 - Thời Lê sơ
+
 # =========================
 
 # Tài trí của vua Lê Thái Tổ trong mười năm kháng chiến chống quân Minh 1418-1427
+
 https://baotanglichsu.vn/vi/Articles/3098/14470/tai-tri-cua-vua-le-thai-to-trong-muoi-nam-khang-chien-chong-quan-minh-1418-1427.html
 
+# Lễ kỷ niệm 600 năm khởi nghĩa Lam Sơn và 590 năm đức vua Lê Thái Tổ đăng quang
+
+https://baotanglichsu.vn/vi/Articles/3091/55804/le-ky-niem-600-nam-khoi-nghia-lam-son-va-590-nam-djuc-vua-le-thai-to-djang-quang.html
+
 # Nguyễn Trãi - anh hùng dân tộc, danh nhân văn hóa 1380-1442
+
 https://baotanglichsu.vn/vi/Articles/3098/18122/nguyen-trai-anh-hung-dan-toc-danh-nhan-van-hoa-1380-1442.html
 
 # Nghệ thuật quân sự độc đáo của Nguyễn Trãi trong kháng chiến chống quân Minh
-https://baotanglichsu.vn/vi/Articles/3098/16460/nghe-thuat-quan-su-djoc-djao-cuanguyen-trai-trong-khang-chien-chong-quan-minh.html
+
+https://baotanglichsu.vn/vi/Articles/3098/16460/nghe-thuat-quan-su-djoc-djao-cua-nguyen-trai-trong-khang-chien-chong-quan-minh.html
 
 # Vua Lê Thánh Tông - đấng minh quân văn trị, vũ công toàn năng của Đại Việt
+
 https://baotanglichsu.vn/vi/Articles/3098/16818/vua-le-thanh-tong-djang-minh-quan-van-tri-vu-cong-toan-nang-cua-djai-viet-1442-1497.html
 
+# Chính sách sử dụng người tài của triều vua Lê Thánh Tông
+
+https://baotanglichsu.vn/vi/Articles/3096/16869/chinh-sach-su-dung-nguoi-tai-cua-trieu-vua-le-thanh-tong.html
 
 # =========================
-# Lớp 7 - Nam - Bắc triều, Trịnh - Nguyễn
+
+# Lớp 8 - Nam - Bắc triều, Lê Trung hưng, Trịnh - Nguyễn
+
 # =========================
+
+# Mạc Đăng Dung và vương triều Mạc trong lịch sử quân chủ Việt Nam
+
+https://baotanglichsu.vn/vi/Articles/3096/4851/mac-djang-dung-va-vuong-trieu-mac-trong-lich-su-quan-chu-viet-nam.html
+
+# Mạc Đăng Dung và vương triều Mạc - triều đại xếp ngoài lề chính sử
+
+https://baotanglichsu.vn/vi/Articles/3098/12984/mac-djang-dung-va-vuong-trieu-mac-trieu-djai-xep-ngoai-le-chinh-su.html
 
 # Chúa Nguyễn Hoàng 1525-1613 - người mở mang bờ cõi
+
 https://baotanglichsu.vn/vi/Articles/3098/19375/chua-nguyen-hoang-1525-1613-nguoi-mo-mang-bo-coi.html
 
+# Nguyễn Hoàng và bước đầu tiến vào vùng Nam Trung Bộ
+
+https://baotanglichsu.vn/vi/Articles/3096/70731/nguyen-hoang-va-buoc-djau-tien-vao-vung-nam-trung-bo.html
+
 # Lộc Khê Đào Duy Từ - danh tướng và các giai thoại
+
 https://baotanglichsu.vn/vi/Articles/3098/15140/loc-khe-djao-duy-tu-danh-tuong-va-cac-giai-thoai.html
 
+# Quốc chúa Nguyễn Phúc Chu và những bài thơ vịnh cảnh vùng Thuận Quảng
+
+https://baotanglichsu.vn/vi/Articles/3101/69489/quoc-chua-nguyen-phuc-chu-va-nhung-bai-tho-vinh-canh-sacvung-thuan-quang-tren-djo-su-ky-kieu.html
+
+# Lễ Thành Hầu Nguyễn Hữu Cảnh với sự nghiệp mở cõi phương Nam cuối thế kỷ XVII
+
+https://baotanglichsu.vn/vi/Articles/3098/14383/le-thanh-hau-nguyen-huu-canh-voi-su-nghiep-mo-coi-phuong-nam-cuoi-the-ky-xvii.html
+
+# Dũng tướng Việt được thờ vọng ở Campuchia - có nội dung về Nguyễn Hữu Cảnh
+
+https://baotanglichsu.vn/vi/Articles/3096/6479/dung-tuong-viet-djuoc-tho-vong-o-campuchia.html
 
 # =========================
-# Lớp 8 - Tây Sơn
+
+# Lớp 9 - Tây Sơn
+
 # =========================
+
+# Triều Tây Sơn 1778-1802
+
+https://baotanglichsu.vn/vi/Articles/4050/trieu-tay-son-1778-1802
+
+# Vài nét về Khởi nghĩa nông dân Tây Sơn mùa xuân năm 1771
+
+https://baotanglichsu.vn/vi/Articles/3097/19624/vai-net-ve-khoi-nghia-nong-dan-tay-son-mua-xuan-nam-1771.html
+
+# Nguyễn Huệ và câu chuyện "vua anh, vua em"
+
+https://baotanglichsu.vn/vi/Articles/3098/12451/nguyen-hue-va-cau-chuyen-vua-anh-vua-em.html
 
 # Kỷ niệm Hoàng đế Quang Trung - Nguyễn Huệ đại phá quân Thanh
+
 https://baotanglichsu.vn/vi/Articles/3097/15721/ky-niem-225-nam-1789-2014-hoang-dje-quang-trung-nguyen-hue-djai-pha-quan-xam-luoc-man-thanh.html
 
-# Chính sử nhà Nguyễn viết gì về đối thủ Quang Trung?
-https://baotanglichsu.vn/vi/Articles/3096/12875/chinh-su-nha-nguyen-viet-gi-ve-djoi-thu-quang-trung-1.html
+# Diện mạo oai hùng của Hoàng đế Quang Trung
 
-# Hoàng đế Quang Trung và Ngọc Hân công chúa
-https://baotanglichsu.vn/vi/Articles/3096/7161/hoang-dje-quang-trung-va-ngoc-han-cong-chua-ky-2.html
+https://baotanglichsu.vn/vi/Articles/3096/9541/dien-mao-oai-hung-cua-hoang-dje-quang-trung.html
 
+# Cuộc tấn công thần tốc nhất lịch sử Việt
+
+https://baotanglichsu.vn/vi/Articles/3096/12071/cuoc-tan-cong-than-toc-nhat-lich-su-viet.html
+
+# Di tích lịch sử Rạch Gầm - Xoài Mút
+
+https://baotanglichsu.vn/vi/Articles/3091/19881/di-tich-lich-su-rach-gam-xoai-mut.html
 
 # =========================
-# Lớp 9 - Cận đại chống Pháp
+
+# Lớp 10 - Triều Nguyễn
+
+# =========================
+
+# Gia Long - Vị Hoàng đế đầu tiên sáng lập vương triều Nguyễn
+
+https://baotanglichsu.vn/VI/Articles/3098/15241/gia-long-vi-hoang-dje-djau-tien-sang-lap-vuong-trieu-nguyen-trieu-djai-phong-kien-cuoi-cung-trong-lich-su-viet-nam.html
+
+# Vua Minh Mệnh và những đóng góp quan trọng trong lịch sử phong kiến nhà Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/3096/8916/vua-minh-menh-va-nhung-djong-gop-quan-trong-trong-lich-su-phong-kien-nha-nguyen.html
+
+# Tổ chức chính quyền địa phương thời Minh Mệnh
+
+https://baotanglichsu.vn/vi/Articles/3096/11163/to-chuc-chinh-quyen-djia-phuong-thoi-minh-menh.html
+
+# Hồ sơ về ông vua cuối cùng của triều đình nhà Nguyễn
+
+https://baotanglichsu.vn/vi/Articles/3096/7693/ho-so-ve-ong-vua-cuoi-cung-cua-trieu-djinh-nha-nguyen.html
+
+# Hoàng đế Bảo Đại - nhà vua cuối cùng nhà Nguyễn thoái vị
+
+https://baotanglichsu.vn/vi/Articles/2002/68056/cach-djay-68-nam-30-8-1945-30-8-2013-hoang-dje-bao-djai-nha-vua-cuoi-cung-nha-nguyen-thoai-vi.html
+
+# Người viết Chiếu thoái vị cho vua Bảo Đại
+
+https://baotanglichsu.vn/vi/Articles/3098/13590/nguoi-viet-chieu-thoai-vi-cho-vua-bao-djai.html
+
+# =========================
+
+# Lớp 11 - Cận đại chống Pháp và phong trào yêu nước đầu thế kỷ XX
+
 # =========================
 
 # Nguyễn Trung Trực - một anh hùng dân tộc đặc biệt
+
 https://baotanglichsu.vn/vi/Articles/1508/51474/nguyen-trung-truc-mot-anh-hung-dan-toc-djac-biet.html
 
 # Khởi nghĩa Nguyễn Trung Trực 1861-1868
+
 https://baotanglichsu.vn/vi/Articles/3097/15075/khoi-nghia-nguyen-trung-truc-1861-1868-bao-gio-nuoc-nam-het-co-thi-moi-het-nguoi-nam-djanh-tay.html
 
-# Những kỷ vật của Anh hùng liệt sĩ Nguyễn Văn Trỗi hiện lưu giữ tại BTLSQG
-https://baotanglichsu.vn/vi/Articles/3098/62002/nhung-ky-vat-cua-anh-hung-liet-sy-nguyen-van-troi-hien-luu-giu-tai-btlsqg.html
+# Đinh Công Tráng 1842-1887 - lãnh tụ cuộc khởi nghĩa Ba Đình trong phong trào Cần Vương
 
+https://baotanglichsu.vn/vi/Articles/3098/15545/djinh-cong-trang-1842-1887-lanh-tu-cuoc-khoi-nghia-ba-djinh-trong-phong-trao-can-vuong-chong-phap-cuoi-the-ky-xix.html
+
+# Súng trường do Cao Thắng chế tạo trong cuộc khởi nghĩa Hương Khê 1885-1896
+
+https://baotanglichsu.vn/vi/Articles/1002/13780/sung-truong-do-cao-thang-che-tao-trong-cuoc-khoi-nghia-huong-khe-1885-1896.html
+
+# Phong trào Đông Du 1905-1908
+
+https://baotanglichsu.vn/vi/Articles/3097/14624/phong-trao-djong-du-1905-1908-mot-hinh-thuc-xay-dung-luc-luong-cach-mang-nhung-nam-djau-the-ky-xx.html
+
+# Trang trọng lễ giỗ lần thứ 84 của chí sĩ yêu nước Phan Bội Châu
+
+https://baotanglichsu.vn/vi/Articles/3091/75017/trang-trong-le-gio-lan-thu-84-cua-chi-si-yeu-nuoc-phan-boi-chau.html
+
+# Phan Châu Trinh - đại diện tri thức Việt Nam đầu thế kỷ XX
+
+https://baotanglichsu.vn/vi/Articles/2001/66932/phan-chau-trinh-djai-dien-tri-thuc-viet-nam-djau-the-ky-xx.html
+
+# Phan Châu Trinh với tư tưởng canh tân đất nước
+
+https://baotanglichsu.vn/vi/Articles/3096/19514/phan-chau-trinh-voi-tu-tuong-canh-tan-djat-nuoc.html
+
+# Nguyễn Thái Học - Vị lãnh tụ của Việt Nam Quốc dân Đảng
+
+https://baotanglichsu.vn/vi/Articles/3098/19711/nguyen-thai-hoc-vi-lanh-tu-cua-viet-nam-quoc-dan-djang.html
+
+# Kỷ niệm 84 năm khởi nghĩa Yên Bái - Không thành công thì thành nhân
+
+https://baotanglichsu.vn/vi/Articles/2002/68123/ky-niem-84-nam-khoi-nghia-yen-bai-10-2-1930-10-2-2014-khong-thanh-cong-thi-thanh-nhan.html
 
 # =========================
-# Lớp 10 - Chủ tịch Hồ Chí Minh
+
+# Lớp 12 - Chủ tịch Hồ Chí Minh
+
 # =========================
 
-# Tiểu sử Hồ Chí Minh
+# Tiểu sử Chủ tịch Hồ Chí Minh 1890-1969
+
 https://hochiminh.vn/cuoc-doi-su-nghiep/tieu-su-ho-chi-minh/tieu-su-chu-tich-ho-chi-minh-1890-1969-9?categoryId=102001152
 
+# Hành trình theo chân Bác 1911-1941
+
+https://baotanglichsu.vn/vi/Articles/3097/14396/ky-niem-123-nam-ngay-sinh-chu-tich-ho-chi-minh-19-5-1890-19-5-2013-hanh-trinh-theo-chan-bac-1911-1941.html
+
+# Lãnh tụ Nguyễn Ái Quốc về nước trực tiếp chỉ đạo cách mạng
+
+https://hochiminh.vn/hoc-va-lam-theo-bac/hoc-va-lam-theo-bac/lanh-tu-nguyen-ai-quoc-ve-nuoc-truc-tiep-chi-dao-cach-mang-3939
+
+# Lãnh tụ Nguyễn Ái Quốc - Chủ tịch Hồ Chí Minh từ Pác Bó Cách mạng đến Quảng trường Ba Đình lịch sử
+
+https://baotanglichsu.vn/vi/Articles/3097/72584/lanh-tu-nguyen-ai-quoc-chu-tich-ho-chi-minh-tu-pac-bo-cach-mang-djen-quang-truong-ba-djinh-lich-su.html
+
 # Ngày 2-9-1945 - Mốc son chói lọi của một dân tộc anh hùng
+
 https://hochiminh.vn/tin-tuc/ngay-2-9-1945-moc-son-choi-loi-cua-mot-dan-toc-anh-hung-9459
 
 # Tuyên ngôn độc lập của Chủ tịch Hồ Chí Minh
+
 https://hochiminh.vn/tin-tuc/tuyen-ngon-doc-lap-cua-chu-tich-ho-chi-minh-loi-hieu-trieu-yeu-nuoc-bao-ve-doc-lap-dan-toc-5365
 
 # Tuyên ngôn Độc lập - áng văn lập quốc vĩ đại
+
 https://hochiminh.vn/tu-tuong-dao-duc-ho-chi-minh/nghien-cuu-tu-tuong-dao-duc-ho-chi-minh/tuyen-ngon-doc-lap-ang-van-lap-quoc-vi-dai-7396
 
-# Tuyên ngôn độc lập và Nhà nước pháp quyền
-https://baochinhphu.vn/tuyen-ngon-doc-lap-va-nha-nuoc-phap-quyen-102299509.htm
+# Hồ Chí Minh 1890-1969 - Tư liệu Văn kiện Đảng
 
+https://tulieuvankien.dangcongsan.vn/ho-so-su-kien-nhan-chung/phong-trao-cong-san-cong-nhan-quoc-te/cac-lanh-tu-va-cac-nha-lanh-dao-noi-tieng/ho-chi-minh-1890-1969-3081
 
 # =========================
-# Lớp 11 - Đại tướng Võ Nguyên Giáp
+
+# Lớp 13 - Nhân vật cách mạng, quân sự hiện đại
+
 # =========================
 
 # Đại tướng Võ Nguyên Giáp, thiên tài quân sự, nhà lãnh đạo có uy tín lớn
+
 https://baotanglichsu.vn/vi/Articles/3097/72773/djai-tuong-vo-nguyen-giap-thien-tai-quan-su-nha-lanh-djao-co-uy-tin-lon-tam-guong-ngoi-sang-ve-djao-djuc-cach-mang.html
 
 # Thiên tài quân sự - Đại tướng Võ Nguyên Giáp
+
 https://baotanglichsu.vn/vi/Articles/3096/74545/thien-tai-quan-su-djai-tuong-vo-nguyen-giap.html
 
 # Đại tướng lừng danh, người Anh Cả của Quân đội ta
+
 https://baotanglichsu.vn/vi/Articles/3098/75117/djai-tuong-lung-danh-nguoi-anh-ca-cua-quan-djoi-ta.html
 
 # Võ Nguyên Giáp - vị tướng huyền thoại
+
 https://baotanglichsu.vn/vi/Articles/3098/72433/vo-nguyen-giap-vi-tuong-huyen-thoai.html
 
 # Chiến thắng Điện Biên Phủ khẳng định thiên tài quân sự của Đại tướng Võ Nguyên Giáp
+
 https://www.qdnd.vn/quoc-phong-an-ninh/chien-thang-dien-bien-phu-moc-son-lich-su/anh-hung/chien-thang-dien-bien-phu-khang-dinh-thien-tai-quan-su-cua-dai-tuong-vo-nguyen-giap-771789
 
-
-# =========================
-# Lớp 12 - Đại tướng Văn Tiến Dũng
-# =========================
-
 # Kỷ niệm 105 năm Ngày sinh Đại tướng Văn Tiến Dũng
+
 https://baotanglichsu.vn/vi/Articles/3098/73084/ky-niem-105-nam-ngay-sinh-djai-tuong-van-tien-dung-vi-djai-tuong-anh-hung.html
 
 # Vị Đại tướng chỉ huy Chiến dịch Hồ Chí Minh trong những ngày tháng 4/1975
+
 https://baochinhphu.vn/vi-dai-tuong-chi-huy-chien-dich-ho-chi-minh-trong-nhung-ngay-thang-4-1975-102271567.htm
+
+# Những kỷ vật của Anh hùng liệt sĩ Nguyễn Văn Trỗi hiện lưu giữ tại Bảo tàng Lịch sử Quốc gia
+
+https://baotanglichsu.vn/vi/Articles/3098/62002/nhung-ky-vat-cua-anh-hung-liet-sy-nguyen-van-troi-hien-luu-giu-tai-btlsqg.html
+
+# Tổng Bí thư Trường Chinh với công cuộc Đổi mới đất nước
+
+https://baotanglichsu.vn/vi/Articles/3098/19611/tong-bi-thu-truong-chinh-voi-cong-cuoc-djoi-moi-djat-nuoc.html
+
+# =========================
+
+# Lớp 14 - Nguồn phụ, giai thoại, tranh luận, chỉ dùng bổ trợ
+
+# Lưu ý:
+
+# - Các bài dưới đây có tính giai thoại, tranh luận, cung đình hoặc kể chuyện.
+
+# - Không nên xem là nguồn chính duy nhất cho câu trả lời trọng tâm.
+
+# =========================
+
+# Chính sử nhà Nguyễn viết gì về đối thủ Quang Trung?
+
+https://baotanglichsu.vn/vi/Articles/3096/12875/chinh-su-nha-nguyen-viet-gi-ve-djoi-thu-quang-trung-1.html
+
+# Hoàng đế Quang Trung và Ngọc Hân công chúa
+
+https://baotanglichsu.vn/vi/Articles/3096/7161/hoang-dje-quang-trung-va-ngoc-han-cong-chua-ky-2.html
+
+# Lộc Khê Đào Duy Từ - danh tướng và các giai thoại
+
+https://baotanglichsu.vn/vi/Articles/3098/15140/loc-khe-djao-duy-tu-danh-tuong-va-cac-giai-thoai.html
+
+# Án xưa: Chuyện về hoàng hậu hai triều
+
+https://baotanglichsu.vn/vi/Articles/2001/65233/an-xua-chuyen-ve-hoang-hau-hai-trieu.html
