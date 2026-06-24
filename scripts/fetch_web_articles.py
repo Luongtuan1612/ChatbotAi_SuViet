@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
+from bs4.element import Tag
 
 # =========================================================
 # Xác định thư mục gốc project
@@ -18,6 +19,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 SOURCE_URLS_DIR = PROJECT_ROOT / "data" / "source_urls"
 PERIODS_DIR = PROJECT_ROOT / "data" / "periods"
+ADMIN_SOURCES_DIR = PROJECT_ROOT / "data" / "manual_documents" / "admin_sources"
 
 
 # =========================================================
@@ -302,6 +304,45 @@ def clean_text(text: str) -> str:
     return text.strip()
 
 
+def is_valid_tag(tag) -> bool:
+    """
+    Kiểm tra một đối tượng BeautifulSoup còn là Tag hợp lệ hay không.
+
+    Một số website có HTML phức tạp; trong lúc crawler xóa tag bằng decompose(),
+    BeautifulSoup có thể để lại object Tag đã bị hủy attrs. Nếu tiếp tục gọi
+    tag.get(...) sẽ phát sinh lỗi: 'NoneType' object has no attribute 'get'.
+    """
+    return isinstance(tag, Tag) and getattr(tag, "attrs", None) is not None
+
+
+def safe_decompose(tag) -> None:
+    """Xóa một tag HTML an toàn, không làm dừng crawler nếu tag đã bị hủy."""
+    try:
+        if is_valid_tag(tag):
+            tag.decompose()
+    except Exception:
+        pass
+
+
+def get_attr_text(tag, attr_name: str) -> str:
+    """Lấy attribute HTML an toàn dưới dạng chuỗi."""
+    if not is_valid_tag(tag):
+        return ""
+
+    try:
+        value = tag.get(attr_name, "")
+    except Exception:
+        return ""
+
+    if isinstance(value, list):
+        return " ".join(str(item) for item in value if item)
+
+    if value is None:
+        return ""
+
+    return str(value)
+
+
 # =========================================================
 # Lọc dòng rác
 # =========================================================
@@ -463,27 +504,41 @@ def clean_article_lines(lines: list[str]) -> str:
 def remove_unwanted_html_blocks(soup: BeautifulSoup) -> None:
     """
     Xóa các block chắc chắn không phải nội dung bài viết.
+
+    Bản này xử lý an toàn hơn bản cũ:
+    - Không gọi tag.get(...) trên tag đã bị decompose().
+    - Dùng list(...) để cố định danh sách tag trước khi xóa.
+    - Nếu một selector lỗi thì bỏ qua selector đó, không làm dừng crawler.
     """
-    for tag in soup(
-        [
-            "script",
-            "style",
-            "noscript",
-            "iframe",
-            "form",
-            "button",
-            "input",
-            "select",
-            "option",
-            "svg",
-        ]
+    if soup is None:
+        return
+
+    # Xóa các tag kỹ thuật không chứa nội dung chính
+    for tag in list(
+        soup(
+            [
+                "script",
+                "style",
+                "noscript",
+                "iframe",
+                "form",
+                "button",
+                "input",
+                "select",
+                "option",
+                "svg",
+            ]
+        )
     ):
-        tag.decompose()
+        safe_decompose(tag)
 
     # Xóa theo tag semantic
     for tag_name in ["header", "footer", "nav", "aside"]:
-        for tag in soup.find_all(tag_name):
-            tag.decompose()
+        try:
+            for tag in list(soup.find_all(tag_name)):
+                safe_decompose(tag)
+        except Exception:
+            continue
 
     # Xóa theo class/id phổ biến
     remove_selectors = [
@@ -531,8 +586,8 @@ def remove_unwanted_html_blocks(soup: BeautifulSoup) -> None:
 
     for selector in remove_selectors:
         try:
-            for tag in soup.select(selector):
-                tag.decompose()
+            for tag in list(soup.select(selector)):
+                safe_decompose(tag)
         except Exception:
             continue
 
@@ -555,13 +610,21 @@ def remove_unwanted_html_blocks(soup: BeautifulSoup) -> None:
         "search",
     ]
 
-    for tag in soup.find_all(True):
-        class_text = " ".join(tag.get("class", []))
-        id_text = tag.get("id", "")
+    try:
+        all_tags = list(soup.find_all(True))
+    except Exception:
+        return
+
+    for tag in all_tags:
+        if not is_valid_tag(tag):
+            continue
+
+        class_text = get_attr_text(tag, "class")
+        id_text = get_attr_text(tag, "id")
         attr_text = normalize_for_compare(f"{class_text} {id_text}")
 
         if any(keyword in attr_text for keyword in bad_attr_keywords):
-            tag.decompose()
+            safe_decompose(tag)
 
 
 # =========================================================
@@ -701,6 +764,9 @@ def extract_from_article_tags(soup: BeautifulSoup) -> str:
             continue
 
         for tag in tags:
+            if not is_valid_tag(tag):
+                continue
+
             text = tag.get_text("\n", strip=True)
 
             lines = []
@@ -837,8 +903,8 @@ def get_plain_lines_without_aggressive_remove(html: str) -> list[str]:
     """
     soup = parse_html_safely(html)
 
-    for tag in soup(["script", "style", "noscript", "iframe"]):
-        tag.decompose()
+    for tag in list(soup(["script", "style", "noscript", "iframe"])):
+        safe_decompose(tag)
 
     text = soup.get_text("\n", strip=True)
 
@@ -1016,6 +1082,63 @@ NỘI DUNG:
     print(f"Đã lưu: {file_path}")
 
 
+def fetch_single_url_to_txt(
+    url: str,
+    title: str | None = None,
+    period: str | None = None,
+    category: str | None = None,
+) -> dict:
+    """
+    Hàm phục vụ Admin:
+    - Nhận 1 URL từ giao diện quản trị
+    - Dùng lại hàm extract_article(url) hiện có để lấy nội dung
+    - Lưu nội dung thành file .txt riêng
+    - Trả về thông tin file để FastAPI/Spring Boot quản lý
+    """
+
+    cleaned_url = clean_text(url)
+
+    if not cleaned_url.startswith("http://") and not cleaned_url.startswith("https://"):
+        raise ValueError(
+            "URL không hợp lệ. URL phải bắt đầu bằng http:// hoặc https://"
+        )
+
+    article = extract_article(cleaned_url)
+
+    article_title = clean_text(title or article.get("title") or "Nguồn tri thức AI")
+    article_content = clean_text(article.get("content") or "")
+
+    if len(article_content) < 150:
+        raise ValueError("Không lấy được nội dung đủ dài từ URL này.")
+
+    ADMIN_SOURCES_DIR.mkdir(parents=True, exist_ok=True)
+
+    file_name = slugify(article_title) + ".txt"
+    file_path = make_unique_file_path(ADMIN_SOURCES_DIR, file_name)
+
+    final_text = f"""TIÊU ĐỀ: {article_title}
+NGUỒN: {cleaned_url}
+TÊN NGUỒN: {article.get("source_name") or detect_source_name(cleaned_url)}
+GIAI ĐOẠN: {clean_text(period or "Nguồn do quản trị viên bổ sung")}
+DANH MỤC: {clean_text(category or "")}
+
+NỘI DUNG:
+{article_content}
+"""
+
+    with open(file_path, "w", encoding="utf-8") as file:
+        file.write(final_text)
+
+    return {
+        "success": True,
+        "title": article_title,
+        "url": cleaned_url,
+        "file_path": str(file_path),
+        "content_preview": final_text[:15000],
+        "content_length": len(final_text),
+    }
+
+
 def fetch_period(period_key: str, period_config: dict):
     period_name = period_config["period_name"]
     urls_file = SOURCE_URLS_DIR / f"{period_key}.txt"
@@ -1057,7 +1180,8 @@ def fetch_period(period_key: str, period_config: dict):
             time.sleep(SLEEP_SECONDS)
 
         except Exception as e:
-            print(f"Lỗi khi tải {url}: {e}")
+            print(f"Lỗi khi tải {url}: {type(e).__name__}: {e}")
+            continue
 
 
 def ensure_data_folders():

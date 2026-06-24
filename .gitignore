@@ -6,3 +6,4 @@ chroma_db/
 *.sqlite3
 *.db
 data/periods/*/raw/
+data/manual_documents/admin_sources/
