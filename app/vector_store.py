@@ -9,9 +9,7 @@ class VectorStore:
 
         self.collection = self.client.get_or_create_collection(
             name=settings.CHROMA_COLLECTION_NAME,
-            metadata={
-                "description": "Kho tri thức lịch sử Việt Nam cho SuViet"
-            }
+            metadata={"description": "Kho tri thức lịch sử Việt Nam cho SuViet"},
         )
 
     def add_documents(
@@ -19,7 +17,7 @@ class VectorStore:
         ids: List[str],
         documents: List[str],
         embeddings: List[List[float]],
-        metadatas: List[Dict[str, Any]]
+        metadatas: List[Dict[str, Any]],
     ):
         """
         Thêm mới hoặc cập nhật chunk tài liệu vào ChromaDB.
@@ -33,24 +31,17 @@ class VectorStore:
         Dùng upsert để khi chạy ingest lại không bị lỗi trùng ID.
         """
         self.collection.upsert(
-            ids=ids,
-            documents=documents,
-            embeddings=embeddings,
-            metadatas=metadatas
+            ids=ids, documents=documents, embeddings=embeddings, metadatas=metadatas
         )
 
-    def search(
-        self,
-        query_embedding: List[float],
-        top_k: int = 5
-    ) -> Dict[str, Any]:
+    def search(self, query_embedding: List[float], top_k: int = 5) -> Dict[str, Any]:
         """
         Tìm các chunk gần nhất với câu hỏi.
         """
         results = self.collection.query(
             query_embeddings=[query_embedding],
             n_results=top_k,
-            include=["documents", "metadatas", "distances"]
+            include=["documents", "metadatas", "distances"],
         )
 
         return results
@@ -60,3 +51,6 @@ class VectorStore:
 
     def get_all_documents(self):
         return self.collection.get()
+
+    def delete_by_document_id(self, document_id: str) -> None:
+        self.collection.delete(where={"document_id": document_id})

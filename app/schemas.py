@@ -23,3 +23,48 @@ class ChatResponse(BaseModel):
 class HealthResponse(BaseModel):
     status: str
     message: str
+
+
+class AdminFetchUrlRequest(BaseModel):
+    title: Optional[str] = None
+    url: str
+    period: Optional[str] = None
+    category: Optional[str] = None
+
+
+class AdminFetchUrlResponse(BaseModel):
+    success: bool
+    message: str
+    title: str
+    url: str
+    filePath: str
+    contentPreview: str
+    contentLength: int
+
+
+class AdminIngestFileRequest(BaseModel):
+    filePath: str
+
+
+class AdminIngestFileResponse(BaseModel):
+    success: bool
+    skipped: bool = False
+    message: str
+    filePath: str
+    chunksAdded: int
+    totalChunks: int
+
+
+class AdminDeleteKnowledgeRequest(BaseModel):
+    filePath: str
+    deleteFile: bool = True
+
+
+class AdminDeleteKnowledgeResponse(BaseModel):
+    success: bool
+    message: str
+    filePath: str
+    documentId: str
+    deletedFromChroma: bool
+    deletedFile: bool
+    totalChunks: int
