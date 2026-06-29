@@ -11,10 +11,14 @@ from app.schemas import (
     AdminIngestFileResponse,
     AdminDeleteKnowledgeRequest,
     AdminDeleteKnowledgeResponse,
+    KnowledgeSourceListResponse,
+    KnowledgeChunkListResponse,
+    DeleteKnowledgeSourceResponse,
 )
 
 from app.rag_service import RAGService
 from app.vector_store import VectorStore
+from fastapi import FastAPI, HTTPException, Query
 
 from scripts.fetch_web_articles import fetch_single_url_to_txt
 from scripts.ingest_documents import (
@@ -110,22 +114,36 @@ def admin_ingest_file(request: AdminIngestFileRequest):
     Luồng xử lý:
     - Nhận đường dẫn file .txt
     - Gọi lại ingest_single_file()
-    - Nếu file đã nạp rồi thì bỏ qua
-    - Nếu chưa nạp thì chia chunk, tạo embedding và lưu vào ChromaDB
+    - Mặc định nạp lại tài liệu để tránh trạng thái "thành công giả"
+    - Trả về số chunk thực tế đã thêm vào ChromaDB
     """
     try:
-        result = ingest_single_file(request.filePath)
+        print("\n========== FASTAPI NHẬN YÊU CẦU INGEST =========", flush=True)
+        print(f"File path nhận từ Spring Boot: {request.filePath}", flush=True)
+
+        result = ingest_single_file(
+            request.filePath,
+            skip_existing=False,
+            replace_existing=True,
+        )
+
+        print(f"Kết quả ingest: {result}", flush=True)
+        print("================================================\n", flush=True)
 
         return {
             "success": True,
             "skipped": result.get("skipped", False),
             "message": result.get("message", "Đã xử lý file TXT."),
             "filePath": result["file_path"],
+            "documentId": result.get("document_id", ""),
+            "sourceUrl": result.get("source_url", ""),
             "chunksAdded": result["chunks_added"],
             "totalChunks": result["total_chunks"],
         }
 
     except Exception as exc:
+        print(f"Lỗi nạp file vào ChromaDB: {type(exc).__name__}: {exc}", flush=True)
+
         raise HTTPException(
             status_code=400,
             detail=f"Lỗi nạp file vào ChromaDB: {type(exc).__name__}: {exc}",
@@ -164,4 +182,79 @@ def admin_delete_file(request: AdminDeleteKnowledgeRequest):
         raise HTTPException(
             status_code=400,
             detail=f"Lỗi xóa nguồn khỏi AI Service: {type(exc).__name__}: {exc}",
+        )
+@app.get(
+    "/admin/knowledge/sources",
+    response_model=KnowledgeSourceListResponse,
+)
+def admin_list_knowledge_sources():
+    """
+    Liệt kê toàn bộ source_url đang tồn tại trong ChromaDB.
+    """
+    try:
+        sources = vector_store.list_sources()
+
+        return {
+            "success": True,
+            "totalSources": len(sources),
+            "totalChunks": vector_store.count_documents(),
+            "sources": sources,
+        }
+
+    except Exception as exc:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Lỗi lấy danh sách source_url trong ChromaDB: {type(exc).__name__}: {exc}",
+        )
+
+
+@app.get(
+    "/admin/knowledge/sources/chunks",
+    response_model=KnowledgeChunkListResponse,
+)
+def admin_list_knowledge_chunks(sourceUrl: str = Query(..., min_length=1)):
+    """
+    Xem các chunk thuộc một source_url trong ChromaDB.
+    """
+    try:
+        chunks = vector_store.get_chunks_by_source_url(sourceUrl)
+
+        return {
+            "success": True,
+            "sourceUrl": sourceUrl,
+            "totalChunks": len(chunks),
+            "chunks": chunks,
+        }
+
+    except Exception as exc:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Lỗi lấy chunk theo source_url: {type(exc).__name__}: {exc}",
+        )
+
+
+@app.delete(
+    "/admin/knowledge/sources",
+    response_model=DeleteKnowledgeSourceResponse,
+)
+def admin_delete_knowledge_source(sourceUrl: str = Query(..., min_length=1)):
+    """
+    Xóa toàn bộ chunk trong ChromaDB theo source_url.
+    """
+    try:
+        result = vector_store.delete_by_source_url(sourceUrl)
+
+        return {
+            "success": True,
+            "message": "Đã xử lý xóa source_url khỏi ChromaDB.",
+            "sourceUrl": result["source_url"],
+            "deleted": result["deleted"],
+            "deletedCount": result["deleted_count"],
+            "totalChunks": result["total_chunks"],
+        }
+
+    except Exception as exc:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Lỗi xóa source_url khỏi ChromaDB: {type(exc).__name__}: {exc}",
         )

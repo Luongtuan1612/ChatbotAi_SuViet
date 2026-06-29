@@ -114,6 +114,7 @@ def load_single_document(file_path: str) -> dict:
     source_url = extract_metadata_value(raw_content, "NGUỒN:")
     source_name = extract_metadata_value(raw_content, "TÊN NGUỒN:")
     period = extract_metadata_value(raw_content, "GIAI ĐOẠN:")
+    category = extract_metadata_value(raw_content, "DANH MỤC:")
 
     main_content = extract_main_content(raw_content)
 
@@ -134,6 +135,7 @@ def load_single_document(file_path: str) -> dict:
         "source": source_name,
         "period": period,
         "url": source_url,
+        "category": category,
         "file_name": path.name,
         "file_path": str(path),
         "content": main_content,
@@ -206,6 +208,9 @@ def ingest_documents(
                     "file_name": doc["file_name"],
                     "file_path": doc["file_path"],
                     "chunk_index": index,
+                    "source_url": doc.get("url", ""),
+                    "source_title": doc["title"],
+                    "category": doc.get("category", ""),
                 }
             )
 
@@ -276,55 +281,83 @@ def get_total_chunks(vector_store: VectorStore) -> int:
 
 def ingest_single_file(
     file_path: str,
-    skip_existing: bool = True,
+    skip_existing: bool = False,
+    replace_existing: bool = True,
 ) -> dict:
     """
     Hàm phục vụ Admin:
     - Nhận đường dẫn 1 file .txt
-    - Kiểm tra đã nạp chưa
-    - Nếu đã nạp rồi thì bỏ qua
-    - Nếu chưa nạp thì chia chunk, tạo embedding và lưu vào ChromaDB
+    - Mặc định nạp lại tài liệu vào ChromaDB thay vì bỏ qua
+    - Nếu tài liệu đã tồn tại, xóa chunk cũ theo document_id rồi upsert chunk mới
 
-    Đây là hàm API /admin/knowledge/ingest-file sẽ gọi.
+    Lý do:
+    Trước đây Admin bấm "Nạp AI" có thể bị skipped do chunk_0 đã tồn tại,
+    làm frontend báo thành công nhưng danh sách source_url trong ChromaDB không thấy dữ liệu mới.
     """
     embedding_service = EmbeddingService()
     vector_store = VectorStore()
 
     document = load_single_document(file_path)
     document_id = create_document_id(document["file_path"])
+    total_before = get_total_chunks(vector_store)
 
-    if skip_existing and is_document_already_ingested(document_id, vector_store):
+    print("\n========== ADMIN INGEST SINGLE FILE ==========", flush=True)
+    print(f"File path: {document['file_path']}", flush=True)
+    print(f"Document ID: {document_id}", flush=True)
+    print(f"Source URL: {document.get('url', '')}", flush=True)
+    print(f"Tổng chunk trước khi nạp: {total_before}", flush=True)
+
+    already_ingested = is_document_already_ingested(document_id, vector_store)
+
+    if skip_existing and already_ingested:
         total_chunks = get_total_chunks(vector_store)
 
-        print(f"Bỏ qua vì tài liệu đã được nạp trước đó: {document['file_name']}")
+        print(f"Bỏ qua vì tài liệu đã được nạp trước đó: {document['file_name']}", flush=True)
 
         return {
             "success": True,
             "skipped": True,
             "message": "Tài liệu đã được nạp trước đó, hệ thống đã bỏ qua.",
             "file_path": document["file_path"],
+            "document_id": document_id,
+            "source_url": document.get("url", ""),
             "chunks_added": 0,
             "total_chunks": total_chunks,
         }
+
+    if already_ingested and replace_existing:
+        print("Tài liệu đã tồn tại. Xóa chunk cũ trước khi nạp lại...", flush=True)
+        vector_store.delete_by_document_id(document_id)
 
     chunks_added = ingest_documents(
         documents=[document],
         embedding_service=embedding_service,
         vector_store=vector_store,
-        skip_existing=skip_existing,
+        skip_existing=False,
     )
 
     total_chunks = get_total_chunks(vector_store)
+
+    print(f"Chunks mới thêm: {chunks_added}", flush=True)
+    print(f"Tổng chunk sau khi nạp: {total_chunks}", flush=True)
+    print("=============================================\n", flush=True)
+
+    if chunks_added <= 0:
+        raise RuntimeError(
+            "Không có chunk nào được thêm vào ChromaDB. "
+            "Hãy kiểm tra nội dung file TXT và embedding service."
+        )
 
     return {
         "success": True,
         "skipped": False,
         "message": "Đã nạp tài liệu vào ChromaDB.",
         "file_path": document["file_path"],
+        "document_id": document_id,
+        "source_url": document.get("url", ""),
         "chunks_added": chunks_added,
         "total_chunks": total_chunks,
     }
-
 
 def delete_single_file_from_knowledge(
     file_path: str,

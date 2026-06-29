@@ -21,17 +21,12 @@ class VectorStore:
     ):
         """
         Thêm mới hoặc cập nhật chunk tài liệu vào ChromaDB.
-
-        Nếu ID chưa tồn tại:
-            -> thêm mới
-
-        Nếu ID đã tồn tại:
-            -> cập nhật lại
-
-        Dùng upsert để khi chạy ingest lại không bị lỗi trùng ID.
         """
         self.collection.upsert(
-            ids=ids, documents=documents, embeddings=embeddings, metadatas=metadatas
+            ids=ids,
+            documents=documents,
+            embeddings=embeddings,
+            metadatas=metadatas,
         )
 
     def search(self, query_embedding: List[float], top_k: int = 5) -> Dict[str, Any]:
@@ -54,3 +49,130 @@ class VectorStore:
 
     def delete_by_document_id(self, document_id: str) -> None:
         self.collection.delete(where={"document_id": document_id})
+
+    def _metadata_source_url(self, metadata: Dict[str, Any]) -> str:
+        """
+        Lấy URL nguồn từ metadata.
+        Hỗ trợ cả dữ liệu cũ dùng `url` và dữ liệu mới dùng `source_url`.
+        """
+        if not metadata:
+            return ""
+
+        return str(
+            metadata.get("source_url")
+            or metadata.get("url")
+            or metadata.get("file_path")
+            or metadata.get("document_id")
+            or ""
+        ).strip()
+
+    def list_sources(self):
+        """
+        Liệt kê toàn bộ source_url hiện có trong ChromaDB.
+        """
+        results = self.collection.get(include=["metadatas"])
+
+        ids = results.get("ids") or []
+        metadatas = results.get("metadatas") or []
+
+        source_map = {}
+
+        for chunk_id, metadata in zip(ids, metadatas):
+            metadata = metadata or {}
+            source_url = self._metadata_source_url(metadata)
+
+            if not source_url:
+                continue
+
+            if source_url not in source_map:
+                source_map[source_url] = {
+                    "source_url": source_url,
+                    "source_title": metadata.get("source_title") or metadata.get("title") or "",
+                    "source": metadata.get("source") or "",
+                    "period": metadata.get("period") or "",
+                    "category": metadata.get("category") or "",
+                    "file_name": metadata.get("file_name") or "",
+                    "file_path": metadata.get("file_path") or "",
+                    "document_id": metadata.get("document_id") or "",
+                    "chunk_count": 0,
+                    "sample_chunk_id": chunk_id,
+                }
+
+            source_map[source_url]["chunk_count"] += 1
+
+        return list(source_map.values())
+
+    def get_chunks_by_source_url(self, source_url: str):
+        """
+        Lấy danh sách chunk theo source_url.
+        """
+        source_url = (source_url or "").strip()
+
+        if not source_url:
+            return []
+
+        results = self.collection.get(include=["documents", "metadatas"])
+
+        ids = results.get("ids") or []
+        documents = results.get("documents") or []
+        metadatas = results.get("metadatas") or []
+
+        chunks = []
+
+        for chunk_id, document, metadata in zip(ids, documents, metadatas):
+            metadata = metadata or {}
+
+            if self._metadata_source_url(metadata) != source_url:
+                continue
+
+            chunks.append(
+                {
+                    "id": chunk_id,
+                    "chunk_index": metadata.get("chunk_index"),
+                    "title": metadata.get("title") or metadata.get("source_title") or "",
+                    "source_url": source_url,
+                    "period": metadata.get("period") or "",
+                    "category": metadata.get("category") or "",
+                    "file_name": metadata.get("file_name") or "",
+                    "document_preview": (document or "")[:500],
+                }
+            )
+
+        return chunks
+
+    def delete_by_source_url(self, source_url: str):
+        """
+        Xóa toàn bộ chunk trong ChromaDB theo source_url.
+        """
+        source_url = (source_url or "").strip()
+
+        if not source_url:
+            return {
+                "deleted": False,
+                "source_url": source_url,
+                "deleted_count": 0,
+                "total_chunks": self.count_documents(),
+            }
+
+        results = self.collection.get(include=["metadatas"])
+
+        ids = results.get("ids") or []
+        metadatas = results.get("metadatas") or []
+
+        ids_to_delete = []
+
+        for chunk_id, metadata in zip(ids, metadatas):
+            metadata = metadata or {}
+
+            if self._metadata_source_url(metadata) == source_url:
+                ids_to_delete.append(chunk_id)
+
+        if ids_to_delete:
+            self.collection.delete(ids=ids_to_delete)
+
+        return {
+            "deleted": bool(ids_to_delete),
+            "source_url": source_url,
+            "deleted_count": len(ids_to_delete),
+            "total_chunks": self.count_documents(),
+        }
