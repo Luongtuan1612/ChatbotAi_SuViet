@@ -32,12 +32,11 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# Cho phép frontend/backend gọi API
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "*"
-    ],  # Khi deploy thật nên sửa thành domain frontend/backend của bạn
+    ],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -47,6 +47,79 @@ class VectorStore:
     def get_all_documents(self):
         return self.collection.get()
 
+    def get_chunks_by_document_metadata(
+        self,
+        metadata: Dict[str, Any],
+        limit: int = 300,
+    ) -> List[Dict[str, Any]]:
+        """
+        Lấy toàn bộ chunk thuộc cùng một tài liệu với chunk tốt nhất.
+
+        Thứ tự ưu tiên gom nhóm:
+        1. document_id
+        2. file_path
+        3. source_url
+        4. url
+        5. file_name
+        """
+        if not metadata:
+            return []
+
+        group_keys = [
+            "document_id",
+            "file_path",
+            "source_url",
+            "url",
+            "file_name",
+        ]
+
+        where = None
+
+        for key in group_keys:
+            value = metadata.get(key)
+
+            if value:
+                where = {key: value}
+                break
+
+        if where is None:
+            return []
+
+        results = self.collection.get(
+            where=where,
+            include=["documents", "metadatas"],
+            limit=limit,
+        )
+
+        ids = results.get("ids") or []
+        documents = results.get("documents") or []
+        metadatas = results.get("metadatas") or []
+
+        chunks = []
+
+        for index, document in enumerate(documents):
+            chunk_metadata = metadatas[index] if index < len(metadatas) else {}
+
+            raw_chunk_index = chunk_metadata.get("chunk_index", index)
+
+            try:
+                chunk_index = int(raw_chunk_index)
+            except (TypeError, ValueError):
+                chunk_index = index
+
+            chunks.append(
+                {
+                    "id": ids[index] if index < len(ids) else None,
+                    "document": document or "",
+                    "metadata": chunk_metadata or {},
+                    "chunk_index": chunk_index,
+                }
+            )
+
+        chunks.sort(key=lambda item: item["chunk_index"])
+
+        return chunks
+
     def delete_by_document_id(self, document_id: str) -> None:
         self.collection.delete(where={"document_id": document_id})
 
