@@ -31,7 +31,7 @@ class VectorStore:
 
     def search(self, query_embedding: List[float], top_k: int = 5) -> Dict[str, Any]:
         """
-        Tìm các chunk gần nhất với câu hỏi.
+        Tìm các chunk gần nhất với câu hỏi bằng vector search.
         """
         results = self.collection.query(
             query_embeddings=[query_embedding],
@@ -46,6 +46,46 @@ class VectorStore:
 
     def get_all_documents(self):
         return self.collection.get()
+
+    def get_all_chunks_for_text_scan(self, limit: int = 20000) -> List[Dict[str, Any]]:
+        """
+        Lấy toàn bộ chunk trong ChromaDB để quét chữ trực tiếp.
+
+        Mục đích:
+        - Không phụ thuộc hoàn toàn vào vector search.
+        - Dùng cho full-text scan toàn bộ kho tri thức.
+        """
+        results = self.collection.get(
+            include=["documents", "metadatas"],
+            limit=limit,
+        )
+
+        ids = results.get("ids") or []
+        documents = results.get("documents") or []
+        metadatas = results.get("metadatas") or []
+
+        chunks = []
+
+        for index, document in enumerate(documents):
+            metadata = metadatas[index] if index < len(metadatas) else {}
+
+            raw_chunk_index = metadata.get("chunk_index", index)
+
+            try:
+                chunk_index = int(raw_chunk_index)
+            except (TypeError, ValueError):
+                chunk_index = index
+
+            chunks.append(
+                {
+                    "id": ids[index] if index < len(ids) else None,
+                    "document": document or "",
+                    "metadata": metadata or {},
+                    "chunk_index": chunk_index,
+                }
+            )
+
+        return chunks
 
     def get_chunks_by_document_metadata(
         self,

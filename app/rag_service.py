@@ -1,4 +1,3 @@
-
 import re
 import unicodedata
 from typing import List, Dict, Any, Tuple, Optional
@@ -69,7 +68,7 @@ def is_ai_error_answer(answer: str) -> bool:
 def detect_preferred_periods(question: str) -> List[str]:
     """
     Dự đoán giai đoạn ưu tiên theo câu hỏi.
-    Mục tiêu: tránh lấy nhầm nguồn ở giai đoạn xa.
+    Phần này chỉ hỗ trợ rerank vector search, không quyết định full-text scan.
     """
     q = normalize_text(question)
 
@@ -449,16 +448,22 @@ ENTITY_GROUPS = [
         "match_terms": ["phan chau trinh", "duy tan", "canh tan"],
     },
     {
-        "aliases": ["ho chi minh", "chu tich ho chi minh", "nguyen ai quoc", "nguyen tat thanh", "nguyen sinh cung", "bac ho"],
+        "aliases": [
+            "ho chi minh",
+            "chu tich ho chi minh",
+            "nguyen ai quoc",
+            "nguyen tat thanh",
+            "nguyen sinh cung",
+            "bac ho",
+        ],
         "match_terms": [
             "ho chi minh",
             "chu tich ho chi minh",
             "nguyen ai quoc",
             "nguyen tat thanh",
             "nguyen sinh cung",
+            "bac ho",
             "lanh tu",
-            "tuyen ngon doc lap",
-            "dang cong san viet nam",
         ],
     },
     {
@@ -1084,6 +1089,271 @@ def generic_text_score(
     return score
 
 
+def get_document_group_key(metadata: Dict[str, Any]) -> str:
+    """
+    Lấy khóa đại diện cho tài liệu cha.
+    """
+    return str(
+        metadata.get("document_id")
+        or metadata.get("file_path")
+        or metadata.get("source_url")
+        or metadata.get("url")
+        or metadata.get("file_name")
+        or ""
+    )
+
+
+# =========================
+# Full-text scan toàn bộ ChromaDB
+# =========================
+
+def full_text_scan_score(question: str, document: str, metadata: Dict[str, Any]) -> int:
+    """
+    Chấm điểm chunk bằng cách quét chữ trực tiếp từ câu hỏi.
+    Không hard-code sự kiện, nhân vật, triều đại.
+
+    Khác với generic_text_score:
+    - generic_text_score dùng khi đã có tài liệu cha ứng viên.
+    - full_text_scan_score dùng để quét toàn bộ ChromaDB nên điểm mạnh hơn,
+      ưu tiên cụm từ dài và độ bao phủ token.
+    """
+    tokens = get_meaningful_tokens(question)
+
+    if not tokens:
+        return 0
+
+    phrases = []
+
+    for size in [5, 4, 3, 2]:
+        for index in range(0, len(tokens) - size + 1):
+            phrases.append(" ".join(tokens[index:index + size]))
+
+    doc_norm = normalize_text(document)
+
+    metadata_text = " ".join(
+        [
+            str(metadata.get("title", "")),
+            str(metadata.get("source_title", "")),
+            str(metadata.get("file_name", "")),
+            str(metadata.get("period", "")),
+            str(metadata.get("category", "")),
+            str(metadata.get("source", "")),
+            str(metadata.get("url", "")),
+            str(metadata.get("source_url", "")),
+        ]
+    )
+
+    metadata_norm = normalize_text(metadata_text)
+
+    score = 0
+    matched_tokens = set()
+
+    for phrase in phrases:
+        size = len(phrase.split())
+
+        if contains_phrase(doc_norm, phrase):
+            if size >= 5:
+                score += 80
+            elif size == 4:
+                score += 55
+            elif size == 3:
+                score += 35
+            else:
+                score += 18
+
+        if contains_phrase(metadata_norm, phrase):
+            if size >= 4:
+                score += 45
+            elif size == 3:
+                score += 25
+            else:
+                score += 12
+
+    for token in tokens:
+        if contains_token(doc_norm, token):
+            score += 5
+            matched_tokens.add(token)
+
+        if contains_token(metadata_norm, token):
+            score += 3
+            matched_tokens.add(token)
+
+    coverage_ratio = len(matched_tokens) / max(len(set(tokens)), 1)
+
+    if coverage_ratio >= 0.8:
+        score += 50
+    elif coverage_ratio >= 0.6:
+        score += 30
+    elif coverage_ratio >= 0.4:
+        score += 15
+
+    # Nếu chỉ khớp 1 từ đơn lẻ thì quá yếu, bỏ qua để tránh nhiễu.
+    if len(matched_tokens) <= 1:
+        score = 0
+
+    return score
+
+
+def find_context_by_full_text_scan(
+    question: str,
+    vector_store: VectorStore,
+    max_parent_docs: int = 5,
+    max_chunks_per_doc: int = 5,
+    min_parent_score: int = 80,
+) -> Tuple[List[str], List[Dict[str, Any]]]:
+    """
+    Quét chữ toàn bộ ChromaDB.
+
+    Mục tiêu:
+    - Không phụ thuộc hoàn toàn vào vector search.
+    - Không cần thêm keyword thủ công cho từng câu hỏi.
+    - Dùng chính từ/cụm từ trong câu hỏi để tìm đoạn liên quan.
+    """
+    all_chunks = vector_store.get_all_chunks_for_text_scan()
+
+    print("Full-text scan: ON")
+    print("Total chunks scanned:", len(all_chunks))
+
+    scored_chunks = []
+
+    for item in all_chunks:
+        document = item.get("document", "")
+        metadata = item.get("metadata", {})
+        chunk_index = item.get("chunk_index", 0)
+
+        score = full_text_scan_score(question, document, metadata)
+
+        if score <= 0:
+            continue
+
+        group_key = get_document_group_key(metadata)
+
+        if not group_key:
+            continue
+
+        scored_chunks.append(
+            {
+                "score": score,
+                "document": document,
+                "metadata": metadata,
+                "chunk_index": chunk_index,
+                "group_key": group_key,
+            }
+        )
+
+    if not scored_chunks:
+        print("Full-text scan matched chunks: 0")
+        return [], []
+
+    print("Full-text scan matched chunks:", len(scored_chunks))
+
+    grouped = {}
+
+    for item in scored_chunks:
+        group_key = item["group_key"]
+
+        if group_key not in grouped:
+            grouped[group_key] = {
+                "group_key": group_key,
+                "metadata": item["metadata"],
+                "top_chunks": [],
+                "total_score": 0,
+                "best_score": 0,
+            }
+
+        grouped[group_key]["top_chunks"].append(item)
+        grouped[group_key]["total_score"] += item["score"]
+        grouped[group_key]["best_score"] = max(
+            grouped[group_key]["best_score"],
+            item["score"],
+        )
+
+    parent_candidates = []
+
+    for group in grouped.values():
+        group["top_chunks"].sort(key=lambda item: item["score"], reverse=True)
+
+        top_score_sum = sum(item["score"] for item in group["top_chunks"][:3])
+        final_score = group["best_score"] * 2 + top_score_sum
+
+        parent_candidates.append(
+            {
+                "score": final_score,
+                "metadata": group["metadata"],
+                "top_chunks": group["top_chunks"],
+                "group_key": group["group_key"],
+            }
+        )
+
+    parent_candidates.sort(key=lambda item: item["score"], reverse=True)
+
+    print("Full-text parent candidates:", len(parent_candidates))
+
+    for candidate in parent_candidates[:5]:
+        title = (
+            candidate["metadata"].get("title")
+            or candidate["metadata"].get("source_title")
+            or candidate["metadata"].get("file_name")
+        )
+        print("Full-text candidate:", title)
+        print("Full-text candidate score:", candidate["score"])
+
+    if not parent_candidates:
+        return [], []
+
+    if parent_candidates[0]["score"] < min_parent_score:
+        print("Full-text best score is too low:", parent_candidates[0]["score"])
+        return [], []
+
+    selected_documents: List[str] = []
+    selected_metadatas: List[Dict[str, Any]] = []
+    seen_chunks = set()
+
+    for candidate in parent_candidates[:max_parent_docs]:
+        parent_chunks = vector_store.get_chunks_by_document_metadata(candidate["metadata"])
+
+        if not parent_chunks:
+            continue
+
+        selected_indexes = set()
+
+        for matched_chunk in candidate["top_chunks"][:max_chunks_per_doc]:
+            chunk_index = matched_chunk["chunk_index"]
+
+            selected_indexes.add(chunk_index)
+            selected_indexes.add(chunk_index - 1)
+            selected_indexes.add(chunk_index + 1)
+
+        for parent_chunk in parent_chunks:
+            chunk_index = parent_chunk.get("chunk_index", 0)
+
+            if chunk_index not in selected_indexes:
+                continue
+
+            document = parent_chunk.get("document", "")
+            metadata = parent_chunk.get("metadata", {})
+
+            chunk_key = (
+                get_document_group_key(metadata),
+                metadata.get("chunk_index"),
+                document[:100],
+            )
+
+            if chunk_key in seen_chunks:
+                continue
+
+            seen_chunks.add(chunk_key)
+            selected_documents.append(document)
+            selected_metadatas.append(metadata)
+
+    print("Full-text selected chunks:", len(selected_documents))
+
+    if selected_documents:
+        print("Full-text best preview:", selected_documents[0][:700])
+
+    return selected_documents, selected_metadatas
+
+
 def expand_context_by_parent_document_scan(
     question: str,
     vector_store: VectorStore,
@@ -1167,11 +1437,6 @@ def find_best_parent_context(
 ) -> Tuple[List[str], List[Dict[str, Any]]]:
     """
     Quét sâu trên nhiều tài liệu cha, không chỉ top 1.
-
-    Mục tiêu:
-    - Tránh trường hợp top 1 có nhắc đến entity nhưng không phải tài liệu chính.
-    - Ví dụ hỏi "Hồ Chí Minh là ai?" nhưng top 1 lại là tài liệu về Tuyên ngôn độc lập.
-    - Hàm này thử quét nhiều file ứng viên rồi chọn context có điểm tốt nhất.
     """
     best_documents: List[str] = []
     best_metadatas: List[Dict[str, Any]] = []
@@ -1327,6 +1592,33 @@ Nội dung:
 
         return sources
 
+    def _clean_answer_prefix(self, answer: str) -> str:
+        """
+        Cắt các câu mở đầu không tự nhiên nếu Gemini vẫn sinh ra.
+        """
+        if not answer:
+            return answer
+
+        remove_prefixes = [
+            "Dựa trên tài liệu được cung cấp,",
+            "Dựa trên tài liệu được cung cấp:",
+            "Theo tài liệu được cung cấp,",
+            "Theo tài liệu được cung cấp:",
+            "Dựa vào thông tin được cung cấp,",
+            "Dựa vào thông tin trên,",
+            "Theo thông tin trong tài liệu,",
+            "Theo thông tin trong tài liệu:",
+        ]
+
+        cleaned = answer.strip()
+
+        for prefix in remove_prefixes:
+            if cleaned.startswith(prefix):
+                cleaned = cleaned[len(prefix):].strip()
+                break
+
+        return cleaned
+
     def ask(self, question: str) -> Dict[str, Any]:
         if not question or not question.strip():
             return {
@@ -1340,10 +1632,10 @@ Nội dung:
                 "sources": []
             }
 
-        # 1. Mở rộng câu hỏi để tăng khả năng vector search đúng.
+        # 1. Mở rộng câu hỏi để hỗ trợ vector search.
         expanded_question = expand_history_query(question)
 
-        # 2. Vector search.
+        # 2. Vector search vẫn chạy để có hướng ngữ nghĩa dự phòng.
         question_embedding = self.embedding_service.create_embedding(expanded_question)
 
         search_top_k = max(settings.TOP_K * 6, 30)
@@ -1358,98 +1650,136 @@ Nội dung:
         distances = results.get("distances", [[]])[0]
 
         if not documents:
-            return {
-                "answer": NO_DATA_ANSWER,
-                "sources": []
-            }
+            # Nếu vector search không có kết quả, vẫn thử full-text scan.
+            full_text_documents, full_text_metadatas = find_context_by_full_text_scan(
+                question=question,
+                vector_store=self.vector_store,
+                max_parent_docs=5,
+                max_chunks_per_doc=5,
+            )
 
-        # 3. Rerank lần 1 theo entity/keyword/period.
-        documents, metadatas, distances = rerank_results(
-            question=expanded_question,
-            documents=documents,
-            metadatas=metadatas,
-            distances=distances,
-            top_k=search_top_k,
-        )
-
-        # 4. Distance filter.
-        documents, metadatas, distances = filter_by_distance(
-            documents=documents,
-            metadatas=metadatas,
-            distances=distances,
-            max_distance=settings.SIMILARITY_THRESHOLD,
-        )
-
-        if not documents:
-            return {
-                "answer": NO_DATA_ANSWER,
-                "sources": []
-            }
-
-        # 5. Lọc chất lượng nguồn theo giai đoạn/entity.
-        documents, metadatas, distances = filter_by_source_quality(
-            question=expanded_question,
-            documents=documents,
-            metadatas=metadatas,
-            distances=distances,
-        )
-
-        if not documents:
-            return {
-                "answer": NO_DATA_ANSWER,
-                "sources": []
-            }
-
-        # 6. Rerank lần 2 sau khi lọc.
-        documents, metadatas, distances = rerank_results(
-            question=expanded_question,
-            documents=documents,
-            metadatas=metadatas,
-            distances=distances,
-            top_k=search_top_k,
-        )
-
-        best_distance = distances[0] if distances else 999
-        best_score = (
-            keyword_score(expanded_question, documents[0], metadatas[0])
-            if documents
-            else 0
-        )
-
-        print("Câu hỏi gốc:", question)
-        print("Câu hỏi mở rộng:", expanded_question)
-        print("Best distance:", best_distance)
-        print("Best keyword score:", best_score)
-        print("Best title:", metadatas[0].get("title") if metadatas else None)
-        print("Best period:", metadatas[0].get("period") if metadatas else None)
-        print("Best file:", metadatas[0].get("file_name") if metadatas else None)
-
-        # 7. Quét sâu nhiều tài liệu cha.
-        parent_documents, parent_metadatas = find_best_parent_context(
-            question=question,
-            vector_store=self.vector_store,
-            metadatas=metadatas,
-            max_candidates=8,
-        )
-
-        if parent_documents:
-            print("Dùng context từ multi-parent document scan.")
-            documents = parent_documents
-            metadatas = parent_metadatas
-        else:
-            print("Không tìm được context tốt từ parent scan, quay lại top chunk cũ.")
-
-            if not has_minimum_relevance(expanded_question, documents[0], metadatas[0]):
+            if full_text_documents:
+                documents = full_text_documents
+                metadatas = full_text_metadatas
+            else:
                 return {
                     "answer": NO_DATA_ANSWER,
                     "sources": []
                 }
+        else:
+            # 3. Rerank lần 1 theo entity/keyword/period.
+            documents, metadatas, distances = rerank_results(
+                question=expanded_question,
+                documents=documents,
+                metadatas=metadatas,
+                distances=distances,
+                top_k=search_top_k,
+            )
 
-            final_top_k = min(settings.TOP_K, 3)
+            # 4. Distance filter.
+            documents, metadatas, distances = filter_by_distance(
+                documents=documents,
+                metadatas=metadatas,
+                distances=distances,
+                max_distance=settings.SIMILARITY_THRESHOLD,
+            )
 
-            documents = documents[:final_top_k]
-            metadatas = metadatas[:final_top_k]
-            distances = distances[:final_top_k]
+            if not documents:
+                full_text_documents, full_text_metadatas = find_context_by_full_text_scan(
+                    question=question,
+                    vector_store=self.vector_store,
+                    max_parent_docs=5,
+                    max_chunks_per_doc=5,
+                )
+
+                if full_text_documents:
+                    documents = full_text_documents
+                    metadatas = full_text_metadatas
+                else:
+                    return {
+                        "answer": NO_DATA_ANSWER,
+                        "sources": []
+                    }
+            else:
+                # 5. Lọc chất lượng nguồn theo giai đoạn/entity.
+                documents, metadatas, distances = filter_by_source_quality(
+                    question=expanded_question,
+                    documents=documents,
+                    metadatas=metadatas,
+                    distances=distances,
+                )
+
+                if not documents:
+                    return {
+                        "answer": NO_DATA_ANSWER,
+                        "sources": []
+                    }
+
+                # 6. Rerank lần 2 sau khi lọc.
+                documents, metadatas, distances = rerank_results(
+                    question=expanded_question,
+                    documents=documents,
+                    metadatas=metadatas,
+                    distances=distances,
+                    top_k=search_top_k,
+                )
+
+                best_distance = distances[0] if distances else 999
+                best_score = (
+                    keyword_score(expanded_question, documents[0], metadatas[0])
+                    if documents
+                    else 0
+                )
+
+                print("Câu hỏi gốc:", question)
+                print("Câu hỏi mở rộng:", expanded_question)
+                print("Best distance:", best_distance)
+                print("Best keyword score:", best_score)
+                print("Best title:", metadatas[0].get("title") if metadatas else None)
+                print("Best period:", metadatas[0].get("period") if metadatas else None)
+                print("Best file:", metadatas[0].get("file_name") if metadatas else None)
+
+                # 7. Quét chữ toàn bộ kho dữ liệu trước.
+                # Đây là phần bạn cần: dùng chữ trong câu hỏi để quét toàn ChromaDB.
+                full_text_documents, full_text_metadatas = find_context_by_full_text_scan(
+                    question=question,
+                    vector_store=self.vector_store,
+                    max_parent_docs=5,
+                    max_chunks_per_doc=5,
+                )
+
+                if full_text_documents:
+                    print("Dùng context từ full-text scan.")
+                    documents = full_text_documents
+                    metadatas = full_text_metadatas
+                else:
+                    print("Full-text scan không tìm được context đủ tốt, quay lại multi-parent vector scan.")
+
+                    parent_documents, parent_metadatas = find_best_parent_context(
+                        question=question,
+                        vector_store=self.vector_store,
+                        metadatas=metadatas,
+                        max_candidates=15,
+                    )
+
+                    if parent_documents:
+                        print("Dùng context từ multi-parent document scan.")
+                        documents = parent_documents
+                        metadatas = parent_metadatas
+                    else:
+                        print("Không tìm được context tốt từ parent scan, quay lại top chunk cũ.")
+
+                        if not has_minimum_relevance(expanded_question, documents[0], metadatas[0]):
+                            return {
+                                "answer": NO_DATA_ANSWER,
+                                "sources": []
+                            }
+
+                        final_top_k = min(settings.TOP_K, 3)
+
+                        documents = documents[:final_top_k]
+                        metadatas = metadatas[:final_top_k]
+                        distances = distances[:final_top_k]
 
         # 8. Build context từ chunk đã được chọn.
         context = self.build_context(documents, metadatas)
@@ -1460,6 +1790,10 @@ Nội dung:
         )
 
         answer = self.gemini_service.generate_answer(prompt)
+
+        print("Gemini raw answer:", answer[:1000])
+
+        answer = self._clean_answer_prefix(answer)
 
         # 9. Nếu Gemini quá tải hoặc lỗi thì không trả sources.
         if is_ai_error_answer(answer):
